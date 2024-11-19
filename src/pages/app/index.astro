@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import AppList from '@components/app/AppList.astro';
+
+const apps = await getCollection('app').then((collection) =>
+  collection.reverse()
+);
+---
+
+<Layout
+	title="Apps"
+	description="Web'Indé | Apps"
+	pageTitle="Apps'Indé"
+>
+	<main class="bg-green p-6">
+		<AppList posts={apps} />
+	</main>
+</Layout>

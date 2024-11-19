@@ -5,7 +5,7 @@ import SummaryCard from '../generic/SummaryCard.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
 interface Props {
-  post: CollectionEntry<'blog'>;
+  post: CollectionEntry<'guide'>;
 }
 
 const { post } = Astro.props;
@@ -18,7 +18,7 @@ const { post } = Astro.props;
   description={post.data.description}
 >
   <div class='flex justify-end my-4'>
-    <Button href={`/blog/${post.slug}/`}>Lire &rarr;</Button>
+    <Button href={`/guide/${post.slug}/`}>Lire &rarr;</Button>
   </div>
 
   <div class='hidden sm:inline-block'>
@@ -29,7 +29,7 @@ const { post } = Astro.props;
             const formattedTag = tag.toLowerCase().replace(/\s+/g, '-');
             return (
               <li>
-                <a class="sanchez" href={`/blog/${formattedTag}/`}>
+                <a class="sanchez" href={`/guide/${formattedTag}/`}>
                   <Pill>{tag}</Pill>
                 </a>
               </li>

@@ -1,0 +1,19 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import GuideList from '@components/guide/GuideList.astro';
+
+const posts = await getCollection('guide').then((collection) =>
+	collection.reverse()
+);
+---
+
+<Layout
+  title="Guide"
+	description="Web'Indé | Guide"
+	pageTitle="Guide'Indé"
+>
+	<main class="bg-green p-6">
+		<GuideList posts={posts} />
+	</main>
+</Layout>

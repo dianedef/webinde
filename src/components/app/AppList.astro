@@ -1,0 +1,85 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import AppSummaryCard from './AppSummaryCard.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  posts: CollectionEntry<'app'>[];
+  selectedTags?: string[];
+}
+
+const { posts, selectedTags = [] } = Astro.props;
+
+const allPosts = await getCollection('app'); // Récupérer tous les posts de la collection
+const allTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort(); // Créer une liste unique de tags
+---
+
+<div class="tags-filter mb-8">
+  <h3 class="text-lg font-semibold mb-2">Filtrer par tags :</h3>
+  <div class="flex flex-wrap gap-2">
+    {allTags.map(tag => (
+      <label class="cursor-pointer">
+        <input 
+          type="checkbox" 
+          name="tag-filter" 
+          value={tag} 
+          class="hidden"
+        />
+        <span class="tag-pill px-3 py-1 rounded-full border hover:bg-gray-100 transition-colors">
+          {tag}
+        </span>
+      </label>
+    ))}
+  </div>
+</div>
+
+<div class="apps">
+  {posts.map((post) => (
+    <div 
+      class:list={[
+        "app",
+        { "hidden": selectedTags.length > 0 && !selectedTags.some(tag => post.data.tags.includes(tag)) }
+      ]}
+      data-tags={JSON.stringify(post.data.tags)}
+    >
+      <AppSummaryCard post={post} />
+    </div>
+  ))}
+</div>
+
+<style>
+  input[type="checkbox"]:checked + .tag-pill {
+    background-color: #4F46E5;
+    color: white;
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  // Code côté client
+  const checkboxes = document.querySelectorAll('input[name="tag-filter"]');
+  const appsContainer = document.getElementById('apps-container');
+  const apps = document.querySelectorAll('.app-item'); // Ajoutez cette classe à vos éléments d'app
+
+  checkboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', filterApps);
+  });
+
+  function filterApps() {
+    const selectedTags = Array.from(checkboxes)
+      .filter((cb: HTMLInputElement) => cb.checked)
+      .map((cb: HTMLInputElement) => cb.value);
+
+    apps.forEach(app => {
+      const appTags = app.dataset.tags ? JSON.parse(app.dataset.tags) : [];
+      if (selectedTags.length === 0 || selectedTags.some(tag => appTags.includes(tag))) {
+        app.classList.remove('hidden');
+      } else {
+        app.classList.add('hidden');
+      }
+    });
+  }
+</script>

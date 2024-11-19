@@ -4,56 +4,80 @@ interface Props {
 }
 
 const navigationItems = [
-  { name: 'Home', url: '/' },
   { name: 'Blog', url: '/blog/' },
+  { name: 'Apps', url: '/app/' },
+  { name: 'Guides', url: '/guide/' },
 ];
 
 const socialIcons = [
   {
-    name: 'GitHub',
-    url: 'https://github.com/eliancodes/brutal',
-    icon: 'i-uil-github',
+    name: 'YouTube',
+    url: 'https://www.youtube.com/@webindefr',
+    icon: 'i-uil-youtube',
   },
   {
     name: 'Twitter',
-    url: 'https://www.twitter.com/eliancodes',
+    url: 'https://x.com/webindefr',
     icon: 'i-uil-twitter',
+  },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/webindefr',
+    icon: 'i-uil-instagram',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/company/webindefr',
+    icon: 'i-uil-linkedin',
+  },
+  {
+    name: 'Facebook',
+    url: 'https://www.facebook.com/dianewebinde/',
+    icon: 'i-uil-facebook',
   },
   { name: 'RSS', url: '/feed.xml', icon: 'i-uil-rss' },
 ];
 
+/*   {
+  name: 'WhatsApp',
+  url: 'https://github.com/eliancodes/brutal',
+  icon: 'i-uil-whatsapp',
+}, */
+
 const { pageTitle } = Astro.props;
 ---
 
-<header class='border-b-4 border-black flex justify-between p-6 items-center'>
+<header class='border-b-4 border-black p-6'>
   {pageTitle && <h1 class='hidden'>{pageTitle}</h1>}
-  <a href='/' title='Back to Home'>
-    <p class='righteous md:text-5xl'>Brutal</p>
+  <nav class='flex justify-between'>
+    <a href='/' title='Accueil'>
+      <p class='righteous text-2xl sm:text-3xl md:text-4xl'>Web'Indé</p>
   </a>
-  <nav class='hidden md:inline-block'>
-    <h2 class='hidden'>Navigation</h2>
-    <ul class='flex gap-8 poppins'>
-      {
-        navigationItems.map((item) => (
+  <nav/>
+  <ul class='flex gap-4 items-center max-md:hidden'>
+    {
+      navigationItems.map((item) => (
+        <li>
+          <a
+            class='text-2xl font-medium hover:text-green transition-all duration-150 ease-in-out'
+            href={item.url}
+            title={`Aller à ${item.name}`}
+          >
+            {item.name} 
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <ul class='flex gap-4 items-center max-md:hidden'>
+    {
+      socialIcons.map((item) => (
           <li>
             <a
-              class='text-lg font-medium hover:text-green hover:underline transition-all duration-150 ease-in-out'
               href={item.url}
-              title={`Go to ${item.name}`}
-            >
-              {item.name}
-            </a>
-          </li>
-        ))
-      }
-      {
-        socialIcons.map((item) => (
-          <li>
-            <a
-              href={item.url}
-              class='hover:text-green hover:underline transition-all duration-150 ease-in-out'
+              class='hover:text-green opacity-40 hover:opacity-100 transition-all duration-150 ease-in-out'
               target='_blank'
-              title={`'See @ElianCodes on ${item.name}`}
+              title={`Retrouve Diane sur ${item.name}`}
             >
               <div class:list={[item.icon, 'w-6 h-6']} />
             </a>
@@ -61,11 +85,9 @@ const { pageTitle } = Astro.props;
         ))
       }
     </ul>
-  </nav>
   <nav class='md:hidden flex'>
-    <h2 class='hidden'>Mobile Navigation</h2>
-    <ul>
-      <li><a href='/blog/'>Blog</a></li>
+    <ul class='flex flex-col gap-2 items-end'>
+      <li><a class="text-xl hover:text-green transition-all duration-150 ease-in-out" href='/blog/'>Blog</a> / <a class="text-xl hover:text-green transition-all duration-150 ease-in-out" href='/app/'>Apps</a> / <a class="text-xl hover:text-green transition-all duration-150 ease-in-out" href='/guide/'>Guides</a></li>
     </ul>
   </nav>
 </header>

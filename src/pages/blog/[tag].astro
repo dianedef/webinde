@@ -14,17 +14,22 @@ export async function getStaticPaths() {
 
   allPosts.forEach((post) => {
     post.data.tags.forEach((tag) => {
-      tags.push(tag.toLowerCase());
+      if (typeof tag === 'string') {
+        const formattedTag = tag.toLowerCase().replace(/\s+/g, '-');
+        tags.push(formattedTag);
+      }
     });
   });
 
-  return Array.from(new Set(tags)).map((tag) => {
+  return Array.from(new Set(tags)).map((originalTag) => {
+    const formattedTag = originalTag.toLowerCase().replace(/\s+/g, '-');
+
     return {
-      params: { tag },
+      params: { tag: formattedTag },
       props: {
-        tag,
+        tag: formattedTag,
         blogposts: allPosts.filter((post) =>
-          post.data.tags.map((tag) => tag.toLowerCase()).includes(tag)
+          post.data.tags.map((postTag) => postTag.toLowerCase().replace(/\s+/g, '-')).includes(formattedTag)
         ),
       },
     };
@@ -41,8 +46,8 @@ const { tag, blogposts } = Astro.props;
 
 <Layout
   title={`Blog: ${tag}`}
-  description={`Brutal Blog | All posts tagged with ${tag}`}
-  pageTitle={`Brutal Blog | Blogposts tagged with ${tag}`}
+  description={`Web'Indé Blog | Tous les articles taggés avec ${tag}`}
+  pageTitle={`Web'Indé Blog | Articles taggés avec ${tag}`}
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
