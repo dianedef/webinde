@@ -2,6 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import AppSummaryCard from './AppSummaryCard.astro';
 import { getCollection } from 'astro:content';
+import { Pill } from '@eliancodes/brutal-ui';
 
 interface Props {
   posts: CollectionEntry<'app'>[];
@@ -10,32 +11,32 @@ interface Props {
 
 const { posts, selectedTags = [] } = Astro.props;
 
-const allPosts = await getCollection('app'); // Récupérer tous les posts de la collection
-const allTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort(); // Créer une liste unique de tags
+const allPosts = await getCollection('app');
+const allTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort();
 ---
 
 <div class="tags-filter mb-8">
   <h3 class="text-lg font-semibold mb-2">Filtrer par tags :</h3>
   <div class="flex flex-wrap gap-2">
     {allTags.map(tag => (
-      <label class="cursor-pointer">
+      <label class="inline-flex items-center gap-2 cursor-pointer">
         <input 
           type="checkbox" 
           name="tag-filter" 
           value={tag} 
-          class="hidden"
+          class="hidden tag-checkbox"
         />
-        <span class="tag-pill px-3 py-1 rounded-full border hover:bg-gray-100 transition-colors">
-          {tag}
-        </span>
+        <Pill>
+          <span class="tag-label">{tag}</span>
+        </Pill>
       </label>
     ))}
   </div>
 </div>
 
-<div class="apps">
+<ul class='grid md:grid-cols-2 lg:grid-cols-3 gap-8'>
   {posts.map((post) => (
-    <div 
+    <li 
       class:list={[
         "app",
         { "hidden": selectedTags.length > 0 && !selectedTags.some(tag => post.data.tags.includes(tag)) }
@@ -43,43 +44,61 @@ const allTags = [...new Set(allPosts.flatMap(post => post.data.tags))].sort(); /
       data-tags={JSON.stringify(post.data.tags)}
     >
       <AppSummaryCard post={post} />
-    </div>
+    </li>
   ))}
-</div>
+</ul>
 
 <style>
-  input[type="checkbox"]:checked + .tag-pill {
-    background-color: #4F46E5;
+  label:has(input:checked) :global(.brutal-pill) {
+    background-color: black !important;
     color: white;
+    filter: drop-shadow(3px 3px 0 rgb(252, 252, 252));
+    border-radius: 99px;
+    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
   }
-
-  .hidden {
-    display: none;
+  label:has(input:checked) :global(.brutal-pill):hover {
+    filter: drop-shadow(5px 5px 0 rgb(255, 255, 255));
   }
 </style>
 
 <script>
-  // Code côté client
-  const checkboxes = document.querySelectorAll('input[name="tag-filter"]');
-  const appsContainer = document.getElementById('apps-container');
-  const apps = document.querySelectorAll('.app-item'); // Ajoutez cette classe à vos éléments d'app
+  // Fonction d'initialisation des filtres
+  function initializeFilters() {
+    const checkboxes = document.querySelectorAll('input[name="tag-filter"]');
+    const apps = document.querySelectorAll('.app');
 
-  checkboxes.forEach(checkbox => {
-    checkbox.addEventListener('change', filterApps);
-  });
-
-  function filterApps() {
-    const selectedTags = Array.from(checkboxes)
-      .filter((cb: HTMLInputElement) => cb.checked)
-      .map((cb: HTMLInputElement) => cb.value);
-
-    apps.forEach(app => {
-      const appTags = app.dataset.tags ? JSON.parse(app.dataset.tags) : [];
-      if (selectedTags.length === 0 || selectedTags.some(tag => appTags.includes(tag))) {
-        app.classList.remove('hidden');
-      } else {
-        app.classList.add('hidden');
-      }
+    checkboxes.forEach(checkbox => {
+      checkbox.addEventListener('change', (e) => {
+        const label = (e.target as HTMLInputElement).closest('label');
+        if (label) {
+          label.classList.toggle('selected');
+        }
+        filterApps();
+      });
     });
+
+    function filterApps() {
+      const selectedTags = Array.from(checkboxes)
+        .filter((cb: HTMLInputElement) => cb.checked)
+        .map((cb: HTMLInputElement) => cb.value);
+
+      apps.forEach(app => {
+        const appTags = JSON.parse(app.getAttribute('data-tags') || '[]');
+        if (selectedTags.length === 0 || selectedTags.some(tag => appTags.includes(tag))) {
+          app.classList.remove('hidden');
+        } else {
+          app.classList.add('hidden');
+        }
+      });
+    }
   }
+
+  // Initialiser les filtres au chargement initial
+  initializeFilters();
+
+  // Réinitialiser les filtres lors de la navigation avec view transitions
+  document.addEventListener('astro:page-load', () => {
+    initializeFilters();
+  });
 </script>

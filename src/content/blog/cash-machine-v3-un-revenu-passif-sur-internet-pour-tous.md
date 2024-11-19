@@ -1,5 +1,5 @@
 ---
-title: Blogpost 3
+title: cash-machine-v3-un-revenu-passif-sur-internet-pour-tous
 description: Lorem markdownum longo os thyrso telum, continet servat fetus nymphae, vox nocte sedesque, decimo. Omnia esse, quam sive; conplevit illis indestrictus admovit dedit sub quod protectus, impedit non.
 pubDate: 02-21-2023
 author: Diane Web'Indé
@@ -66,7 +66,6 @@ Concrètement la Cash Machine c'est en fait une immense séquence de 200 emails 
 C’est colossal le temps que ça prendrait de développer ça soi-même, et David Pontoizeau a dépensé des dizaines de milliers d'euros pour créer cette campagne, qu'il nous propose de mettre à profit aussi. On va pouvoir transposer ce système vers notre compte Learnybox en un clic et en 1h chrono (une vraie prouesse technique réalisée en partenariat avec l'équipe de LearnyBox, auparavant la Cash Machine s’installait en 1 semaine grand grand minimum !)
 
 Si tu manques de temps ou de compétences pour faire de la publicité pour ta Cash Machine tu peux aussi confier ça à l'équipe de David, donc c'est 100% done for you.
-![|331](cash-machine-conférence.png)
 ### Le Principe de L'affiliation : Un Business Clef-en-main
 
 Ces 40 produits seront donc vendu en affiliation et c'est comme ça qu'on réalisera des revenus, si tu n’en as jamais entendu parlé, l’affiliation c’est un [business model qui consiste à vendre des produits qui nous appartiennent pas](https://webinde.fr/business-en-ligne/affiliation/), et à recevoir de la part de l'entreprise partenaire, des commissions sur les ventes de ces produits en échange des clients apportés.
