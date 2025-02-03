@@ -256,7 +256,7 @@ Dernière étape : Profitez de vos nouveaux joujous ! Et n'oubliez pas que vous 
 
 Est-ce que vous achetez souvent des logiciels ? Ca vous a donné envie de visiter AppSumo ? Si vous avez des questions n'hésitez pas à poster un commentaire ou me contacter sur les réseaux sociaux !
 
-## Mon Avis Sur Appsumo En 2024
+## Mon Avis Sur Appsumo En 2025
 
 ### Quelle Est la Qualité des Softwares Sur AppSumo ?
 
