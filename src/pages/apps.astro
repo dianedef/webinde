@@ -1,9 +1,9 @@
 ---
 import { getCollection } from 'astro:content';
 import Layout from '@layouts/Default.astro';
-import BlogList from '@components/blog/BlogList.astro';
+import Filter from '@components/posts/Filter.astro';
 
-const posts = await getCollection('blog')
+const postsEntries = await getCollection('posts')
   .then((collection) => 
     collection.filter((post) => 
       post.data.tags.map((tag: string) => tag.toLowerCase()).includes('apps')
@@ -18,6 +18,6 @@ const posts = await getCollection('blog')
 	pageTitle="Apps'Indé"
 >
 	<main class="bg-green p-6">
-		<BlogList posts={posts} />
+		<Filter posts={postsEntries} />
 	</main>
 </Layout>

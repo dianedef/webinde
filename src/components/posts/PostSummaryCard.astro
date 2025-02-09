@@ -1,15 +1,15 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { Pill } from '@eliancodes/brutal-ui';
+import { Pill, Button } from '@eliancodes/brutal-ui';
 import SummaryCard from '../generic/SummaryCard.astro';
-import { Button } from '@eliancodes/brutal-ui';
 
 interface Props {
-  post: CollectionEntry<'app'>;
+  post: CollectionEntry<'posts'>;
 }
 
 const { post } = Astro.props;
 ---
+
 <SummaryCard
   title={post.data.title}
   imgAlt={post.data.title}
@@ -17,18 +17,17 @@ const { post } = Astro.props;
   description={post.data.description}
 >
   <div class='flex justify-end my-4'>
-    <Button href={`/app/${post.slug}/`}>Lire &rarr;</Button>
+    <Button href={`/${post.id}/`}>Read post &rarr;</Button>
   </div>
 
-  <div>
+  <div class='hidden sm:inline-block'>
     <div class='flex justify-between items-center'>
       <ul class='flex flex-wrap gap-4 mt-2'>
         {
           post.data.tags.map((tag) => {
-            const formattedTag = tag.toLowerCase().replace(/\s+/g, '-');
             return (
               <li>
-                <a class="sanchez" href={`/app/${formattedTag}/`}>
+                <a class="sanchez" href={`/tag/${tag.toLowerCase()}/`}>
                   <Pill>{tag}</Pill>
                 </a>
               </li>

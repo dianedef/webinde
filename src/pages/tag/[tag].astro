@@ -2,11 +2,11 @@
 import { getCollection } from 'astro:content';
 import type { CollectionEntry } from 'astro:content';
 import Layout from '@layouts/Default.astro';
-import BlogList from '@components/blog/BlogList.astro';
+import PostList from '@components/posts/PostList.astro';
 import { Button } from '@eliancodes/brutal-ui';
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection('blog').then((collection) =>
+  const allPosts = await getCollection('posts').then((collection) =>
     collection.reverse()
   );
 
@@ -25,7 +25,7 @@ export async function getStaticPaths() {
       props: {
         tag,
         displayTag,
-        blogposts: allPosts.filter((post) =>
+        posts: allPosts.filter((post) =>
           post.data.tags.map((tag: string) => tag.toLowerCase()).includes(tag)
         ),
       },
@@ -36,21 +36,21 @@ export async function getStaticPaths() {
 interface Props {
   tag: string;
   displayTag: string;
-  blogposts: CollectionEntry<'blog'>[];
+  posts: CollectionEntry<'posts'>[];
 }
 
-const { tag, displayTag, blogposts } = Astro.props;
+const { tag, displayTag, posts } = Astro.props;
 ---
 
 <Layout
-  title={`Blog: ${displayTag}`}
-  description={`Brutal Blog | All posts tagged with ${displayTag}`}
-  pageTitle={`Brutal Blog | Blogposts tagged with ${displayTag}`}
+  title={`Posts: ${displayTag}`}
+  description={`Web'Indé | All posts tagged with ${displayTag}`}
+  pageTitle={`Web'Indé | Posts tagged with ${displayTag}`}
 >
   <main class='p-6 bg-purple grid gap-4'>
     <div>
-      <Button href='/blog/'>&larr; {displayTag} | Retour</Button>
+      <Button href='/posts/'>&larr; {displayTag} | Retour</Button>
     </div>
-    <BlogList posts={blogposts} />
+    <PostList posts={posts} />
   </main>
 </Layout>
