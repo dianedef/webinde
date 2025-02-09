@@ -1,0 +1,56 @@
+---
+import { getCollection } from 'astro:content';
+import type { CollectionEntry } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import BlogList from '@components/blog/BlogList.astro';
+import { Button } from '@eliancodes/brutal-ui';
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection('blog').then((collection) =>
+    collection.reverse()
+  );
+
+  const tags: string[] = [];
+
+  allPosts.forEach((post) => {
+    post.data.tags.forEach((tag: string) => {
+      tags.push(tag.toLowerCase());
+    });
+  });
+
+  return Array.from(new Set(tags)).map((tag) => {
+    const displayTag = tag.charAt(0).toUpperCase() + tag.slice(1);
+    return {
+      params: { tag },
+      props: {
+        tag,
+        displayTag,
+        blogposts: allPosts.filter((post) =>
+          post.data.tags.map((tag: string) => tag.toLowerCase()).includes(tag)
+        ),
+      },
+    };
+  });
+}
+
+interface Props {
+  tag: string;
+  displayTag: string;
+  blogposts: CollectionEntry<'blog'>[];
+}
+
+const { tag, displayTag, blogposts } = Astro.props;
+---
+
+<Layout
+  title={`Blog: ${displayTag}`}
+  description={`Brutal Blog | All posts tagged with ${displayTag}`}
+  pageTitle={`Brutal Blog | Blogposts tagged with ${displayTag}`}
+>
+  <main class='p-6 bg-purple grid gap-4'>
+    <div>
+      <Button href='/blog/'>&larr; {displayTag} | Retour</Button>
+    </div>
+    <BlogList posts={blogposts} />
+  </main>
+</Layout>

@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Default.astro';
+import BlogList from '@components/blog/BlogList.astro';
+
+const posts = await getCollection('blog')
+  .then((collection) => 
+    collection.filter((post) => 
+      post.data.tags.map((tag: string) => tag.toLowerCase()).includes('apps')
+    )
+  )
+  .then((filtered) => filtered.reverse());
+---
+
+<Layout
+	title="Apps"
+	description="Web'Indé | Apps"
+	pageTitle="Apps'Indé"
+>
+	<main class="bg-green p-6">
+		<BlogList posts={posts} />
+	</main>
+</Layout>
