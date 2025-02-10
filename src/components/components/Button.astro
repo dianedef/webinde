@@ -7,11 +7,12 @@ type Props = ButtonProps;
 const {
 	href,
 	target = "_self",
-	color = colors[Math.floor(Math.random() * colors.length)],
+	color = colors.light[Math.floor(Math.random() * colors.light.length)],
+	darkColor = colors.dark[Math.floor(Math.random() * colors.dark.length)],
 } = Astro.props;
 ---
 
-<style define:vars={{ color: color }}>
+<style define:vars={{ color, darkColor, softWhite: colors.softWhite }}>
 	a.brutal-btn {
 		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
 		background-color: white;
@@ -29,14 +30,16 @@ const {
 	}
 
 	:global(.dark) a.brutal-btn {
-		filter: drop-shadow(5px 5px 0 rgb(255 255 255 / 1));
+		filter: drop-shadow(5px 5px 0 var(--softWhite));
 		background-color: black;
-		border: 2px solid white;
+		border: 2px solid var(--softWhite);
+		color: var(--softWhite);
 	}
 
 	:global(.dark) a.brutal-btn:hover {
-		filter: drop-shadow(3px 3px 0 rgb(255 255 255 / 1));
-		background-color: var(--color);
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
+		background-color: var(--darkColor);
+		color: var(--softWhite);
 	}
 </style>
 

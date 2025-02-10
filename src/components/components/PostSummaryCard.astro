@@ -4,6 +4,7 @@ import Card from "./Card.astro";
 import Button from "./Button.astro";
 import Pill from "./Pill.astro";
 import { Image } from "astro:assets";
+import colors from "../config/colors.json";
 
 interface Props {
 	post: CollectionEntry<"posts">;
@@ -13,19 +14,59 @@ interface Props {
 const { post, index = 0 } = Astro.props;
 const { data } = post;
 const isInitialLoad = index < 15;
+
+const buttonLightColor =
+	colors.light[Math.floor(Math.random() * colors.light.length)];
+const buttonDarkColor =
+	colors.dark[Math.floor(Math.random() * colors.dark.length)];
 ---
+
+<style define:vars={{ softWhite: colors.softWhite }}>
+	.post-title {
+		color: black;
+	}
+
+	:global(.dark) .post-title {
+		color: var(--softWhite);
+	}
+
+	.post-description {
+		color: rgb(31 41 55);
+	}
+
+	:global(.dark) .post-description {
+		color: var(--softWhite);
+	}
+
+	.post-image-container {
+		border-color: black;
+	}
+
+	:global(.dark) .post-image-container {
+		border-color: var(--softWhite);
+	}
+
+	.draft-badge {
+		border-color: black;
+	}
+
+	:global(.dark) .draft-badge {
+		color: var(--softWhite);
+		border-color: var(--softWhite);
+	}
+</style>
 
 <div transition:name={`post-${post.id}`}>
 	<Card color="white">
 		<div class="p-4 rounded-lg transition-colors dark:bg-black">
 			<h3
-				class="poppins text-lg md:text-xl dark:text-white"
+				class="post-title poppins text-lg md:text-xl"
 				transition:name={`title-${post.id}`}
 			>
 				{data.title}
 			</h3>
 			<div
-				class="rounded-lg border-3 border-black dark:border-white my-4 h-56 overflow-hidden"
+				class="post-image-container rounded-lg border-3 my-4 h-56 overflow-hidden"
 			>
 				<Image
 					src={data.imgUrl}
@@ -38,7 +79,7 @@ const isInitialLoad = index < 15;
 					transition:name={`image-${post.id}`}
 				/>
 			</div>
-			<p class="poppins text-gray-800 dark:text-gray-200">
+			<p class="post-description poppins">
 				{data.description}
 			</p>
 
@@ -46,8 +87,12 @@ const isInitialLoad = index < 15;
 				<div
 					class="transition-colors hover:bg-gray-100 dark:hover:bg-gray-900 rounded-lg"
 				>
-					<Button href={`/${post.id}/`}>
-						<span class="dark:text-white">Lire plus &rarr;</span>
+					<Button
+						href={`/${post.id}/`}
+						color={buttonLightColor}
+						darkColor={buttonDarkColor}
+					>
+						<span>Lire plus &rarr;</span>
 					</Button>
 				</div>
 			</div>
@@ -70,7 +115,7 @@ const isInitialLoad = index < 15;
 					</ul>
 					{
 						data.draft && (
-							<span class="bg-green rounded-full border-2 py-1 px-4 text-sm border-black dark:border-white card-shadow dark:text-white">
+							<span class="draft-badge bg-green rounded-full border-2 py-1 px-4 text-sm card-shadow">
 								Brouillon
 							</span>
 						)

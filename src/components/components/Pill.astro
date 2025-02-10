@@ -1,17 +1,19 @@
 ---
 interface Props {
 	color?: string | undefined;
+	darkColor?: string | undefined;
 }
 import colors from "../config/colors.json";
 
-if (Astro.props.color === undefined) {
-	Astro.props.color = colors[Math.floor(Math.random() * colors.length)];
-}
+const lightColor =
+	colors.light[Math.floor(Math.random() * colors.light.length)];
+const darkColorRandom =
+	colors.dark[Math.floor(Math.random() * colors.dark.length)];
 
-const { color } = Astro.props;
+const { color = lightColor, darkColor = darkColorRandom } = Astro.props;
 ---
 
-<style define:vars={{ color: color }}>
+<style define:vars={{ color, darkColor, softWhite: colors.softWhite }}>
 	span.brutal-pill {
 		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
 		user-select: none;
@@ -32,35 +34,35 @@ const { color } = Astro.props;
 
 	/* Mode sombre */
 	:global(.dark) span.brutal-pill {
-		--background-color: #1a1a1a;
-		--border-color: white;
-		--text-color: white;
-		filter: drop-shadow(3px 3px 0 rgb(255 255 255 / 0.8));
+		--background-color: black;
+		--border-color: var(--softWhite);
+		--text-color: var(--softWhite);
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
 	}
 
 	:global(.dark) span.brutal-pill:hover {
-		filter: drop-shadow(5px 5px 0 rgb(255 255 255 / 0.8));
-		background-color: var(--color);
-		color: black;
+		filter: drop-shadow(5px 5px 0 var(--softWhite));
+		background-color: var(--darkColor);
+		color: var(--softWhite);
 	}
 
 	/* Style pour les pills sélectionnées - Mode clair */
 	:global(input:checked + a) span.brutal-pill {
 		background-color: var(--selected-color, black) !important;
-		color: black !important;
+		color: white !important;
 		border-color: black;
 	}
 
 	/* Style pour les pills sélectionnées - Mode sombre */
 	:global(.dark input:checked + a) span.brutal-pill {
-		background-color: var(--selected-color, white) !important;
+		background-color: var(--selected-color, var(--softWhite)) !important;
 		color: black !important;
-		border-color: white;
-		filter: drop-shadow(3px 3px 0 rgb(255 255 255 / 0.8));
+		border-color: var(--softWhite);
+		filter: drop-shadow(3px 3px 0 var(--softWhite));
 	}
 </style>
 
-<span class="brutal-pill" data-color={color}>
+<span class="brutal-pill" data-color={color} data-dark-color={darkColor}>
 	<slot />
 </span>
 
@@ -71,7 +73,9 @@ const { color } = Astro.props;
 			const input = pill.closest("label")?.querySelector("input");
 			if (!input) return;
 
-			const color = pill.getAttribute("data-color");
+			const color = document.documentElement.classList.contains("dark")
+				? pill.getAttribute("data-dark-color")
+				: pill.getAttribute("data-color");
 
 			input.addEventListener("change", () => {
 				if (input.checked && pill instanceof HTMLElement) {

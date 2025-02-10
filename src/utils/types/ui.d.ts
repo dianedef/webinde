@@ -2,6 +2,7 @@ export interface ButtonProps {
   href: string;
   target?: '_blank' | '_self';
   color?: string;
+  darkColor?: string;
 }
 
 export interface CardProps {

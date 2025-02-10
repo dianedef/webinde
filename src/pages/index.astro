@@ -4,6 +4,7 @@ import Layout from "../layouts/Default.astro";
 import FilterTags from "../components/components/FilterTags.astro";
 import PostGrid from "../components/components/PostGrid.astro";
 import { tagHierarchy } from "../components/tagHierarchy";
+import colors from "../components/config/colors.json";
 
 const ITEMS_PER_PAGE = 15;
 
@@ -12,6 +13,10 @@ const posts = await getCollection("posts").then((collection) =>
 );
 
 const mainTags = Object.keys(tagHierarchy);
+const randomLightColor =
+	colors.light[Math.floor(Math.random() * colors.light.length)];
+const randomDarkColor =
+	colors.dark[Math.floor(Math.random() * colors.dark.length)];
 ---
 
 <Layout
@@ -19,13 +24,21 @@ const mainTags = Object.keys(tagHierarchy);
 	description="Web'Indé | On this page you can find a collection of posts"
 	pageTitle="Web'Indé Posts"
 >
-	<main class="bg-green p-6" transition:animate="slide">
+	<main class="page-background p-6" transition:animate="slide">
 		<FilterTags />
 		<PostGrid posts={posts} showLoadingSpinner={true} />
 	</main>
 </Layout>
 
-<style>
+<style define:vars={{ randomLightColor, randomDarkColor }}>
+	.page-background {
+		background-color: var(--randomLightColor);
+	}
+
+	:global(.dark) .page-background {
+		background-color: var(--randomDarkColor);
+	}
+
 	.hidden {
 		display: none;
 	}
