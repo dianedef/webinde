@@ -1,7 +1,8 @@
 ---
 import { getCollection } from "astro:content";
 import PostList from "./PostList.astro";
-import { Card, Button } from "@eliancodes/brutal-ui";
+import Card from "./Card.astro";
+import Button from "./Button.astro";
 
 interface Props {
 	count?: number;
@@ -11,6 +12,7 @@ const { count } = Astro.props;
 
 const posts = await getCollection("posts").then((posts) =>
 	posts.reverse().slice(0, count ?? 3),
+);
 ---
 
 <section class="mt-8">
@@ -21,6 +23,9 @@ const posts = await getCollection("posts").then((posts) =>
 			</h2>
 			<div class="hidden md:block">
 				<Button href="/">Retour &rarr;</Button>
+			</div>
+			<div class="block md:hidden">
+				<Button href="/">Retour</Button>
 			</div>
 		</div>
 		<PostList posts={posts} />

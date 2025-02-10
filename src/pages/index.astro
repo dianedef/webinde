@@ -1,10 +1,9 @@
 ---
 import { getCollection } from "astro:content";
 import Layout from "../layouts/Default.astro";
-import FilterTags from "@components/components/FilterTags.astro";
-import PostGrid from "@components/components/PostGrid.astro";
-import { Pill } from "@eliancodes/brutal-ui";
-import { tagHierarchy } from "@components/pills/tagHierarchyrarchy";
+import FilterTags from "../components/components/FilterTags.astro";
+import PostGrid from "../components/components/PostGrid.astro";
+import { tagHierarchy } from "../components/tagHierarchy";
 
 const ITEMS_PER_PAGE = 15;
 
@@ -81,7 +80,7 @@ const mainTags = Object.keys(tagHierarchy);
 
 	// Fonction pour charger plus de posts
 	function loadMorePosts() {
-		if (isLoading || !hasMorePosts) return;
+		if (isLoading || !hasMorePosts || !loadingSpinner) return;
 
 		isLoading = true;
 		loadingSpinner.classList.remove("hidden");

@@ -1,57 +1,53 @@
 ---
-import { getCollection } from 'astro:content';
-import type { CollectionEntry } from 'astro:content';
-import Layout from '@layouts/Default.astro';
-import PostList from '@components/posts/PostList.astro';
-import { Button } from '@eliancodes/brutal-ui';
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import Layout from "../../layouts/Default.astro";
+import PostList from "../../components/components/PostList.astro";
+import Button from "../../components/components/Button.astro";
 
 export async function getStaticPaths() {
-  const allPosts = await getCollection('posts').then((collection) =>
-    collection.reverse()
-  );
+	const posts = await getCollection("posts");
+	const tags = [...new Set(posts.map((post) => post.data.tags).flat())];
 
-  const tags: string[] = [];
-
-  allPosts.forEach((post) => {
-    post.data.tags.forEach((tag: string) => {
-      tags.push(tag.toLowerCase());
-    });
-  });
-
-  return Array.from(new Set(tags)).map((tag) => {
-    const displayTag = tag.charAt(0).toUpperCase() + tag.slice(1);
-    const encodedTag = tag.replace(/\//g, '-slash-');
-    return {
-      params: { tag: encodedTag },
-      props: {
-        tag: encodedTag,
-        displayTag,
-        posts: allPosts.filter((post) =>
-          post.data.tags.map((t: string) => t.toLowerCase()).includes(tag)
-        ),
-      },
-    };
-  });
+	return tags.map((tag) => {
+		// Remplacer les caractères spéciaux par des valeurs sûres pour l'URL
+		const safeTag = tag
+			.toLowerCase()
+			.replace(/\//g, "-slash-")
+			.replace(/\s/g, "-");
+		return {
+			params: { tag: safeTag },
+			props: {
+				posts: posts.filter((post) =>
+					post.data.tags
+						.map((t) => t.toLowerCase())
+						.includes(tag.toLowerCase()),
+				),
+				originalTag: tag,
+			},
+		};
+	});
 }
 
 interface Props {
-  tag: string;
-  displayTag: string;
-  posts: CollectionEntry<'posts'>[];
+	tag: string;
+	posts: CollectionEntry<"posts">[];
+	originalTag: string;
 }
 
-const { tag, displayTag, posts } = Astro.props;
+const { tag } = Astro.params;
+const { posts, originalTag } = Astro.props;
 ---
 
 <Layout
-  title={`Posts: ${displayTag}`}
-  description={`Web'Indé | All posts tagged with ${displayTag}`}
-  pageTitle={`Web'Indé | Posts tagged with ${displayTag}`}
+	title={`Posts tagged with ${originalTag}`}
+	description={`Posts tagged with ${originalTag}`}
+	pageTitle={`Web'Indé | Posts tagged with ${originalTag}`}
 >
-  <main class='p-6 bg-purple grid gap-4'>
-    <div>
-      <Button href='/posts/'>&larr; {displayTag} | Retour</Button>
-    </div>
-    <PostList posts={posts} />
-  </main>
+	<main class="p-6 bg-purple grid gap-4">
+		<div>
+			<Button href="/posts/">&larr; {originalTag} | Retour</Button>
+		</div>
+		<PostList posts={posts} />
+	</main>
 </Layout>
