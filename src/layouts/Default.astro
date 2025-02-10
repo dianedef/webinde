@@ -2,25 +2,44 @@
 import BaseNavigation from "@components/components/BaseNavigation.astro";
 import BaseFooter from "@components/components/BaseFooter.astro";
 import BaseHead from "@components/components/BaseHead.astro";
+import { ClientRouter } from "astro:transitions";
 import "../styles/global.css";
 
 interface Props {
-  title: string;
-  description: string;
-  classList?: string;
-  pageTitle?: string;
-  ogImage?: URL;
+	title: string;
+	description: string;
+	classList?: string;
+	pageTitle?: string;
+	ogImage?: URL;
 }
 
 const { title, description, classList, pageTitle, ogImage } = Astro.props;
 ---
 
-<html lang='en' class='h-full'>
-  <BaseHead ogImage={ogImage} title={title} description={description} />
+<html lang="en" class="h-full">
+	<head>
+		<BaseHead ogImage={ogImage} title={title} description={description} />
+		<ClientRouter fallback="swap" />
+		<style is:global>
+			::view-transition-old(root),
+			::view-transition-new(root) {
+				animation-duration: 0.2s;
+			}
+		</style>
+	</head>
 
-  <body class:list={[classList]}>
-    <BaseNavigation {pageTitle} />
-    <slot />
-    <BaseFooter />
-  </body>
+	<body class:list={[classList]}>
+		<BaseNavigation {pageTitle} />
+		<div transition:animate="slide">
+			<slot />
+		</div>
+		<BaseFooter />
+		<style is:global>
+			::view-transition-old(*),
+			::view-transition-new(*) {
+				animation-duration: 0.3s;
+				animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+			}
+		</style>
+	</body>
 </html>

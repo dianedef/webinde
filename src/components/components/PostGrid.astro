@@ -1,11 +1,8 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import PostSummaryCard from "./PostSummaryCard.astro";
+import type { PostGridProps } from "../../utils/types/content";
 
-interface Props {
-	posts: CollectionEntry<"posts">[];
-	showLoadingSpinner?: boolean;
-}
+type Props = PostGridProps;
 
 const { posts, showLoadingSpinner = false } = Astro.props;
 ---

@@ -1,46 +1,34 @@
 ---
-interface Props {
-  href: string;
-  target?: '_blank' | '_self';
-  color?: string | undefined;
-}
+import type { ButtonProps } from "../../utils/types/ui";
+import colors from "../config/colors.json";
 
-import colors from '../config/colors.json';
+type Props = ButtonProps;
 
-if (Astro.props.target === undefined) {
-  Astro.props.target = '_self';
-}
-
-if (Astro.props.color === undefined) {
-  Astro.props.color =
-    colors[Math.floor(Math.random() * colors.length)];
-}
-
-const { href, target, color } = Astro.props;
+const {
+	href,
+	target = "_self",
+	color = colors[Math.floor(Math.random() * colors.length)],
+} = Astro.props;
 ---
 
 <style define:vars={{ color: color }}>
-  a.brutal-btn {
-    filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
-    background-color: white;
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    border: 2px solid black;
-    transition: all;
-    transition-duration: 0.5s;
-    animation: ease-in-out;
-    font-family: 'Sanchez', serif;
-  }
-  a.brutal-btn:hover {
-    filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
-    background-color: var(--color);
-  }
+	a.brutal-btn {
+		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
+		background-color: white;
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		border: 2px solid black;
+		transition: all;
+		transition-duration: 0.5s;
+		animation: ease-in-out;
+		font-family: "Sanchez", serif;
+	}
+	a.brutal-btn:hover {
+		filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
+		background-color: var(--color);
+	}
 </style>
 
-<a
-  href={href}
-  target={target}
-  class='brutal-btn'
->
-  <slot />
+<a href={href} target={target} class="brutal-btn">
+	<slot />
 </a>

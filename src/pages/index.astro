@@ -19,7 +19,7 @@ const mainTags = Object.keys(tagHierarchy);
 	description="Web'Indé | On this page you can find a collection of posts"
 	pageTitle="Web'Indé Posts"
 >
-	<main class="bg-green p-6">
+	<main class="bg-green p-6" transition:animate="slide">
 		<FilterTags />
 		<PostGrid posts={posts} showLoadingSpinner={true} />
 	</main>
@@ -62,185 +62,189 @@ const mainTags = Object.keys(tagHierarchy);
 			transform: rotate(360deg);
 		}
 	}
+
+	::view-transition-old(*),
+	::view-transition-new(*) {
+		animation-duration: 0.3s;
+		animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
 </style>
 
 <script>
-	const mainCheckboxes = document.querySelectorAll(".main-tag-checkbox");
-	const subtagContainers = document.querySelectorAll(".subtags-container");
-	const subtagCheckboxes = document.querySelectorAll(".subtag-checkbox");
-	const posts = document.querySelectorAll(".post");
-	const postsContainer = document.querySelector(".posts-container");
-	const loadingSpinner = document.querySelector(".loading-spinner");
+	document.addEventListener("astro:page-load", () => {
+		const mainCheckboxes = document.querySelectorAll(".main-tag-checkbox");
+		const subtagContainers = document.querySelectorAll(".subtags-container");
+		const subtagCheckboxes = document.querySelectorAll(".subtag-checkbox");
+		const posts = document.querySelectorAll(".post");
+		const postsContainer = document.querySelector(".posts-container");
+		const loadingSpinner = document.querySelector(".loading-spinner");
 
-	let currentPage = 0;
-	const ITEMS_PER_PAGE = 15;
-	let isLoading = false;
-	let filteredPosts = Array.from(posts);
-	let hasMorePosts = true;
+		let currentPage = 0;
+		const ITEMS_PER_PAGE = 15;
+		let isLoading = false;
+		let filteredPosts = Array.from(posts);
+		let hasMorePosts = true;
 
-	// Fonction pour charger plus de posts
-	function loadMorePosts() {
-		if (isLoading || !hasMorePosts || !loadingSpinner) return;
+		function loadMorePosts() {
+			if (isLoading || !hasMorePosts || !loadingSpinner) return;
 
-		isLoading = true;
-		loadingSpinner.classList.remove("hidden");
+			isLoading = true;
+			loadingSpinner.classList.remove("hidden");
 
-		const start = currentPage * ITEMS_PER_PAGE;
-		const end = start + ITEMS_PER_PAGE;
-		const postsToShow = filteredPosts.slice(start, end);
+			const start = currentPage * ITEMS_PER_PAGE;
+			const end = start + ITEMS_PER_PAGE;
+			const postsToShow = filteredPosts.slice(start, end);
 
-		if (end >= filteredPosts.length) {
-			hasMorePosts = false;
+			if (end >= filteredPosts.length) {
+				hasMorePosts = false;
+			}
+
+			postsToShow.forEach((post) => {
+				post.classList.remove("hidden");
+			});
+
+			currentPage++;
+			isLoading = false;
+			loadingSpinner.classList.add("hidden");
 		}
 
-		postsToShow.forEach((post) => {
-			post.classList.remove("hidden");
-		});
-
-		currentPage++;
-		isLoading = false;
-		loadingSpinner.classList.add("hidden");
-	}
-
-	// Observer d'intersection pour le chargement infini
-	const observer = new IntersectionObserver(
-		(entries) => {
-			entries.forEach((entry) => {
-				if (entry.isIntersecting && hasMorePosts) {
-					loadMorePosts();
-				}
-			});
-		},
-		{
-			rootMargin: "100px",
-		},
-	);
-
-	// Observer le dernier élément visible
-	function observeLastPost() {
-		const visiblePosts = Array.from(posts).filter(
-			(post) => !post.classList.contains("hidden"),
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting && hasMorePosts) {
+						loadMorePosts();
+					}
+				});
+			},
+			{
+				rootMargin: "100px",
+			},
 		);
-		if (visiblePosts.length > 0) {
-			observer.disconnect();
-			observer.observe(visiblePosts[visiblePosts.length - 1]);
-		}
-	}
 
-	// Gestion des tags principaux
-	mainCheckboxes.forEach((checkbox) => {
-		checkbox.addEventListener("change", (e) => {
-			const target = e.target as HTMLInputElement;
-			const mainTag = target.dataset.category;
-			const subtagContainer = document.querySelector(
-				`[data-parent="${mainTag}"]`,
+		function observeLastPost() {
+			const visiblePosts = Array.from(posts).filter(
+				(post) => !post.classList.contains("hidden"),
 			);
+			if (visiblePosts.length > 0) {
+				observer.disconnect();
+				observer.observe(visiblePosts[visiblePosts.length - 1]);
+			}
+		}
 
-			if (subtagContainer) {
-				if (target.checked) {
-					subtagContainer.classList.remove("hidden");
-				} else {
-					subtagContainer.classList.add("hidden");
-					const checkboxes = subtagContainer.querySelectorAll(
-						'input[type="checkbox"]',
-					);
-					checkboxes.forEach((cb: Element) => {
-						if (cb instanceof HTMLInputElement) {
-							cb.checked = false;
-						}
-					});
+		mainCheckboxes.forEach((checkbox) => {
+			checkbox.addEventListener("change", (e) => {
+				const target = e.target as HTMLInputElement;
+				const mainTag = target.dataset.category;
+				const subtagContainer = document.querySelector(
+					`[data-parent="${mainTag}"]`,
+				);
+
+				if (subtagContainer) {
+					if (target.checked) {
+						subtagContainer.classList.remove("hidden");
+					} else {
+						subtagContainer.classList.add("hidden");
+						const checkboxes = subtagContainer.querySelectorAll(
+							'input[type="checkbox"]',
+						);
+						checkboxes.forEach((cb: Element) => {
+							if (cb instanceof HTMLInputElement) {
+								cb.checked = false;
+							}
+						});
+					}
+				}
+
+				resetPagination();
+				filterPosts();
+			});
+		});
+
+		subtagCheckboxes.forEach((checkbox) => {
+			checkbox.addEventListener("change", () => {
+				resetPagination();
+				filterPosts();
+			});
+		});
+
+		function resetPagination() {
+			currentPage = 0;
+			hasMorePosts = true;
+			posts.forEach((post) => post.classList.add("hidden"));
+		}
+
+		function getSubtagValue(key: string, parentTag: string): string {
+			const hierarchy = (window as any).tagHierarchy;
+			if (
+				!hierarchy ||
+				!hierarchy[parentTag] ||
+				!hierarchy[parentTag].subtags
+			)
+				return key;
+
+			const subtags = hierarchy[parentTag].subtags;
+			for (const category of Object.values(subtags)) {
+				const cat = category as {
+					subtags?: { [key: string]: { label: string } };
+				};
+				if (cat.subtags && cat.subtags[key]) {
+					return key;
 				}
 			}
-
-			resetPagination();
-			filterPosts();
-		});
-	});
-
-	// Gestion des sous-tags
-	subtagCheckboxes.forEach((checkbox) => {
-		checkbox.addEventListener("change", () => {
-			resetPagination();
-			filterPosts();
-		});
-	});
-
-	function resetPagination() {
-		currentPage = 0;
-		hasMorePosts = true;
-		posts.forEach((post) => post.classList.add("hidden"));
-	}
-
-	function getSubtagValue(key: string, parentTag: string): string {
-		const hierarchy = (window as any).tagHierarchy;
-		if (!hierarchy || !hierarchy[parentTag] || !hierarchy[parentTag].subtags)
 			return key;
-
-		const subtags = hierarchy[parentTag].subtags;
-		for (const category of Object.values(subtags)) {
-			const cat = category as {
-				subtags?: { [key: string]: { label: string } };
-			};
-			if (cat.subtags && cat.subtags[key]) {
-				return key;
-			}
 		}
-		return key;
-	}
 
-	function filterPosts() {
-		const selectedMainTags = Array.from(mainCheckboxes)
-			.filter(
-				(cb: Element): cb is HTMLInputElement =>
-					cb instanceof HTMLInputElement && cb.checked,
-			)
-			.map((cb) => cb.value);
+		function filterPosts() {
+			const selectedMainTags = Array.from(mainCheckboxes)
+				.filter(
+					(cb: Element): cb is HTMLInputElement =>
+						cb instanceof HTMLInputElement && cb.checked,
+				)
+				.map((cb) => cb.value);
 
-		const selectedSubtags = Array.from(subtagCheckboxes)
-			.filter(
-				(cb: Element): cb is HTMLInputElement =>
-					cb instanceof HTMLInputElement && cb.checked,
-			)
-			.map((cb) => {
-				const parentTag = cb.dataset.parent || "";
-				return getSubtagValue(cb.value, parentTag);
+			const selectedSubtags = Array.from(subtagCheckboxes)
+				.filter(
+					(cb: Element): cb is HTMLInputElement =>
+						cb instanceof HTMLInputElement && cb.checked,
+				)
+				.map((cb) => {
+					const parentTag = cb.dataset.parent || "";
+					return getSubtagValue(cb.value, parentTag);
+				});
+
+			filteredPosts = Array.from(posts).filter((post) => {
+				const postTags = JSON.parse(
+					post.getAttribute("data-tags") || "[]",
+				) as string[];
+
+				if (selectedMainTags.length === 0 && selectedSubtags.length === 0) {
+					return true;
+				}
+
+				const hasSelectedMainTag =
+					selectedMainTags.length === 0 ||
+					selectedMainTags.some((tag) =>
+						postTags.some(
+							(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
+						),
+					);
+
+				const hasSelectedSubtag =
+					selectedSubtags.length === 0 ||
+					selectedSubtags.some((tag) =>
+						postTags.some(
+							(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
+						),
+					);
+
+				return hasSelectedMainTag && hasSelectedSubtag;
 			});
 
-		filteredPosts = Array.from(posts).filter((post) => {
-			const postTags = JSON.parse(
-				post.getAttribute("data-tags") || "[]",
-			) as string[];
+			loadMorePosts();
+			observeLastPost();
+		}
 
-			if (selectedMainTags.length === 0 && selectedSubtags.length === 0) {
-				return true;
-			}
-
-			const hasSelectedMainTag =
-				selectedMainTags.length === 0 ||
-				selectedMainTags.some((tag) =>
-					postTags.some(
-						(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
-					),
-				);
-
-			const hasSelectedSubtag =
-				selectedSubtags.length === 0 ||
-				selectedSubtags.some((tag) =>
-					postTags.some(
-						(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
-					),
-				);
-
-			return hasSelectedMainTag && hasSelectedSubtag;
-		});
-
-		loadMorePosts();
-		observeLastPost();
-	}
-
-	// Initialisation
-	filterPosts();
-
-	// Réinitialiser l'observateur lors du redimensionnement de la fenêtre
-	window.addEventListener("resize", observeLastPost);
+		filterPosts();
+		window.addEventListener("resize", observeLastPost);
+	});
 </script>

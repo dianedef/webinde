@@ -33,7 +33,10 @@ const mainTags = Object.keys(tagHierarchy);
 	<!-- Sous-tags niveau 2 -->
 	{
 		mainTags.map((mainTag) => (
-			<div class="subtags-container hidden" data-parent={mainTag}>
+			<div
+				class="subtags-container hidden animate-container"
+				data-parent={mainTag}
+			>
 				<ul class="flex flex-wrap gap-4 justify-center">
 					{Object.entries(tagHierarchy[mainTag].subtags || {}).map(
 						([subtagKey, subtag]) => (
@@ -64,7 +67,7 @@ const mainTags = Object.keys(tagHierarchy);
 			Object.entries(tagHierarchy[mainTag].subtags || {}).map(
 				([subtagKey, subtag]) => (
 					<div
-						class="subsubtags-container hidden"
+						class="subsubtags-container hidden animate-container"
 						data-parent={`${mainTag}-${subtagKey}`}
 					>
 						<ul class="flex flex-wrap gap-4 justify-center">
@@ -98,7 +101,7 @@ const mainTags = Object.keys(tagHierarchy);
 	.pill-container :global(.brutal-pill) {
 		transform: scale(1.5);
 		margin-bottom: 0.5rem;
-		transition: transform 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 
 	.pill-container:hover :global(.brutal-pill) {
@@ -108,6 +111,18 @@ const mainTags = Object.keys(tagHierarchy);
 	input:checked + a :global(.brutal-pill) {
 		background-color: black;
 		color: white;
+		transform: scale(1.5) translateY(-5px);
+	}
+
+	.animate-container {
+		opacity: 0;
+		transform: translateY(-10px);
+		transition: all 0.3s ease-out;
+	}
+
+	.animate-container:not(.hidden) {
+		opacity: 1;
+		transform: translateY(0);
 	}
 
 	:global(.infinite-hidden) {
