@@ -6,8 +6,8 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Strategy
-  - Astro
+  - Strategie
+  - Gestion de Crise
 ---
 
 ---

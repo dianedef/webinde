@@ -6,8 +6,5 @@ category: "Client"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Client
-  - Service
-  - Business
   - Relation Client
 --- 

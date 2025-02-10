@@ -9,5 +9,4 @@ tags:
   - SaaS
   - Business
   - Tech
-  - Entrepreneuriat
 --- 

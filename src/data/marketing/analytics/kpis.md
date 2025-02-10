@@ -6,9 +6,8 @@ category: "Marketing"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Marketing
+  - Analytics
   - KPIs
-  - Astro
 ---
 
 

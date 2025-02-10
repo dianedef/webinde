@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Content Marketing
-  - Astro
 ---
 
 ---

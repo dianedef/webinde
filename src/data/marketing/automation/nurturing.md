@@ -6,9 +6,10 @@ category: "Marketing"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Lead Nurturing
-  - Astro
+  - Marketing
+  - Relation Client
 ---
+
 
 
 # Lead Nurturing Stratégique

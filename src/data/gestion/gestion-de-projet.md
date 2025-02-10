@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Gestion de projet
-  - Astro
 ---
 
 ---

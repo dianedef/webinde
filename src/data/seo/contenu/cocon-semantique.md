@@ -8,7 +8,6 @@ imgUrl: "../../../assets/astro.jpeg"
 tags:
   - SEO
   - Cocon Sémantique
-  - Structure
   - Contenu
 ---
 

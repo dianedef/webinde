@@ -2,19 +2,19 @@ import rss from '@astrojs/rss';
 import { getCollection } from 'astro:content';
 
 export async function GET(context) {
-  const blog = await getCollection('blog');
+  const posts = await getCollection('posts');
   return rss({
-    title: 'Brutal Blog',
-    description: 'Brutal is a theme for Astro',
+    title: 'Web\'Indé',
+    description: 'Web\'Indé est un blog qui parle de la création de sites web',
     stylesheet: false,
     site: context.site,
-    items: blog.map((post) => ({
+    items: posts.map((post) => ({
       title: post.data.title,
       pubDate: post.data.pubDate,
       description: post.data.description,
-      link: `/blog/${post.id}/`,
+      link: `/${post.id}/`,
     })),
-    customData: '<language>en-us</language>',
-    canonicalUrl: 'https://brutal.elian.codes',
+    customData: '<language>fr-fr</language>',
+    canonicalUrl: 'https://webinde.fr',
   });
 }

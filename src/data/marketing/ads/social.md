@@ -8,7 +8,7 @@ imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Facebook Ads
   - Instagram Ads
-  - Astro
+  - Publicité
 ---
 
 # Facebook & Instagram Ads

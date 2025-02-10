@@ -8,7 +8,6 @@ author: "Psychology Expert"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Neuromarketing
-  - Astro
 ---
 
 # Les Techniques de Neuromarketing Décryptées

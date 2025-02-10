@@ -6,8 +6,7 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Feedback
-  - Astro
+  - Relation Client
 ---
 
 # Feedback et Amélioration Continue : Moteurs de Performance

@@ -7,7 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Retention
-  - Astro
+  - Relation Client
 ---
 
 # L'Art de la Fidélisation Client

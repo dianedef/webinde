@@ -6,8 +6,8 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Analyse de Marché
-  - Astro
+  - Analyse
+  - Stratégie
 ---
 
 # Analyse de Marché : Méthodologie et Outils

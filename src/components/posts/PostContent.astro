@@ -8,11 +8,11 @@ const { pubDate, author } = Astro.props;
 ---
 
 <article class='prose-slate w-sm md:w-prose md:prose poppins'>
-  <a href='/blog/' title='Back to blog'>&larr; Back to blog</a>
+  <a href='/' title='Retour'>&larr; Retour</a>
   <p class='text-slate text-sm md:text-base'>
-    Published on {pubDate} by {author}
+    Publié le {pubDate} par {author}
   </p>
   <slot />
-  <p class='text-slate'>Written by {author}</p>
-  <a href='/blog/' title='Back to blog'>&larr; Back to blog</a>
+  <p class='text-slate'>Écrit par {author}</p>
+  <a href='/' title='Retour'>&larr; Retour</a>
 </article>

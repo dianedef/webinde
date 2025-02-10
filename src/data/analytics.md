@@ -2,7 +2,6 @@
 title: "Outils d'Analyse : Guide Complet"
 description: "Guide approfondi sur les outils d'analyse pour optimiser la performance business"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-5.jpg"
 category: "Outils"
 author: "Expert Analytics"
 imgUrl: "../assets/astro.jpeg"

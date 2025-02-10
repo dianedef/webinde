@@ -6,8 +6,7 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Competences
-  - Astro
+  - Performance
 ---
 
 # Compétences Entrepreneuriales : Les Clés du Succès

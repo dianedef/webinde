@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Recrutement
-  - Astro
 ---
 
 # Recrutement Moderne : Stratégies et Meilleures Pratiques

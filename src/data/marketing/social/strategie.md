@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Social Media
-  - Astro
 ---   
 
 # Stratégie Social Media

@@ -7,8 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Affiliation
-  - Plateformes
-  - Astro
+  - Apps
 ---
 
 

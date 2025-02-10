@@ -9,7 +9,6 @@ tags:
   - Risques
   - Gestion
   - Stratégie
-  - Business
 ---
 
 ---

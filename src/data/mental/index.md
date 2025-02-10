@@ -8,6 +8,4 @@ imgUrl: "../../assets/astro.jpeg"
 tags:
   - Mental
   - Performance
-  - Développement
-  - Psychologie
 --- 

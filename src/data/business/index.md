@@ -7,7 +7,5 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Business
-  - Digital
-  - Entrepreneuriat
   - Stratégie
 --- 

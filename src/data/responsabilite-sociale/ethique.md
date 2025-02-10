@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Éthique
-  - Astro
 ---
 
 # Éthique des Affaires : Principes et Applications

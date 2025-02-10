@@ -7,9 +7,9 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Marketing
-  - Outils
-  - Astro
+  - Apps
 ---
+
 
 
 # Suite Marketing Complète

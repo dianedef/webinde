@@ -6,9 +6,9 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Entrepreneuriat Social
-  - Astro
+  - Ethique
 ---
+
 
 # Entrepreneuriat Social : Créer de la Valeur Sociétale
 

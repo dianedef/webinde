@@ -9,7 +9,6 @@ tags:
   - Affiliation
   - Marketing
   - Business
-  - Digital
 ---
 
 ---

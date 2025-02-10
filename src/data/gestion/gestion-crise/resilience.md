@@ -6,8 +6,7 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Resilience
-  - Astro
+  - Gestion de Crise
 ---
 
 ---

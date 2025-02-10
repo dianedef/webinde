@@ -8,7 +8,6 @@ imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Content Marketing
   - Affiliation
-  - Astro
 ---
 
 

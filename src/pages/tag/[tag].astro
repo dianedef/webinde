@@ -20,13 +20,14 @@ export async function getStaticPaths() {
 
   return Array.from(new Set(tags)).map((tag) => {
     const displayTag = tag.charAt(0).toUpperCase() + tag.slice(1);
+    const encodedTag = tag.replace(/\//g, '-slash-');
     return {
-      params: { tag },
+      params: { tag: encodedTag },
       props: {
-        tag,
+        tag: encodedTag,
         displayTag,
         posts: allPosts.filter((post) =>
-          post.data.tags.map((tag: string) => tag.toLowerCase()).includes(tag)
+          post.data.tags.map((t: string) => t.toLowerCase()).includes(tag)
         ),
       },
     };

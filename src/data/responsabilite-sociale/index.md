@@ -8,6 +8,6 @@ imgUrl: "../../assets/astro.jpeg"
 tags:
   - RSE
   - Éthique
-  - Business
+  - Stratégie
   - Développement Durable
 --- 

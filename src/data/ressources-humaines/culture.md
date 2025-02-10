@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Culture
-  - Astro
 ---
 
 # Culture d'Entreprise : Fondamentaux et Impact

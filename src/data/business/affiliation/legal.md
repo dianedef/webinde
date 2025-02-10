@@ -7,10 +7,9 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Affiliation
+  - Ethique
   - Légal
-  - Astro
 ---
-
 
 # Maîtriser les Aspects Légaux de l'Affiliation
 

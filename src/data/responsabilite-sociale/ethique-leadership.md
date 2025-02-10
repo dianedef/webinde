@@ -8,7 +8,6 @@ imgUrl: "../../assets/astro.jpeg"
 tags:
   - Éthique
   - Leadership
-  - Astro
 ---
 
 

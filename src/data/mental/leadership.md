@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Leadership
-  - Astro
 ---
 
 # Leadership et Gestion d'Équipe : L'Art de Diriger

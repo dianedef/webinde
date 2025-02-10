@@ -6,8 +6,7 @@ category: "Marketing"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Display Advertising
-  - Astro
+  - Publicité
 ---
 
 

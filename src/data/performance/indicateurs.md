@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Indicateurs
-  - Astro
 ---
 
 # Indicateurs de Performance : Pilotage et Optimisation

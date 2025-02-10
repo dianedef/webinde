@@ -7,7 +7,6 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - SEO
-  - Astro
 ---
 
 # Guide de Migration SEO

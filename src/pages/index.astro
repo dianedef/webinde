@@ -1,20 +1,213 @@
 ---
 import { getCollection } from 'astro:content';
-import Layout from '@layouts/Default.astro';
-import PostList from '@components/posts/PostList.astro';
-import Filter from '@components/posts/Filter.astro';
+import Layout from '../layouts/Default.astro';
+import FilterTags from '../components/posts/FilterTags.astro';
+import PostGrid from '../components/posts/PostGrid.astro';
+import { Pill } from '@eliancodes/brutal-ui';
+import { tagHierarchy } from '@components/tagHierarchy';
+
+const ITEMS_PER_PAGE = 15;
+
 const posts = await getCollection('posts').then((collection) =>
   collection.reverse()
 );
+
+const mainTags = Object.keys(tagHierarchy);
 ---
 
 <Layout
-  title='Blog'
-  description="Web'Indé | On this page you can find a collection of blogposts"
-  pageTitle="Web'Indé Blog"
+  title='Posts'
+  description="Web'Indé | On this page you can find a collection of posts"
+  pageTitle="Web'Indé Posts"
 >
   <main class='bg-green p-6'>
-    <Filter posts={posts} />
-    <PostList posts={posts} />
+    <FilterTags />
+    <PostGrid posts={posts} showLoadingSpinner={true} />
   </main>
 </Layout>
+
+<style>
+  .hidden {
+    display: none;
+  }
+
+  .pill-container :global(.brutal-pill) {
+    transform: scale(1.5);
+    margin-bottom: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .pill-container:hover :global(.brutal-pill) {
+    transform: scale(1.5) translateX(-15px);
+  }
+
+  input:checked + a :global(.brutal-pill) {
+    background-color: black;
+    color: white;
+  }
+
+  .loading-spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+</style>
+
+<script>
+  const mainCheckboxes = document.querySelectorAll('.main-tag-checkbox');
+  const subtagContainers = document.querySelectorAll('.subtags-container');
+  const subtagCheckboxes = document.querySelectorAll('.subtag-checkbox');
+  const posts = document.querySelectorAll('.post');
+  const postsContainer = document.querySelector('.posts-container');
+  const loadingSpinner = document.querySelector('.loading-spinner');
+  
+  let currentPage = 0;
+  const ITEMS_PER_PAGE = 15;
+  let isLoading = false;
+  let filteredPosts = Array.from(posts);
+  let hasMorePosts = true;
+
+  // Fonction pour charger plus de posts
+  function loadMorePosts() {
+    if (isLoading || !hasMorePosts) return;
+
+    isLoading = true;
+    loadingSpinner.classList.remove('hidden');
+
+    const start = currentPage * ITEMS_PER_PAGE;
+    const end = start + ITEMS_PER_PAGE;
+    const postsToShow = filteredPosts.slice(start, end);
+
+    if (end >= filteredPosts.length) {
+      hasMorePosts = false;
+    }
+
+    postsToShow.forEach(post => {
+      post.classList.remove('hidden');
+    });
+
+    currentPage++;
+    isLoading = false;
+    loadingSpinner.classList.add('hidden');
+  }
+
+  // Observer d'intersection pour le chargement infini
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && hasMorePosts) {
+        loadMorePosts();
+      }
+    });
+  }, {
+    rootMargin: '100px'
+  });
+
+  // Observer le dernier élément visible
+  function observeLastPost() {
+    const visiblePosts = Array.from(posts).filter(post => !post.classList.contains('hidden'));
+    if (visiblePosts.length > 0) {
+      observer.disconnect();
+      observer.observe(visiblePosts[visiblePosts.length - 1]);
+    }
+  }
+
+  // Gestion des tags principaux
+  mainCheckboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', (e) => {
+      const target = e.target as HTMLInputElement;
+      const mainTag = target.dataset.category;
+      const subtagContainer = document.querySelector(`[data-parent="${mainTag}"]`);
+      
+      if (subtagContainer) {
+        if (target.checked) {
+          subtagContainer.classList.remove('hidden');
+        } else {
+          subtagContainer.classList.add('hidden');
+          const checkboxes = subtagContainer.querySelectorAll('input[type="checkbox"]');
+          checkboxes.forEach((cb: Element) => {
+            if (cb instanceof HTMLInputElement) {
+              cb.checked = false;
+            }
+          });
+        }
+      }
+      
+      resetPagination();
+      filterPosts();
+    });
+  });
+
+  // Gestion des sous-tags
+  subtagCheckboxes.forEach(checkbox => {
+    checkbox.addEventListener('change', () => {
+      resetPagination();
+      filterPosts();
+    });
+  });
+
+  function resetPagination() {
+    currentPage = 0;
+    hasMorePosts = true;
+    posts.forEach(post => post.classList.add('hidden'));
+  }
+
+  function getSubtagValue(key: string, parentTag: string): string {
+    const hierarchy = (window as any).tagHierarchy;
+    if (!hierarchy || !hierarchy[parentTag] || !hierarchy[parentTag].subtags) return key;
+    
+    const subtags = hierarchy[parentTag].subtags;
+    for (const category of Object.values(subtags)) {
+      const cat = category as { subtags?: { [key: string]: { label: string } } };
+      if (cat.subtags && cat.subtags[key]) {
+        return key;
+      }
+    }
+    return key;
+  }
+
+  function filterPosts() {
+    const selectedMainTags = Array.from(mainCheckboxes)
+      .filter((cb: Element): cb is HTMLInputElement => cb instanceof HTMLInputElement && cb.checked)
+      .map(cb => cb.value);
+
+    const selectedSubtags = Array.from(subtagCheckboxes)
+      .filter((cb: Element): cb is HTMLInputElement => cb instanceof HTMLInputElement && cb.checked)
+      .map(cb => {
+        const parentTag = cb.dataset.parent || '';
+        return getSubtagValue(cb.value, parentTag);
+      });
+
+    filteredPosts = Array.from(posts).filter(post => {
+      const postTags = JSON.parse(post.getAttribute('data-tags') || '[]') as string[];
+      
+      if (selectedMainTags.length === 0 && selectedSubtags.length === 0) {
+        return true;
+      }
+
+      const hasSelectedMainTag = selectedMainTags.length === 0 || 
+        selectedMainTags.some(tag => postTags.some(postTag => postTag.toLowerCase() === tag.toLowerCase()));
+      
+      const hasSelectedSubtag = selectedSubtags.length === 0 || 
+        selectedSubtags.some(tag => postTags.some(postTag => postTag.toLowerCase() === tag.toLowerCase()));
+
+      return hasSelectedMainTag && hasSelectedSubtag;
+    });
+
+    loadMorePosts();
+    observeLastPost();
+  }
+
+  // Initialisation
+  filterPosts();
+
+  // Réinitialiser l'observateur lors du redimensionnement de la fenêtre
+  window.addEventListener('resize', observeLastPost);
+</script>

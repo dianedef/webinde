@@ -12,17 +12,17 @@ const fontData: ArrayBuffer = await fontFile.arrayBuffer();
 const height = 630;
 const width = 1200;
 
-const posts = await getCollection('blog');
+const posts = await getCollection('posts');
 
 export function getStaticPaths() {
   return posts.map((post) => ({
-    params: { slug: post.id },
+    params: { slug: post.id.replace(/\//g, '--') },
     props: { title: post.data.title, description: post.data.description },
   }));
 }
 
 export const GET: APIRoute = async ({ params, props }) => {
-  const title = props.title.trim() ?? 'Blogpost';
+  const title = props.title.trim() ?? 'Posts';
   const description = props.description ?? null;
   const html = toReactElement(`
   <div style="background-color: white; display: flex; flex-direction: column; height: 100%; padding: 3rem; width: 100%">

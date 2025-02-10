@@ -6,7 +6,6 @@ author: Diane Web'Indé
 tags:
   - Lifetime Deals
 imgUrl: '../../assets/astro.jpeg'
-layout: ../../layouts/BlogPost.astro
 ---
 
 ## Ce qu’il Faut Retenir Sur AppSumo

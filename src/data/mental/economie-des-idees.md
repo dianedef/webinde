@@ -7,8 +7,7 @@ category: "Développement Personnel"
 author: "Tech Expert"   
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Économie des Idées
-  - Astro
+  - Stratégie
 ---
 
 Dans son ouvrage "The Rich Employee", James Altucher expose une vision révolutionnaire du monde professionnel moderne. Nous ne sommes plus dans une économie traditionnelle, mais dans ce qu'il appelle "l'économie des idées", où la créativité et l'innovation deviennent les véritables moteurs de la réussite.

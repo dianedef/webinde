@@ -7,7 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Management
-  - Astro
+  - Ressources Humaines
 ---
 
 # Management Moderne : Pratiques et Enjeux

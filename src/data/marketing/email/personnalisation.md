@@ -7,8 +7,8 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Email Marketing
-  - Astro
 ---
+
 
 
 # Personnalisation Email Marketing

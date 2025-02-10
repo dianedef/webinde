@@ -7,7 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - SEO
-  - Astro
+  - Technique
 ---
 
 

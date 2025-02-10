@@ -6,8 +6,8 @@ category: "Marketing"
 author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
-  - Personnalisation Marketing
-  - Astro
+  - Personnalisation
+  - Marketing
 ---
 
 

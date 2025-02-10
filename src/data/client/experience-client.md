@@ -6,8 +6,7 @@ category: "Général"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - Experience Client
-  - Astro
+  - Relation Client
 ---
 
 

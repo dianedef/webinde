@@ -7,8 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../../assets/astro.jpeg"
 tags:
   - Marketing
-  - Dashboards
-  - Astro
+  - Analytics
 ---
 
 

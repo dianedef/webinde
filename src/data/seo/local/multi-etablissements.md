@@ -8,7 +8,6 @@ imgUrl: "../../../assets/astro.jpeg"
 tags:
   - SEO
   - Local
-  - Multi-établissements
   - Stratégie
 ---
 

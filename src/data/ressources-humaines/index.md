@@ -6,10 +6,9 @@ category: "RH"
 author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
-  - RH
-  - Management
-  - Business
   - Ressources Humaines
+  - Management
+  - Stratégie
 ---
 
 # Ressources Humaines : Le Guide du Manager Moderne

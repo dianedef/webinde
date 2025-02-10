@@ -7,7 +7,7 @@ author: "Web'Indé"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Startup
-  - Astro
+  - Business
 ---
 
 # Créer et Développer une Startup
