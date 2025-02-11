@@ -8,6 +8,7 @@ export interface BaseProps {
 	classList?: string;
 	pageTitle?: string;
 	ogImage?: string;
+	metaRobots?: string;
 }
 
 export interface PostProps {

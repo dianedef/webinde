@@ -4,11 +4,14 @@ import Layout from "../layouts/Default.astro";
 import FilterTags from "../components/components/FilterTags.astro";
 import PostGrid from "../components/components/PostGrid.astro";
 import { tagHierarchy } from "../components/tagHierarchy";
+import colors from "../components/config/colors.json";
 
 const posts = await getCollection("posts")
 	.then((collection) =>
 		collection.filter((post) =>
-			post.data.tags.map((tag: string) => tag.toLowerCase()).includes("apps"),
+			post.data.tags
+				.map((tag: string) => tag.toLowerCase())
+				.includes("apps"),
 		),
 	)
 	.then((filtered) => filtered.reverse());
@@ -17,13 +20,40 @@ const mainTags = Object.keys(tagHierarchy);
 ---
 
 <Layout title="Apps" description="Web'Indé | Apps" pageTitle="Apps'Indé">
-	<main class="bg-green p-6">
+	<main
+		class="page-background bg-gray-2 dark:bg-gray-8 p-6"
+		transition:name="posts-container"
+	>
 		<FilterTags />
 		<PostGrid posts={posts} showLoadingSpinner={true} />
 	</main>
 </Layout>
 
+<script>
+	import colors from "../components/config/colors.json";
+
+	function setRandomBackgroundColor() {
+		const isDark = document.documentElement.classList.contains("dark");
+		const colorArray = isDark ? colors.dark : colors.light;
+		const randomColor =
+			colorArray[Math.floor(Math.random() * colorArray.length)];
+
+		const element = document.querySelector(".page-background") as HTMLElement;
+		element?.style.setProperty("background-color", randomColor);
+	}
+
+	// Initialiser la couleur au chargement
+	document.addEventListener("astro:page-load", setRandomBackgroundColor);
+
+	// Changer la couleur quand le thème change
+	document.addEventListener("theme-changed", setRandomBackgroundColor);
+</script>
+
 <style>
+	.page-background {
+		transition: background-color 0.3s ease;
+	}
+
 	.hidden {
 		display: none;
 	}

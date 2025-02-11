@@ -7,36 +7,85 @@ import { tagHierarchy } from "../components/tagHierarchy";
 import colors from "../components/config/colors.json";
 
 const ITEMS_PER_PAGE = 15;
+const page = Number(Astro.url.searchParams.get("page") || "1");
+const selectedTags = (Astro.url.searchParams.get("tags") || "")
+	.split(",")
+	.filter(Boolean);
+const start = (page - 1) * ITEMS_PER_PAGE;
 
-const posts = await getCollection("posts").then((collection) =>
-	collection.reverse(),
-);
+const allPosts = await getCollection("posts");
+let filteredPosts = allPosts;
+
+// Appliquer les filtres si des tags sont sélectionnés
+if (selectedTags.length > 0) {
+	filteredPosts = allPosts.filter((post) =>
+		selectedTags.some((tag) =>
+			post.data.tags.map((t) => t.toLowerCase()).includes(tag.toLowerCase()),
+		),
+	);
+}
+
+const totalPosts = filteredPosts.length;
+const totalPages = Math.ceil(totalPosts / ITEMS_PER_PAGE);
+
+const posts = filteredPosts.reverse().slice(start, start + ITEMS_PER_PAGE);
 
 const mainTags = Object.keys(tagHierarchy);
-const randomLightColor =
-	colors.light[Math.floor(Math.random() * colors.light.length)];
-const randomDarkColor =
-	colors.dark[Math.floor(Math.random() * colors.dark.length)];
+
+// Meta robots : n'indexer que la première page sans filtres
+const metaRobots =
+	page === 1 && selectedTags.length === 0
+		? "index, follow"
+		: "noindex, follow";
 ---
 
 <Layout
 	title="Posts"
 	description="Web'Indé | On this page you can find a collection of posts"
 	pageTitle="Web'Indé Posts"
+	metaRobots={metaRobots}
 >
-	<main class="page-background p-6" transition:animate="slide">
-		<FilterTags />
-		<PostGrid posts={posts} showLoadingSpinner={true} />
+	<main
+		class="page-background bg-gray-2 dark:bg-gray-8 p-6"
+		transition:name="posts-container"
+	>
+		<FilterTags mainTags={mainTags} selectedTags={selectedTags} />
+		<div id="current-page" data-page={page} class="hidden"></div>
+		<div id="total-pages" data-total={totalPages} class="hidden"></div>
+		<div id="selected-tags" data-tags={selectedTags.join(",")} class="hidden">
+		</div>
+		<PostGrid
+			posts={posts}
+			showLoadingSpinner={true}
+			currentPage={page}
+			totalPages={totalPages}
+		/>
 	</main>
 </Layout>
 
-<style define:vars={{ randomLightColor, randomDarkColor }}>
-	.page-background {
-		background-color: var(--randomLightColor);
+<script>
+	import colors from "../components/config/colors.json";
+
+	function setRandomBackgroundColor() {
+		const isDark = document.documentElement.classList.contains("dark");
+		const colorArray = isDark ? colors.dark : colors.light;
+		const randomColor =
+			colorArray[Math.floor(Math.random() * colorArray.length)];
+
+		const element = document.querySelector(".page-background") as HTMLElement;
+		element?.style.setProperty("background-color", randomColor);
 	}
 
-	:global(.dark) .page-background {
-		background-color: var(--randomDarkColor);
+	// Initialiser la couleur au chargement
+	document.addEventListener("astro:page-load", setRandomBackgroundColor);
+
+	// Changer la couleur quand le thème change
+	document.addEventListener("theme-changed", setRandomBackgroundColor);
+</script>
+
+<style>
+	.page-background {
+		transition: background-color 0.3s ease;
 	}
 
 	.hidden {
@@ -84,180 +133,87 @@ const randomDarkColor =
 </style>
 
 <script>
-	document.addEventListener("astro:page-load", () => {
-		const mainCheckboxes = document.querySelectorAll(".main-tag-checkbox");
-		const subtagContainers = document.querySelectorAll(".subtags-container");
-		const subtagCheckboxes = document.querySelectorAll(".subtag-checkbox");
-		const posts = document.querySelectorAll(".post");
-		const postsContainer = document.querySelector(".posts-container");
-		const loadingSpinner = document.querySelector(".loading-spinner");
+	let currentPage = Number(
+		document.querySelector("#current-page")?.getAttribute("data-page") || "1",
+	);
+	const totalPages = Number(
+		document.querySelector("#total-pages")?.getAttribute("data-total") || "1",
+	);
+	const selectedTags = (
+		document.querySelector("#selected-tags")?.getAttribute("data-tags") || ""
+	)
+		.split(",")
+		.filter(Boolean);
+	let isLoading = false;
 
-		let currentPage = 0;
-		const ITEMS_PER_PAGE = 15;
-		let isLoading = false;
-		let filteredPosts = Array.from(posts);
-		let hasMorePosts = true;
+	// Créer l'observer
+	const observer = new IntersectionObserver(
+		(entries) => {
+			entries.forEach((entry) => {
+				if (
+					entry.isIntersecting &&
+					!isLoading &&
+					currentPage < totalPages
+				) {
+					loadNextPage();
+				}
+			});
+		},
+		{
+			rootMargin: "100px",
+			threshold: 0,
+		},
+	);
 
-		function loadMorePosts() {
-			if (isLoading || !hasMorePosts || !loadingSpinner) return;
+	async function loadNextPage() {
+		isLoading = true;
+		const nextPage = currentPage + 1;
+		const tagsParam =
+			selectedTags.length > 0 ? `&tags=${selectedTags.join(",")}` : "";
 
-			isLoading = true;
-			loadingSpinner.classList.remove("hidden");
+		try {
+			const response = await fetch(`/?page=${nextPage}${tagsParam}`);
+			const text = await response.text();
 
-			const start = currentPage * ITEMS_PER_PAGE;
-			const end = start + ITEMS_PER_PAGE;
-			const postsToShow = filteredPosts.slice(start, end);
+			const parser = new DOMParser();
+			const doc = parser.parseFromString(text, "text/html");
+			const newPosts = doc.querySelectorAll(".post");
 
-			if (end >= filteredPosts.length) {
-				hasMorePosts = false;
-			}
-
-			postsToShow.forEach((post) => {
-				post.classList.remove("hidden");
+			const postsContainer = document.querySelector(".posts-container");
+			newPosts.forEach((post) => {
+				postsContainer?.appendChild(post.cloneNode(true));
 			});
 
-			currentPage++;
+			currentPage = nextPage;
+
+			if (currentPage < totalPages) {
+				const lastPost = postsContainer?.querySelector(".post:last-child");
+				if (lastPost) observer.observe(lastPost);
+			}
+		} catch (error) {
+			console.error("Erreur lors du chargement de la page suivante:", error);
+		} finally {
 			isLoading = false;
-			loadingSpinner.classList.add("hidden");
 		}
+	}
 
-		const observer = new IntersectionObserver(
-			(entries) => {
-				entries.forEach((entry) => {
-					if (entry.isIntersecting && hasMorePosts) {
-						loadMorePosts();
-					}
-				});
-			},
-			{
-				rootMargin: "100px",
-			},
-		);
-
-		function observeLastPost() {
-			const visiblePosts = Array.from(posts).filter(
-				(post) => !post.classList.contains("hidden"),
-			);
-			if (visiblePosts.length > 0) {
-				observer.disconnect();
-				observer.observe(visiblePosts[visiblePosts.length - 1]);
-			}
-		}
-
-		mainCheckboxes.forEach((checkbox) => {
-			checkbox.addEventListener("change", (e) => {
-				const target = e.target as HTMLInputElement;
-				const mainTag = target.dataset.category;
-				const subtagContainer = document.querySelector(
-					`[data-parent="${mainTag}"]`,
-				);
-
-				if (subtagContainer) {
-					if (target.checked) {
-						subtagContainer.classList.remove("hidden");
-					} else {
-						subtagContainer.classList.add("hidden");
-						const checkboxes = subtagContainer.querySelectorAll(
-							'input[type="checkbox"]',
-						);
-						checkboxes.forEach((cb: Element) => {
-							if (cb instanceof HTMLInputElement) {
-								cb.checked = false;
-							}
-						});
-					}
-				}
-
-				resetPagination();
-				filterPosts();
+	// Gestion des filtres
+	document.addEventListener("astro:page-load", () => {
+		const filterForm = document.querySelector("form");
+		if (filterForm) {
+			filterForm.addEventListener("submit", (e) => {
+				e.preventDefault();
+				const formData = new FormData(filterForm);
+				const selectedTags = Array.from(formData.getAll("tags"));
+				const tagsParam =
+					selectedTags.length > 0 ? `?tags=${selectedTags.join(",")}` : "";
+				window.location.href = `/${tagsParam}`;
 			});
-		});
-
-		subtagCheckboxes.forEach((checkbox) => {
-			checkbox.addEventListener("change", () => {
-				resetPagination();
-				filterPosts();
-			});
-		});
-
-		function resetPagination() {
-			currentPage = 0;
-			hasMorePosts = true;
-			posts.forEach((post) => post.classList.add("hidden"));
 		}
 
-		function getSubtagValue(key: string, parentTag: string): string {
-			const hierarchy = (window as any).tagHierarchy;
-			if (
-				!hierarchy ||
-				!hierarchy[parentTag] ||
-				!hierarchy[parentTag].subtags
-			)
-				return key;
-
-			const subtags = hierarchy[parentTag].subtags;
-			for (const category of Object.values(subtags)) {
-				const cat = category as {
-					subtags?: { [key: string]: { label: string } };
-				};
-				if (cat.subtags && cat.subtags[key]) {
-					return key;
-				}
-			}
-			return key;
+		const lastPost = document.querySelector(".post:last-child");
+		if (lastPost && currentPage < totalPages) {
+			observer.observe(lastPost);
 		}
-
-		function filterPosts() {
-			const selectedMainTags = Array.from(mainCheckboxes)
-				.filter(
-					(cb: Element): cb is HTMLInputElement =>
-						cb instanceof HTMLInputElement && cb.checked,
-				)
-				.map((cb) => cb.value);
-
-			const selectedSubtags = Array.from(subtagCheckboxes)
-				.filter(
-					(cb: Element): cb is HTMLInputElement =>
-						cb instanceof HTMLInputElement && cb.checked,
-				)
-				.map((cb) => {
-					const parentTag = cb.dataset.parent || "";
-					return getSubtagValue(cb.value, parentTag);
-				});
-
-			filteredPosts = Array.from(posts).filter((post) => {
-				const postTags = JSON.parse(
-					post.getAttribute("data-tags") || "[]",
-				) as string[];
-
-				if (selectedMainTags.length === 0 && selectedSubtags.length === 0) {
-					return true;
-				}
-
-				const hasSelectedMainTag =
-					selectedMainTags.length === 0 ||
-					selectedMainTags.some((tag) =>
-						postTags.some(
-							(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
-						),
-					);
-
-				const hasSelectedSubtag =
-					selectedSubtags.length === 0 ||
-					selectedSubtags.some((tag) =>
-						postTags.some(
-							(postTag) => postTag.toLowerCase() === tag.toLowerCase(),
-						),
-					);
-
-				return hasSelectedMainTag && hasSelectedSubtag;
-			});
-
-			loadMorePosts();
-			observeLastPost();
-		}
-
-		filterPosts();
-		window.addEventListener("resize", observeLastPost);
 	});
 </script>

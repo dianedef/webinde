@@ -5,26 +5,25 @@ interface Props {
 }
 
 const { pubDate, author } = Astro.props;
+import colors from "../config/colors.json";
 ---
 
-<article class="prose-slate dark:prose-invert w-sm md:w-prose md:prose poppins">
-	<a
-		href="/"
-		title="Retour"
-		class="dark:text-white hover:text-green dark:hover:text-green-400"
+<article
+	class="prose prose-slate w-sm md:w-prose poppins p-6 rounded-lg bg-white dark:bg-black dark:prose-dark"
+>
+	<a href="/" title="Retour" class="hover:text-green dark:hover:text-green-400"
 		>&larr; Retour</a
 	>
-	<p class="text-slate dark:text-gray-400 text-sm md:text-base">
+	<p class="text-sm md:text-base">
 		Publié le {pubDate} par {author}
 	</p>
-	<div class="dark:text-white">
+	<div>
 		<slot />
 	</div>
-	<p class="text-slate dark:text-gray-400">Écrit par {author}</p>
-	<a
-		href="/"
-		title="Retour"
-		class="dark:text-white hover:text-green dark:hover:text-green-400"
+	<p>
+		Écrit par {author}
+	</p>
+	<a href="/" title="Retour" class="hover:text-green dark:hover:text-green-400"
 		>&larr; Retour</a
 	>
 </article>

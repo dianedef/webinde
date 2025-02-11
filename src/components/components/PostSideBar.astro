@@ -4,10 +4,11 @@ interface Props {
 }
 
 const { headings } = Astro.props;
+import colors from "../config/colors.json";
 ---
 
 <aside>
-	<nav class="hidden lg:block sticky top-6">
+	<nav class="hidden lg:block sticky top-6 p-4 rounded-lg">
 		<ul>
 			{
 				headings.map((heading: any) => (
@@ -16,7 +17,7 @@ const { headings } = Astro.props;
 							<span class="inline-block w-4" />
 						))}
 						<a
-							class="hover:text-green dark:text-gray-300 dark:hover:text-green-400 transition-all duration-150 ease-in-out text-dark poppins"
+							class="hover:text-green dark:hover:text-green-400 transition-all duration-150 ease-in-out text-dark poppins dark:text-softWhite"
 							href={`#${heading.slug}`}
 						>
 							{heading.text}

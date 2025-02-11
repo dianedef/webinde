@@ -1,14 +1,17 @@
 ---
 import ThemeToggle from "./ThemeToggle.astro";
 import colors from "../config/colors.json";
+import type {
+	BaseNavigationProps,
+	NavigationItem,
+	SocialLink,
+} from "../../utils/types/ui";
 
-interface Props {
-	pageTitle?: string;
-}
+type Props = BaseNavigationProps;
 
-const navigationItems = [{ name: "Apps", url: "/apps/" }];
+const navigationItems: NavigationItem[] = [{ name: "Apps", url: "/apps/" }];
 
-const socialIcons = [
+const socialIcons: SocialLink[] = [
 	{
 		name: "YouTube",
 		url: "https://www.youtube.com/@webindefr",
@@ -48,7 +51,7 @@ const { pageTitle } = Astro.props;
 
 	:global(.dark) header {
 		border-color: var(--softWhite);
-		background-color: rgb(17 24 39);
+		background-color: black;
 		color: var(--softWhite);
 	}
 

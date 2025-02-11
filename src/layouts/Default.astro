@@ -2,44 +2,42 @@
 import BaseNavigation from "@components/components/BaseNavigation.astro";
 import BaseFooter from "@components/components/BaseFooter.astro";
 import BaseHead from "@components/components/BaseHead.astro";
-import { ClientRouter } from "astro:transitions";
+import { fade } from "astro:transitions";
+import type { BaseProps } from "../utils/types/props";
 import "../styles/global.css";
 
-interface Props {
-	title: string;
-	description: string;
-	classList?: string;
-	pageTitle?: string;
-	ogImage?: URL;
-}
+type Props = BaseProps;
 
-const { title, description, classList, pageTitle, ogImage } = Astro.props;
+const {
+	title,
+	description,
+	classList,
+	pageTitle,
+	ogImage,
+	metaRobots = "index, follow",
+} = Astro.props;
 ---
 
 <html lang="en" class="h-full">
 	<head>
-		<BaseHead ogImage={ogImage} title={title} description={description} />
-		<ClientRouter fallback="swap" />
-		<style is:global>
-			::view-transition-old(root),
-			::view-transition-new(root) {
-				animation-duration: 0.2s;
-			}
-		</style>
+		<BaseHead
+			ogImage={ogImage}
+			title={title}
+			description={description}
+			metaRobots={metaRobots}
+		/>
 	</head>
 
 	<body class:list={[classList]}>
 		<BaseNavigation {pageTitle} />
-		<div transition:animate="slide">
+		<div transition:animate={fade({ duration: "0.3s" })}>
 			<slot />
 		</div>
 		<BaseFooter />
-		<style is:global>
-			::view-transition-old(*),
-			::view-transition-new(*) {
-				animation-duration: 0.3s;
-				animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-			}
-		</style>
+		{
+			import.meta.env.PROD && (
+				<script async src="https://cdn.onthe.io/io.js/YyAMWtaLLPUi" />
+			)
+		}
 	</body>
 </html>

@@ -10,7 +10,8 @@ export interface CardProps {
 }
 
 export interface PillProps {
-  color?: string;
+  color?: string | undefined;
+  darkColor?: string | undefined;
 }
 
 export interface ThemeToggleProps {

@@ -2,9 +2,19 @@
 import PostSummaryCard from "./PostSummaryCard.astro";
 import type { PostGridProps } from "../../utils/types/content";
 
-type Props = PostGridProps;
+interface Props {
+	posts: any[];
+	showLoadingSpinner?: boolean;
+	currentPage?: number;
+	totalPages?: number;
+}
 
-const { posts, showLoadingSpinner = false } = Astro.props;
+const {
+	posts,
+	showLoadingSpinner = false,
+	currentPage = 1,
+	totalPages = 1,
+} = Astro.props;
 ---
 
 <div class="posts mt-8">

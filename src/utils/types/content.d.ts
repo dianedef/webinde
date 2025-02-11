@@ -3,6 +3,9 @@ import type { CollectionEntry } from "astro:content";
 export interface PostGridProps {
   posts: CollectionEntry<"posts">[];
   showLoadingSpinner?: boolean;
+  currentPage?: number;
+  totalPages?: number;
+  onLoadMore?: () => void;
 }
 
 export interface PostListProps {

@@ -1,9 +1,8 @@
 ---
-interface Props {
-	color?: string | undefined;
-	darkColor?: string | undefined;
-}
+import type { PillProps } from "../../utils/types/ui";
 import colors from "../config/colors.json";
+
+type Props = PillProps;
 
 const lightColor =
 	colors.light[Math.floor(Math.random() * colors.light.length)];
@@ -56,7 +55,7 @@ const { color = lightColor, darkColor = darkColorRandom } = Astro.props;
 	/* Style pour les pills sélectionnées - Mode sombre */
 	:global(.dark input:checked + a) span.brutal-pill {
 		background-color: var(--selected-color, var(--softWhite)) !important;
-		color: black !important;
+		color: var(--softWhite) !important;
 		border-color: var(--softWhite);
 		filter: drop-shadow(3px 3px 0 var(--softWhite));
 	}
