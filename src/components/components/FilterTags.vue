@@ -395,37 +395,37 @@ onMounted(() => {
 }
 
 /* Transformations spécifiques aux pills dans le filtre */
-:deep(.brutal-pill) {
+:deep(.vue-brutal-pill) {
     transform: scale(1.5);
     margin: 0.25rem;
 }
 
-:deep(.brutal-pill:hover) {
+:deep(.vue-brutal-pill:hover) {
     transform: scale(1.5) translateX(-15px) rotate(-10deg);
 }
 
-:deep(input:checked + a .brutal-pill) {
+:deep(input:checked + a .vue-brutal-pill) {
     transform: scale(1.5) translateY(-5px);
 }
 
-:deep(input:checked + a .brutal-pill:hover) {
+:deep(input:checked + a .vue-brutal-pill:hover) {
     transform: scale(1.5) translateY(-5px);
 }
 
 /* Ombres */
-.light :deep(.brutal-pill) {
+.light :deep(.vue-brutal-pill) {
     filter: drop-shadow(3px 3px 0 rgb(0 0 0 / 1));
 }
 
-.light :deep(.brutal-pill:hover) {
+.light :deep(.vue-brutal-pill:hover) {
     filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
 }
 
-:global(.dark) :deep(.brutal-pill) {
+:global(.dark) :deep(.vue-brutal-pill) {
     filter: drop-shadow(3px 3px 0 var(--softWhite));
 }
 
-:global(.dark) :deep(.brutal-pill:hover) {
+:global(.dark) :deep(.vue-brutal-pill:hover) {
     filter: drop-shadow(5px 5px 0 var(--softWhite));
 }
 </style> 

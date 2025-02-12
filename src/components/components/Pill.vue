@@ -41,7 +41,7 @@ watch(() => props.isSelected, (newValue) => {
 
 <template>
     <span 
-        class="brutal-pill bg-white dark:bg-black rounded-full border-2 border-black dark:border-softWhite px-3 py-1 text-sm text-black dark:text-softWhite transition-all duration-200" 
+        class="vue-brutal-pill bg-white dark:bg-black rounded-full border-2 border-black dark:border-softWhite px-3 py-1 text-sm text-black dark:text-softWhite transition-all duration-200" 
         :class="{ 'is-selected': isSelected }"
         :style="{
             '--active-color': activeColor,
@@ -92,13 +92,13 @@ watch(() => props.isSelected, (newValue) => {
     background-color: var(--selected-color, var(--color));
 }
 
-.brutal-pill:hover,
-.brutal-pill.is-selected {
+.vue-brutal-pill:hover,
+.vue-brutal-pill.is-selected {
     background-color: var(--active-color) !important;
 }
 
-:global(.dark) .brutal-pill:hover,
-:global(.dark) .brutal-pill.is-selected {
+:global(.dark) .vue-brutal-pill:hover,
+:global(.dark) .vue-brutal-pill.is-selected {
     background-color: var(--active-color) !important;
 }
 </style> 
