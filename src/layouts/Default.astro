@@ -3,6 +3,7 @@ import BaseNavigation from "../components/components/BaseNavigation.astro";
 import BaseFooter from "../components/components/BaseFooter.astro";
 import BaseHead from "../components/components/BaseHead.astro";
 import type { BaseProps } from "../utils/types/props";
+import { ViewTransitions } from "astro:transitions";
 import "../styles/global.css";
 
 type Props = BaseProps;
@@ -25,11 +26,12 @@ const {
 			description={description}
 			metaRobots={metaRobots}
 		/>
+		<ViewTransitions />
 	</head>
 
 	<body class:list={[classList]}>
 		<BaseNavigation {pageTitle} />
-		<div class="page-background min-h-screen">
+		<div class="page-background min-h-screen" transition:persist>
 			<slot />
 		</div>
 		<BaseFooter />
@@ -58,6 +60,37 @@ const {
 
 			// Mettre à jour la couleur au changement de thème uniquement
 			window.addEventListener("theme-changed", updateBackgroundColor);
+
+			// Gestion des transitions
+			document.addEventListener("astro:before-preparation", () => {
+				// Capturer l'état du thème avant la transition
+				const isDark = document.documentElement.classList.contains("dark");
+				document.documentElement.dataset.previousTheme = isDark
+					? "dark"
+					: "light";
+			});
+
+			document.addEventListener("astro:before-swap", (event) => {
+				// Préserver le thème pendant la transition
+				const previousTheme =
+					document.documentElement.dataset.previousTheme;
+				if (previousTheme === "dark") {
+					event.newDocument.documentElement.classList.add("dark");
+				}
+			});
 		</script>
+		<style is:global>
+			/* Contrôle des transitions */
+			::view-transition-old(*),
+			::view-transition-new(*) {
+				animation: none;
+			}
+
+			/* S'assurer que le fond reste noir en mode sombre pendant la transition */
+			.dark::view-transition-old(*),
+			.dark::view-transition-new(*) {
+				background-color: rgb(0, 0, 0);
+			}
+		</style>
 	</body>
 </html>
