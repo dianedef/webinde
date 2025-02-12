@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import type { PostSummaryCardProps } from "../../utils/types/content";
+import type { Post, PostSummaryCardProps } from "../../utils/types/content";
 import Button from "./Button.vue";
 import Pill from "./Pill.vue";
 import { normalizeTag } from "../../utils/tags";
 import { useRandomColor } from "../../composables/useRandomColor";
+import { computed } from "vue";
 
 interface Props extends PostSummaryCardProps {
-    post: any;
+    post: Post;
     index?: number;
 }
 
@@ -19,7 +20,15 @@ const isInitialLoad = props.index < 15;
 
 // Utiliser le composable pour générer les couleurs de manière réactive
 const { randomColor, randomDarkColor } = useRandomColor({
-    content: data.title // Utiliser le titre comme seed pour avoir des couleurs cohérentes
+    content: data.title
+});
+
+// Vérifier que l'URL de l'image est valide
+const imgSrc = computed(() => {
+    if (typeof data.imgUrl === 'string') {
+        return data.imgUrl;
+    }
+    return data.imgUrl.src;
 });
 </script>
 
@@ -29,22 +38,23 @@ const { randomColor, randomDarkColor } = useRandomColor({
             <h3 class="poppins text-base md:text-xl dark:text-softWhite" :transition:name="`title-${post.id}`">
                 {{ data.title }}
             </h3>
-            <div class="rounded-lg border-3 my-3 md:my-4 h-24 md:h-56 overflow-hidden">
-                <img :src="data.imgUrl" 
+            <div class="rounded-lg border-3 my-3 md:my-4 h-24 md:h-50 overflow-hidden">
+                <img :src="imgSrc" 
                      :alt="data.title"
                      width="800"
                      height="400"
                      :loading="isInitialLoad ? 'eager' : 'lazy'"
                      :decoding="isInitialLoad ? 'sync' : 'async'"
                      class="rounded h-full w-full object-cover"
-                     :transition:name="`image-${post.id}`" />
+                     :transition:name="`image-${post.id}`"
+                     @error="($event.target as HTMLImageElement).src = '/placeholder.jpg'" />
             </div>
-            <div class="flex flex-col md:flex-row md:items-center gap-2 md:gap-4">
-                <p class="poppins dark:text-softWhite md:flex-grow text-sm md:text-base">
+            <div class="flex flex-col gap-2 md:gap-4">
+                <p class="poppins dark:text-softWhite text-sm md:text-base">
                     {{ data.description }}
                 </p>
 
-                <div class="flex justify-end md:justify-start md:min-w-[120px]">
+                <div class="flex justify-end">
                     <div class="rounded-lg">
                         <Button 
                             :href="`/${post.id}`" 

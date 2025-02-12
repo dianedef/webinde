@@ -38,13 +38,25 @@ export async function getStaticPaths() {
 			)
 			.sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 
-		paths.push({
-			params: { tag: safeTag },
-			props: {
-				posts: filteredPosts,
-				tag,
-			},
-		});
+		// Calculer le nombre total de pages pour ce tag
+		const totalPages = Math.ceil(filteredPosts.length / 15);
+
+		// Générer un chemin pour chaque page
+		for (let page = 1; page <= totalPages; page++) {
+			const postsForPage = filteredPosts.slice((page - 1) * 15, page * 15);
+			paths.push({
+				params: {
+					tag: safeTag,
+					page: page.toString(),
+				},
+				props: {
+					posts: postsForPage,
+					tag,
+					currentPage: page,
+					totalPages,
+				},
+			});
+		}
 	}
 
 	return paths;
