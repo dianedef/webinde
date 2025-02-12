@@ -2,8 +2,8 @@
 import type { PostSummaryCardProps } from "../../utils/types/content";
 import Button from "./Button.vue";
 import Pill from "./Pill.vue";
-import colors from "../config/colors.json";
 import { normalizeTag } from "../../utils/tags";
+import { useRandomColor } from "../../composables/useRandomColor";
 
 interface Props extends PostSummaryCardProps {
     post: any;
@@ -17,8 +17,10 @@ const props = withDefaults(defineProps<Props>(), {
 const { data } = props.post;
 const isInitialLoad = props.index < 15;
 
-const buttonLightColor = colors.light[Math.floor(Math.random() * colors.light.length)];
-const buttonDarkColor = colors.dark[Math.floor(Math.random() * colors.dark.length)];
+// Utiliser le composable pour générer les couleurs de manière réactive
+const { randomColor, randomDarkColor } = useRandomColor({
+    content: data.title // Utiliser le titre comme seed pour avoir des couleurs cohérentes
+});
 </script>
 
 <template>
@@ -43,7 +45,11 @@ const buttonDarkColor = colors.dark[Math.floor(Math.random() * colors.dark.lengt
 
             <div class="flex justify-end my-4">
                 <div class="rounded-lg">
-                    <Button :href="`/${post.id}`" :color="buttonLightColor" :darkColor="buttonDarkColor">
+                    <Button 
+                        :href="`/${post.id}`" 
+                        :color="randomColor" 
+                        :darkColor="randomDarkColor"
+                    >
                         <span>Lire plus &rarr;</span>
                     </Button>
                 </div>
@@ -54,7 +60,7 @@ const buttonDarkColor = colors.dark[Math.floor(Math.random() * colors.dark.lengt
                     <ul class="flex flex-wrap gap-4 mt-2">
                         <li v-for="tag in data.tags" :key="tag">
                             <a class="sanchez" :href="`/tag/${encodeURIComponent(normalizeTag(tag))}`">
-                                <Pill>{{ tag }}</Pill>
+                                <Pill :content="tag">{{ tag }}</Pill>
                             </a>
                         </li>
                     </ul>
