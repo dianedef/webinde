@@ -1,10 +1,11 @@
 import type { APIRoute } from 'astro';
 import { getTagPosts, isMainTag } from '../../../utils/static-responses';
 import { cacheConfig } from '../../../config/tags';
+import { tagHierarchy } from '../../../components/tagHierarchy';
 
 // Pré-générer les routes pour les tags principaux
 export async function getStaticPaths() {
-    const mainTags = ['business', 'tech', 'design', 'apps'];
+    const mainTags = Object.keys(tagHierarchy);
     return mainTags.map(tag => ({
         params: { tag },
         props: { isMainTag: true }
