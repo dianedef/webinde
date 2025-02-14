@@ -190,8 +190,9 @@ async function loadPosts() {
         try {
             const allSelectedTags = [
                 ...selectedMainTags.value,
-                ...selectedSubTags.value,
-                ...selectedSubSubTags.value
+                // Temporairement désactivé
+                // ...selectedSubTags.value,
+                // ...selectedSubSubTags.value
             ];
             
             if (allSelectedTags.length === 0) {
@@ -202,9 +203,9 @@ async function loadPosts() {
             let response;
             let data;
 
-            // Si un seul tag principal est sélectionné, utiliser l'API statique
-            if (allSelectedTags.length === 1 && selectedMainTags.value.length === 1) {
-                const mainTag = selectedMainTags.value[0];
+            // Utiliser l'API statique pour un seul tag principal
+            if (allSelectedTags.length === 1) {
+                const mainTag = allSelectedTags[0];
                 response = await fetch(`/api/tags/${mainTag}.json`);
                 data = await response.json();
                 
@@ -214,7 +215,7 @@ async function loadPosts() {
                     console.log('Réponse depuis l\'API statique des tags principaux');
                 }
             } 
-            // Sinon, utiliser l'API de filtrage
+            // Utiliser l'API de filtrage pour plusieurs tags principaux
             else {
                 const params = new URLSearchParams();
                 allSelectedTags.forEach(tag => {
@@ -230,11 +231,12 @@ async function loadPosts() {
                     posts.value = data.posts;
                     totalPages.value = Math.ceil(data.posts.length / 15);
                     
-                    if (data.isStatic) {
-                        console.log('Réponse depuis une combinaison pré-générée');
-                    } else {
-                        console.log('Réponse depuis le filtrage dynamique');
-                    }
+                    console.log('=== Détails de la réponse API ===');
+                    console.log('Tags sélectionnés:', allSelectedTags);
+                    console.log('Données reçues:', data);
+                    console.log('Nombre de posts:', data.posts.length);
+                    console.log('Titres des posts:', data.posts.map((p: Post) => p.data.title));
+                    console.log('================================');
                 }
             }
 
@@ -342,8 +344,8 @@ onMounted(() => {
                 </ul>
             </div>
 
-            <!-- Sous-tags niveau 2 -->
-            <div v-for="mainTag in mainTags" 
+            <!-- Sous-tags niveau 2 (temporairement désactivés) -->
+            <!-- <div v-for="mainTag in mainTags" 
                 :key="mainTag"
                 class="subtags-container"
                 :class="{ 'hidden': !selectedMainTags.includes(mainTag) }"
@@ -374,10 +376,10 @@ onMounted(() => {
                         </label>
                     </li>
                 </ul>
-            </div>
+            </div> -->
 
-            <!-- Sous-tags niveau 3 -->
-            <div v-for="mainTag in mainTags" :key="`level3-${mainTag}`">
+            <!-- Sous-tags niveau 3 (temporairement désactivés) -->
+            <!-- <div v-for="mainTag in mainTags" :key="`level3-${mainTag}`">
                 <template v-for="[subtagKey, subtag] in Object.entries(tagHierarchy[mainTag]?.subtags || {})" :key="subtagKey">
                     <div class="subsubtags-container"
                         :class="{ 'hidden': !isSubSubTagsVisible(mainTag, subtagKey) }"
@@ -410,7 +412,7 @@ onMounted(() => {
                         </ul>
                     </div>
                 </template>
-            </div>
+            </div> -->
         </div>
 
         <!-- Grille de posts avec un padding pour compenser le sticky -->

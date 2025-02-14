@@ -8,7 +8,7 @@ imgUrl: "../assets/astro.jpeg"
 tags:
   - Développement
   - Web
-  - Ressources
+  - Productivité
   - Tech
   
 ---

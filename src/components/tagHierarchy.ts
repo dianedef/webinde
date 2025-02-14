@@ -177,7 +177,7 @@ export const tagHierarchy: TagHierarchy = {
       }
     }
   },
-  referencement: {
+  seo: {
     label: 'SEO',
     subtags: {
       technique: {

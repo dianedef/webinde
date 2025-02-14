@@ -5,7 +5,6 @@
 			style="-webkit-tap-highlight-color: transparent;"
 			aria-label="Basculer le thème"
 			@click="toggleTheme"
-			@touchstart.prevent="toggleTheme"
 		>
 			<svg
 				class="w-8 h-8 md:w-6 md:h-6"
@@ -84,6 +83,15 @@ function toggleTheme() {
 onMounted(() => {
 	isDark.value = document.documentElement.classList.contains("dark")
 	updateTheme(getTheme())
+
+	// Ajouter l'écouteur d'événement avec l'option passive
+	const button = document.querySelector('.vue-theme-toggle button')
+	if (button) {
+		button.addEventListener('touchstart', (e) => {
+			e.preventDefault()
+			toggleTheme()
+		}, { passive: false })
+	}
 })
 </script>
 
