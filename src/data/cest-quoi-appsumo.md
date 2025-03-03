@@ -44,7 +44,7 @@ Le shopping à base de FOMO sur AppSumo on en est tous coupable (🙋‍♀️),
 
 ### Scam et Faillite
 
-![](appsumo-cest-quoi-backupsheep-faillite.png)
+<!-- ![](appsumo-cest-quoi-backupsheep-faillite.png) -->
 
 Voilà un exemple du genre d'email que les Sumolings redoutent. Ici BackupSheep explique qu'il ne poursuivra pas ses services et que sa fermeture est définitive.
 

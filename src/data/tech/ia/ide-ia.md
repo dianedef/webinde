@@ -15,6 +15,15 @@ tags:
 
 # IDE IA : TON COPILOTE DE DÉVELOPPEMENT INTELLIGENT
 
+
+https://en.wikipedia.org/wiki/Maestro_I
+
+Dans le monde effréné du développement logiciel, il est fascinant de constater le chemin parcouru. Alors qu'aujourd'hui les développeurs travaillent avec des assistants de codage alimentés par l'IA capables de prédire, compléter et même expliquer le code en temps réel, le voyage vers des environnements de développement intelligents a commencé il y a des décennies. En 1978, un système révolutionnaire appelé Maestro I est né chez Softlab Munich, marquant l'une des premières étapes vers ce que nous connaissons aujourd'hui comme les Environnements de Développement Intégrés (EDI).
+
+Ce système pionnier, initialement nommé "Programm-Entwicklungs-Terminal-System" (PET), a révolutionné la façon dont les développeurs écrivaient du code en introduisant des capacités d'édition en temps réel - une rupture radicale avec les systèmes de cartes perforées de l'époque. Avec 22 000 installations dans le monde, incluant des acteurs majeurs comme Boeing et Bank of America, Maestro I a posé les bases des environnements de développement sophistiqués enrichis par l'IA que nous utilisons aujourd'hui.
+
+Alors que nous explorons le paysage moderne des EDI intégrant l'IA, il est intéressant de noter que l'objectif fondamental reste inchangé : rendre les développeurs plus productifs et efficaces. La différence est que si Maestro I visait à résoudre le défi basique de la saisie de code en temps réel, les EDI actuels propulsés par l'IA s'attaquent à des défis de plus en plus complexes, de la génération automatique de code au débogage intelligent en passant par la programmation en langage naturel...
+
 L'intelligence artificielle révolutionne la façon dont nous écrivons du code. Les IDE (Environnements de Développement Intégrés) nouvelle génération intègrent désormais des assistants IA qui comprennent ton code, anticipent tes besoins et t'aident à coder plus efficacement. Découvrons ensemble les meilleurs IDE propulsés par l'IA qui transforment l'expérience de développement.
 
 ## CURSOR : LE CHAMPION DE L'ASSISTANCE IA
