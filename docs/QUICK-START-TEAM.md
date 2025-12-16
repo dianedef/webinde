@@ -169,10 +169,12 @@ Answer the questions about webinde. The agent will guide you.
 ### Common Questions:
 
 **Q: Which track should I use?**
-A: Run `workflow-init` and let it recommend. Or:
-- < 15 stories = Quick Flow
-- 10-50 stories = BMad Method
-- 30+ stories with governance = Enterprise
+A: Run `workflow-init` and let it recommend. Or use these guidelines:
+- 1-15 stories, clear scope = Quick Flow
+- 10-50 stories, needs architecture = BMad Method
+- 30+ stories, needs governance/compliance = Enterprise
+
+Note: It's about planning needs, not just story count. When in doubt, ask BMad Master.
 
 **Q: Do I really need a fresh chat every time?**
 A: YES! This is the #1 most important rule. Context pollution causes bad responses.

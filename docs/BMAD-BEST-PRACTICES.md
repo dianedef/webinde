@@ -268,32 +268,32 @@ docs/
 1. **Analyze** (if complex or unclear):
    ```
    Load Analyst
-   Run: workflow-init OR brainstorm-project
+   Run: *workflow-init OR *brainstorm-project
    Output: Understanding of problem space
    ```
 
 2. **Plan**:
    ```
    Load PM
-   Run: prd (for BMad Method) OR tech-spec (for Quick Flow)
+   Run: *prd (for BMad Method) OR *tech-spec (for Quick Flow)
    Output: Requirements document
    ```
 
 3. **Design** (if needed):
    ```
    Load Architect
-   Run: create-architecture
+   Run: *create-architecture
    Output: Architecture document
    
    Load UX Designer (if UI work)
-   Run: create-ux-design
+   Run: *create-ux-design
    Output: UX design document
    ```
 
 4. **Break Down**:
    ```
    Load Scrum Master
-   Run: breakdown-stories
+   Run: *breakdown-stories
    Output: Story list with estimates
    ```
 
@@ -301,15 +301,15 @@ docs/
    ```
    For each story:
      Load Developer
-     Run: implement-story
+     Run: *implement-story
      Load Test Architect (if needed)
-     Run: create-tests
+     Run: *create-tests
    ```
 
 6. **Document**:
    ```
    Load Tech Writer
-   Run: update-documentation
+   Run: *update-documentation
    Output: Updated docs
    ```
 
@@ -319,7 +319,7 @@ docs/
 1. **Spec**:
    ```
    Load PM
-   Run: tech-spec
+   Run: *tech-spec
    Describe: Content changes needed
    Output: Technical specification
    ```
@@ -344,7 +344,7 @@ docs/
 1. **Analyze**:
    ```
    Load Analyst
-   Run: research
+   Run: *research
    Analyze: Current structure, pain points, best practices
    Output: Analysis report
    ```
@@ -352,7 +352,7 @@ docs/
 2. **Plan**:
    ```
    Load PM
-   Run: prd
+   Run: *prd
    Define: New structure, migration plan, success criteria
    Output: PRD for reorganization
    ```
@@ -360,7 +360,7 @@ docs/
 3. **Design**:
    ```
    Load Architect
-   Run: create-architecture
+   Run: *create-architecture
    Design: New directory structure, navigation, cross-references
    Output: Architecture document
    ```
@@ -368,7 +368,7 @@ docs/
 4. **Implement**:
    ```
    Load Scrum Master
-   Run: breakdown-stories
+   Run: *breakdown-stories
    Break into: Manageable migration chunks
    
    For each story:

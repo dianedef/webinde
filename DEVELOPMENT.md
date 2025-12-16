@@ -152,7 +152,7 @@ webinde/
 ### Setup
 
 ```bash
-# Clone repository
+# Clone repository (replace with your fork if applicable)
 git clone https://github.com/dianedef/webinde.git
 cd webinde
 
