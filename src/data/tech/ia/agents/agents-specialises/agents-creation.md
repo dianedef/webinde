@@ -4,7 +4,7 @@ description: "Les agents créatifs qui révolutionnent la production de contenu 
 pubDate: "2024-03-26"
 category: "Tech"
 author: "Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+imgUrl: "../../../../../assets/astro.jpeg"
 tags:
   - IA
   - Agents

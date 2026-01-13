@@ -11,8 +11,8 @@
   },
   "homepage": "https://brutal.elian.codes",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
+    "dev": "astro dev --host 0.0.0.0 --port 3000",
+    "start": "astro dev --host 0.0.0.0 --port 3000",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
@@ -35,7 +35,7 @@
     "@iconify-json/uil": "^1.1.8",
     "@resvg/resvg-js": "^2.6.0",
     "@typescript-eslint/parser": "^6.15.0",
-    "@unocss/astro": "^0.57.7",
+    "@unocss/astro": "^66.5.12",
     "@unocss/preset-attributify": "^65.4.3",
     "@unocss/preset-icons": "^65.4.3",
     "@unocss/preset-uno": "^65.4.3",
@@ -47,7 +47,7 @@
     "prettier-plugin-astro": "^0.12.2",
     "sass": "^1.84.0",
     "sharp": "^0.32.6",
-    "unocss": "^0.57.7",
+    "unocss": "^66.5.12",
     "vue": "3.4.21"
   }
 }

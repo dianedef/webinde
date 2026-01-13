@@ -4,7 +4,7 @@ description: "L'utilisation des agents IA dans la recherche scientifique et l'in
 pubDate: "2024-03-26"
 category: "Tech"
 author: "Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+imgUrl: "../../../../../assets/astro.jpeg"
 tags:
   - IA
   - Agents

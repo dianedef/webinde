@@ -4,7 +4,7 @@ description: "Découvrez les différents types d'agents spécialisés et leurs d
 pubDate: "2024-03-26"
 category: "Tech"
 author: "Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+imgUrl: "../../../../../assets/astro.jpeg"
 tags:
   - IA
   - Agents

@@ -4,7 +4,7 @@ description: "Comment les agents IA transforment la recherche d'information et l
 pubDate: "2024-03-26"
 category: "Tech"
 author: "Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+imgUrl: "../../../../../assets/astro.jpeg"
 tags:
   - IA
   - Agents

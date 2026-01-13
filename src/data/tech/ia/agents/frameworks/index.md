@@ -4,7 +4,7 @@ description: "Guide complet des frameworks disponibles pour développer et dépl
 pubDate: "2024-03-26"
 category: "Tech"
 author: "Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+imgUrl: "../../../../../assets/astro.jpeg"
 tags:
   - IA
   - Agents

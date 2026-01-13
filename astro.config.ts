@@ -5,6 +5,9 @@ import UnoCSS from 'unocss/astro';
 import vue from '@astrojs/vue';
 
 export default defineConfig({
+  server: {
+    port: parseInt(process.env.PORT) || 3000
+  },
   // used to generate images
   site:
     process.env.VERCEL_ENV === 'production'
