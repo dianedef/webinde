@@ -37,7 +37,13 @@ function handleClick() {
 
 <template>
     <span 
-        :class="[isFilter ? 'brutal-filter-pill' : 'brutal-pill', { 'bg-active-color': isSelected }]"
+        :class="[
+            isFilter ? 'brutal-filter-pill' : 'brutal-pill', 
+            { 
+                'bg-active-color': isSelected,
+                'pill-selected': isSelected
+            }
+        ]"
         :style="{ '--active-color': activeColor }"
         @click="handleClick"
     >
@@ -93,6 +99,23 @@ function handleClick() {
 
 :global(.dark) .vue-brutal-pill:hover,
 :global(.dark) .vue-brutal-pill.is-selected {
+    background-color: var(--active-color) !important;
+}
+
+/* Animations pour brutal-filter-pill */
+.brutal-filter-pill:not(.pill-selected):hover {
+    transform: translateX(-10px) rotate(-5deg);
+}
+
+.brutal-filter-pill.pill-selected {
+    transform: translateX(-10px) translateY(-15px);
+}
+
+.brutal-filter-pill.pill-selected.bg-active-color {
+    background-color: var(--active-color) !important;
+}
+
+:global(.dark) .brutal-filter-pill.pill-selected.bg-active-color {
     background-color: var(--active-color) !important;
 }
 </style> 

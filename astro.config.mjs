@@ -16,8 +16,10 @@ export default defineConfig({
     site: 'https://webinde.fr',
     trailingSlash: 'never',
     build: {
-        format: 'directory'
+        format: 'directory',
+        inlineStylesheets: 'auto'
     },
+    output: 'static',
     vite: {
         server: {
             host: '0.0.0.0',
@@ -29,6 +31,14 @@ export default defineConfig({
         },
         optimizeDeps: {
             include: ['vue']
+        },
+        build: {
+            cssCodeSplit: true,
+            rollupOptions: {
+                output: {
+                    manualChunks: undefined
+                }
+            }
         }
     }
 }); 

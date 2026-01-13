@@ -147,10 +147,8 @@ function toggleMainTag(tag: string) {
     // Update state (single update to trigger reactivity once)
     selectedMainTags.value = newSelectedMainTags;
     
-    // Wait for DOM to update, then trigger filter update
-    nextTick(() => {
-        updateFilters();
-    });
+    // Force immediate reactivity update
+    updateFilters();
 }
 
 // Gestion des sous-tags
@@ -403,28 +401,17 @@ onMounted(() => {
         <div class="tags-filter space-y-0.5 md:space-y-4 sticky top-[68px] md:top-[72px] z-[9999] py-2 md:py-3">
             <!-- Tags principaux -->
             <div>
-                <ul class="flex flex-wrap gap-1 md:gap-4 justify-center">
+                <ul class="flex flex-wrap gap-4 md:gap-6 justify-center items-center" style="row-gap: 1.5rem;">
                     <li v-for="tag in mainTags" :key="tag">
-                        <label class="cursor-pointer mobile-pill-wrapper">
-                            <input
-                                type="checkbox"
-                                name="main-tag-filter"
-                                :value="tag"
-                                class="hidden main-tag-checkbox"
-                                :data-category="tag"
-                                :checked="selectedMainTags.includes(tag)"
-                                @change="toggleMainTag(tag)"
-                            />
-                            <a class="sanchez inline-flex items-center">
-                                <Pill 
-                                    :is-selected="selectedMainTags.includes(tag)" 
-                                    :content="tagHierarchy[tag]?.label || tag" 
-                                    :is-filter="true"
-                                    class="mobile-pill"
-                                >
-                                    {{ tagHierarchy[tag]?.label || tag }}
-                                </Pill>
-                            </a>
+                        <label class="cursor-pointer mobile-pill-wrapper" @click.prevent="toggleMainTag(tag)">
+                            <Pill 
+                                :is-selected="selectedMainTags.includes(tag)" 
+                                :content="tagHierarchy[tag]?.label || tag" 
+                                :is-filter="true"
+                                class="mobile-pill"
+                            >
+                                {{ tagHierarchy[tag]?.label || tag }}
+                            </Pill>
                         </label>
                     </li>
                 </ul>
@@ -554,23 +541,8 @@ onMounted(() => {
 
 /* Ajustements pour mobile */
 @media (max-width: 640px) {
-    :deep(.mobile-pill) {
-        font-size: 0.5rem !important;
-        line-height: 0.625rem !important;
-        padding: 0.125rem 0.375rem !important;
-        transform: scale(0.5) !important;
-        transform-origin: center !important;
-    }
-
     :deep(.mobile-pill-wrapper) {
-        transform: scale(0.75);
-        transform-origin: center;
-    }
-
-    :deep(.brutal-filter-pill),
-    :deep(.brutal-pill) {
-        font-size: 0.5rem !important;
-        padding: 0.125rem 0.375rem !important;
+        display: inline-block;
     }
 }
 </style> 
