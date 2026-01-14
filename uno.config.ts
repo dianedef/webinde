@@ -48,6 +48,7 @@ export default defineConfig({
       'purple-darkest': '#45088a',    // Violet très foncé (liens)
       'purple-dark': '#5f13bb',       // Violet foncé
       'purple-darker': '#420d82',     // Violet plus foncé
+      'gray-dark': '#3b4458',         // Gris foncé (alias de gray-blue)
       'gray-blue': '#3b4458',         // Gris bleuté
       
       // 🎯 ALIASES SÉMANTIQUES

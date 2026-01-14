@@ -21,7 +21,7 @@ const activeColor = computed(() => isDarkTheme.value ? randomDarkColor.value : r
     <a 
         :href="href" 
         :target="target" 
-        class="brutal-btn bg-white dark:bg-black border-2 border-black dark:border-[#fff6d2] px-4 py-2 font-sanchez text-black dark:text-yellow-soft" 
+        class="brutal-btn bg-white dark:bg-black border-2 border-black dark:border-purple-bright px-4 py-2 font-sanchez text-black dark:text-purple-bright" 
         :style="{ 
             '--active-color': activeColor
         } as any"

@@ -2,17 +2,20 @@
 import type { ButtonProps } from "../../utils/types/ui";
 import colors from "../config/colors.json";
 
-type Props = ButtonProps;
+type Props = ButtonProps & { variant?: 'default' | 'hero' };
 
 const {
 	href,
 	target = "_self",
 	color = colors.light[Math.floor(Math.random() * colors.light.length)],
 	darkColor = colors.dark[Math.floor(Math.random() * colors.dark.length)],
+	variant = 'default'
 } = Astro.props;
+
+const shadowColor = variant === 'hero' ? '#9e4fff' : '#9e4fff';
 ---
 
-<style define:vars={{ color, softWhite: '#fff6d2' }}>
+<style define:vars={{ color, shadowColor }}>
 	a.brutal-btn {
 		filter: drop-shadow(5px 5px 0 rgb(0 0 0 / 1));
 		background-color: white;
@@ -33,14 +36,14 @@ const {
 	}
 
 	:global(.dark) a.brutal-btn {
-		filter: drop-shadow(5px 5px 0 var(--softWhite));
+		filter: drop-shadow(5px 5px 0 var(--shadowColor));
 		background-color: black;
-		border: 3px solid var(--softWhite);
-		color: var(--softWhite);
+		border: 3px solid var(--shadowColor);
+		color: var(--shadowColor);
 	}
 
 	:global(.dark) a.brutal-btn:hover {
-		filter: drop-shadow(3px 3px 0 var(--softWhite));
+		filter: drop-shadow(3px 3px 0 var(--shadowColor));
 		background-color: var(--color);
 	}
 </style>

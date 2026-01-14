@@ -55,30 +55,30 @@ const currentYear = new Date().getFullYear();
 	)
 }
 
-<footer class="bg-black text-white border-t-4 border-yellow-primary">
+<footer class="bg-white dark:bg-black text-black dark:text-white border-t-4 border-black dark:border-yellow-soft">
 	<div class="max-w-6xl mx-auto px-6 py-12">
 		<!-- Top section -->
-		<div class="grid md:grid-cols-4 gap-8 mb-8">
+		<div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
 			<!-- Brand -->
-			<div class="md:col-span-2">
-				<h2 class="righteous text-3xl mb-4 text-yellow-primary">Web'Indé</h2>
-				<p class="poppins text-lg mb-4 text-yellow-soft">
+			<div class="col-span-2">
+				<h2 class="righteous text-3xl mb-4 text-black dark:text-yellow-soft">Web'Indé</h2>
+				<p class="poppins text-lg mb-4 text-black dark:text-white">
 					Le guide de survie digital pour entrepreneurs francophones qui refusent d'enrichir la Silicon Valley.
 				</p>
-				<p class="poppins text-sm text-yellow-soft">
+				<p class="poppins text-sm text-black dark:text-white">
 					🇫🇷 Made in France avec ❤️
 				</p>
 			</div>
 
 			<!-- Navigation -->
 			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-yellow-primary">Navigation</h3>
+				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Navigation</h3>
 				<ul class="space-y-2">
 					{navigationLinks.map((link) => (
 						<li>
 							<a
 								href={link.url}
-								class="poppins text-yellow-soft hover:text-yellow-primary transition-colors duration-200"
+								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
 							>
 								{link.name}
 							</a>
@@ -89,7 +89,7 @@ const currentYear = new Date().getFullYear();
 
 			<!-- Social -->
 			<div>
-				<h3 class="poppins font-bold text-lg mb-4 text-yellow-primary">Suivez-nous</h3>
+				<h3 class="poppins font-bold text-lg mb-4 text-black dark:text-yellow-soft">Suivez-nous</h3>
 				<ul class="space-y-2">
 					{socialLinks.map((link) => (
 						<li>
@@ -97,7 +97,7 @@ const currentYear = new Date().getFullYear();
 								href={link.url}
 								target="_blank"
 								rel="noopener noreferrer"
-								class="poppins text-yellow-soft hover:text-yellow-primary transition-colors duration-200"
+								class="poppins text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
 							>
 								{link.name}
 							</a>
@@ -108,11 +108,11 @@ const currentYear = new Date().getFullYear();
 		</div>
 
 		<!-- Divider -->
-		<div class="border-t border-yellow-soft/30 my-8"></div>
+		<div class="border-t border-black/20 dark:border-white/20 my-8"></div>
 
 		<!-- Bottom section -->
 		<div class="flex flex-col md:flex-row justify-between items-center gap-4">
-			<p class="poppins text-sm text-yellow-soft">
+			<p class="poppins text-sm text-black dark:text-white">
 				© {currentYear} Web'Indé. Tous droits réservés.
 			</p>
 			<ul class="flex flex-wrap gap-4 justify-center">
@@ -120,7 +120,7 @@ const currentYear = new Date().getFullYear();
 					<li>
 						<a
 							href={link.url}
-							class="poppins text-sm text-yellow-soft hover:text-yellow-primary transition-colors duration-200"
+							class="poppins text-sm text-black dark:text-white hover:text-yellow-primary transition-colors duration-200"
 						>
 							{link.name}
 						</a>
