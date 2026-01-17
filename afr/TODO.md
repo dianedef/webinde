@@ -41,6 +41,7 @@
 - [x] `/vpn-necessaire-2024.md` - Réécrit avec ton Web'Indé
 - [x] `/prompt.md` - Réécrit avec ton Web'Indé (prompt engineering)
 - [x] `/cash-machine-v3-un-revenu-passif-sur-internet-pour-tous.md` - Récupéré + réécrit honnêtement (jamais mis en place)
+- [x] `/mes-echecs-dinvestissement.md` - NOUVEAU : Liste honnête de tous les échecs d'investissement (~16K€ perdus)
 - [x] `/curiosity.md` - Supprimé (contenu anglais non pertinent)
 - [x] `/histoire.md` - Supprimé (vide)
 - [x] `/thebrain.md` - Supprimé (contenu anglais)
