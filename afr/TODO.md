@@ -33,17 +33,17 @@
 - [x] `/site/magento/index.md` - Guide Magento
 - [x] `/site/prestashop/index.md` - Guide PrestaShop
 
-## Priorité BASSE - Fichiers avec problèmes mineurs
+## Priorité BASSE - Fichiers avec problèmes mineurs ✅ TOUS TERMINÉS
 
-- [ ] `/ajouter-une-favicone-a-un-site-internet.md` - Texte en anglais à traduire
-- [ ] `/cash-machine-v3-un-revenu-passif-sur-internet-pour-tous.md` - Slug en anglais
-- [ ] `/enregistreur-pas-cher.md` - À réviser
-- [ ] `/accelerer-youtube-2024.md` - À réviser
-- [ ] `/vpn-necessaire-2024.md` - À réviser
-- [ ] `/curiosity.md` - À réviser
-- [ ] `/prompt.md` - À réviser
-- [ ] `/histoire.md` - À réviser
-- [ ] `/thebrain.md` - À réviser
+- [x] `/ajouter-une-favicone-a-un-site-internet.md` - Réécrit avec ton Web'Indé
+- [x] `/enregistreur-pas-cher.md` - Réécrit avec ton Web'Indé
+- [x] `/accelerer-youtube-2024.md` - Complété avec ton Web'Indé
+- [x] `/vpn-necessaire-2024.md` - Réécrit avec ton Web'Indé
+- [x] `/prompt.md` - Réécrit avec ton Web'Indé (prompt engineering)
+- [x] `/cash-machine-v3-un-revenu-passif-sur-internet-pour-tous.md` - Récupéré + réécrit honnêtement (jamais mis en place)
+- [x] `/curiosity.md` - Supprimé (contenu anglais non pertinent)
+- [x] `/histoire.md` - Supprimé (vide)
+- [x] `/thebrain.md` - Supprimé (contenu anglais)
 
 ---
 
