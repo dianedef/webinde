@@ -68,6 +68,86 @@ Les francophones qui veulent lancer un business en ligne font face à 3 murs :
 
 **Ce qu'on lui apporte** : Des guides IA vulgarisés, des cas pratiques pour entrepreneurs, des outils IA français et européens.
 
+### Persona 4 : Le Salarié qui Veut son Plan B
+
+**Qui** : Salarié·e, 28-45 ans, CDI stable mais frustré·e ou inquiet·e pour l'avenir
+
+**Situation** :
+- Boulot alimentaire qui paie les factures mais ne le/la fait pas vibrer
+- Veut une activité complémentaire en parallèle, pas tout plaquer du jour au lendemain
+- Dispose de 1 à 2h par jour max (soir, week-end) pour construire quelque chose
+- A un petit budget dispo (50-150€/mois) mais ne veut pas le gaspiller
+- Besoin de sécurité : ne lâchera le CDI que quand le side-project rapporte
+
+**Ce qui le caractérise** :
+- Prudent, pas impulsif — veut un plan, pas un saut dans le vide
+- Cherche des modèles qui fonctionnent en temps partiel (affiliation, contenu, e-commerce automatisé)
+- A peur que son employeur découvre son side-project
+- Épuisé le soir, a besoin de guides très concrets pour ne pas perdre ses rares heures disponibles
+
+**Ce qu'on lui apporte** : Des business models compatibles avec un emploi salarié, des outils qui automatisent au maximum, des guides "1h par jour" réalistes, et la preuve que c'est possible sans tout risquer.
+
+### Persona 5 : L'Allergique au Salariat
+
+**Qui** : Jeune (18-25 ans) qui refuse le schéma classique, ou senior (50-65 ans) qui en a marre après 25 ans de salariat
+
+**Situation — version jeune** :
+- Voit des créateurs de contenu vivre de leur passion et veut faire pareil
+- N'a aucune envie de s'enfermer dans un open space pendant 40 ans
+- A du temps et de l'énergie mais zéro capital et zéro réseau
+- Compétences numériques basiques (réseaux sociaux oui, business en ligne non)
+
+**Situation — version senior** :
+- Licencié·e, en reconversion, ou simplement épuisé·e par le système
+- A un peu de capital (économies, indemnités) mais a peur de tout perdre
+- Moins à l'aise avec la tech mais a une expérience de vie et un réseau professionnel
+- Veut un truc qui a du sens, pas juste de l'argent
+
+**Ce qui les unit** :
+- Le refus viscéral du modèle salarié classique
+- L'envie de construire quelque chose à eux
+- Le besoin d'être pris au sérieux malgré leur profil "atypique"
+
+**Ce qu'on lui apporte** : La preuve que des gens comme eux ont réussi, des parcours adaptés à leur situation (zéro budget vs petit capital), et surtout pas de condescendance — qu'ils aient 19 ou 58 ans.
+
+### Persona 6 : Le Commerçant qui Veut se Digitaliser
+
+**Qui** : Propriétaire d'un commerce physique ou d'une activité locale, 35-60 ans
+
+**Situation** :
+- A une boutique, un restaurant, un cabinet, un atelier — un vrai business qui tourne
+- Voit que les clients sont de plus en plus en ligne et sent qu'il perd du terrain
+- N'a jamais eu de site web sérieux, ou un truc fait en 2014 qui fait peur
+- Ne comprend pas le SEO, les réseaux sociaux, l'emailing — "c'est pas mon métier"
+- A été démarché par 15 agences web à 5000€ qui lui ont vendu du vent
+
+**Ce qui le caractérise** :
+- Connaît parfaitement son métier et ses clients, mais est perdu dès qu'on parle de digital
+- Méfiant envers les "experts digital" après s'être fait arnaquer
+- Veut des résultats concrets et mesurables, pas du jargon marketing
+- Budget limité pour le digital (déjà un loyer, du stock, des charges)
+
+**Ce qu'on lui apporte** : Des guides SEO local simples (Google Business, avis clients), des comparatifs de solutions e-commerce adaptées aux petits commerces (Shopify vs WooCommerce vs PrestaShop), et des stratégies de digitalisation progressives — pas tout d'un coup, étape par étape.
+
+### Persona 7 : Le Passionné Déconnecté
+
+**Qui** : Quelqu'un avec une passion ou un savoir-faire (cuisine, dessin, musique, jardinage, bricolage, sport...) mais zéro culture digitale
+
+**Situation** :
+- Sait faire un truc que les gens admirent ("tu devrais vendre ça !" / "tu devrais en faire une chaîne YouTube !")
+- N'a aucune idée de comment transformer ça en argent en ligne
+- Niveau informatique : sait utiliser Facebook et WhatsApp, point final
+- Le mot "SEO" lui fait le même effet que "mécanique quantique"
+- A peut-être essayé de créer un site une fois, a abandonné en 20 minutes
+
+**Ce qui le caractérise** :
+- Sa passion est son superpouvoir, mais il ne le sait pas encore
+- A besoin qu'on lui explique TOUT depuis le début, sans le prendre de haut
+- Se sent illégitime ("qui va m'écouter moi ?")
+- N'a pas le réflexe "business" — il faut lui montrer que sa passion a de la valeur marchande
+
+**Ce qu'on lui apporte** : Des tutoriels "de zéro absolu" (créer un site, publier du contenu, vendre en ligne), des exemples de passionnés qui vivent de leur truc, et surtout le déclic : "oui, ce que tu sais faire intéresse des gens, et oui, tu peux en vivre."
+
 ---
 
 ## Objectifs Business

@@ -43,6 +43,23 @@ Le nom actuel **Web'Indé** (Web + Indépendant) fonctionne en français mais po
 - **Domaines à vérifier** : klar.fr, klar.io, getklar.fr
 - **Verdict** : Original, propre, espace SEO très ouvert en FR. Risque : le public francophone ne "sent" pas le sens spontanément.
 
+### CHARBON
+- **Prononciation** : 2 syllabes (CHAR-BON), naturelle en français, exotique et percutante pour les non-francophones
+- **Sens** : "Aller au charbon" = bosser dur, aller au front, se retrousser les manches. Le charbon, c'est aussi ce qui alimente le moteur — le carburant brut de la révolution industrielle, et par extension de ta révolution entrepreneuriale.
+- **Pourquoi ça colle** : C'est l'anti-facilité incarnée. Pas de "revenus passifs en dormant" — ici on va au charbon. L'expression est profondément française, tout le monde la connaît, et elle résonne avec le ton cash de la marque. C'est aussi un nom qui intrigue les non-francophones (ça sonne bien, ça a du caractère). Connotation de matière première, d'énergie brute, de quelque chose de fondamental.
+- **Risque SEO** : Recherches liées au charbon (énergie fossile, chauffage). Quelques restaurants portent ce nom. Mais aucune marque tech/média dominante. L'espace "Charbon" + business/entrepreneur est totalement vierge. Très bon potentiel.
+- **Domaines à vérifier** : charbon.fr, charbon.io, gocharbon.fr, lecharbon.fr
+- **Verdict** : Coup de coeur potentiel. Culturellement ancré, mémorable, phonétiquement fort. Le seul risque est la connotation "énergie fossile" qui peut poser un problème d'image écologique — mais l'expression "aller au charbon" transcende largement ça.
+
+### CHARBON 2.0
+- **Prononciation** : CHAR-BON DEUX POINT ZÉRO
+- **Sens** : Le travail acharné rencontre l'ère digitale. "On va au charbon, mais avec les bons outils." C'est la version upgrade du hustle à l'ancienne — même éthique de travail, mais avec l'IA, l'automatisation et les outils SaaS en renfort.
+- **Pourquoi ça colle** : Le "2.0" signale immédiatement le digital et la modernité. Ça dit : "on n'est pas contre le boulot, mais on le fait intelligemment." Parfait pour le positionnement tech + pragmatisme. Le contraste entre un mot ancien (charbon) et un suffixe moderne (2.0) crée une tension mémorable.
+- **Risque SEO** : Le "2.0" est difficile dans les URLs et handles sociaux (charbon2point0 ? charbon2-0 ?). Pour le branding print/oral c'est top, mais pour le digital pur ça complique. En SEO, "charbon 2.0" n'a aucun concurrent — espace totalement vierge.
+- **Domaines à vérifier** : charbon2.fr, charbon20.fr, charbon2point0.fr
+- **Limites** : Le "2.0" vieillit (c'était tendance en 2008-2015). Risque de paraître daté dans 3-5 ans. Possibilité de lancer sous "Charbon" avec "2.0" comme tagline plutôt que dans le nom.
+- **Verdict** : Fort comme concept et tagline ("Charbon — le business 2.0"). Moins pratique comme nom officiel à cause des URLs. Recommandation : utiliser **CHARBON** comme nom et **"2.0"** comme signature visuelle ou tagline.
+
 ---
 
 ## Tier 2 — Solides
@@ -124,6 +141,8 @@ Le nom actuel **Web'Indé** (Web + Indépendant) fonctionne en français mais po
 | **FRANC** | 1 | Honnête + Français | Oui | Moyen (devise) | Excellent |
 | **ZEST** | 1 | Énergie, essentiel | Oui | Bon | Excellent |
 | **KLAR** | 1 | Clarté | Oui | Très bon | Bon |
+| **CHARBON** | 2 | Aller au charbon | Partiel (FR fort) | Très bon | Excellent |
+| **CHARBON 2.0** | 2+ | Hustle + digital | Partiel (FR fort) | Excellent | Excellent |
 | **GRIT** | 1 | Détermination | Oui | Bon | Très bon |
 | **FORGE** | 1 | Créer, bâtir | Oui | Bon | Très bon |
 | **FLUX** | 1 | Mouvement | Oui | Moyen | Bon |
