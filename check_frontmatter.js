@@ -110,7 +110,7 @@ title: "${defaultTitle}"
 description: "${defaultDescription}"
 pubDate: "2024-03-25"
 category: "${category}"
-author: "Web'Indé"
+author: "Diane"
 ---
 
 `;
@@ -175,9 +175,9 @@ author: "Web'Indé"
             modified = true;
         }
 
-        // Check and add author if missing (default to "Web'Indé")
+        // Check and add author if missing (default to "Diane")
         if (!frontmatter.match(/^author:/m)) {
-            newFrontmatter += '\nauthor: "Web\'Indé"';
+            newFrontmatter += '\nauthor: "Diane"';
             modified = true;
         }
 

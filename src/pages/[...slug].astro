@@ -26,6 +26,7 @@ const { Content } = await render(post);
 	headings={post.rendered?.metadata?.headings}
 	id={post.id}
 	imgUrl={post.data.imgUrl}
+	tags={post.data.tags}
 >
 	<Content />
 </Layout>

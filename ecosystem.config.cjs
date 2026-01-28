@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: "webinde",
+    name: "charbon",
     cwd: "/root/webinde",
     script: "bash",
     args: ["-c", "export PORT=3000 && flox activate pnpm dev -- --port 3000"],

@@ -13,7 +13,7 @@ export default defineConfig({
             mode: 'global'
         })
     ],
-    site: 'https://webinde.fr',
+    site: 'https://gocharbon.com',
     trailingSlash: 'never',
     build: {
         format: 'directory',

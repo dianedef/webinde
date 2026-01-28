@@ -2,7 +2,7 @@
 title: "DivHunt, plateforme nocode, Guide de Démarrage"
 description: "Apprends à utiliser DivHunt pour créer des sites dynamiques, professionnels et de hautes qualités en quelques minutes seulement ! Wow :)"
 pubDate: 02-21-2023
-author: Diane Web'Indé
+author: "Diane"
 tags:
   - Lifetime Deals
   - Création de Site Web

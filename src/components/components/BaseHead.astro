@@ -22,7 +22,7 @@ const ogImagePath =
 // Construction de l'URL OG complète de manière sécurisée
 const fullOgImageUrl = Astro.site
 	? new URL(ogImagePath.replace(/^\//, ""), Astro.site)
-	: new URL(ogImagePath, "https://webinde.fr");
+	: new URL(ogImagePath, "https://gocharbon.com");
 
 const { title, description, metaRobots = "index, follow" } = Astro.props;
 ---
@@ -37,11 +37,11 @@ const { title, description, metaRobots = "index, follow" } = Astro.props;
 
 	<link
 		rel="alternate"
-		href="https://webinde.fr/feed.xml"
+		href="https://gocharbon.com/feed.xml"
 		type="application/rss+xml"
 	/>
 
-	<meta name="title" content={`Web'Indé | ${title}`} />
+	<meta name="title" content={`CHARBON | ${title}`} />
 	<meta name="description" content={description} />
 
 	<meta property="og:type" content="website" />
@@ -59,7 +59,7 @@ const { title, description, metaRobots = "index, follow" } = Astro.props;
 	<link rel="canonical" href={canonicalURL} />
 	<link rel="icon" type="image/svg" href="/favicon.svg" />
 
-	<title>Web'Indé | {title}</title>
+	<title>CHARBON | {title}</title>
 
 	<slot />
 </head>

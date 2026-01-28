@@ -4,5 +4,5 @@ Disallow: /apps/?page=
 Allow: /$
 Allow: /apps/$
 
-Host: https://webinde.fr/
-Sitemap: https://webinde.fr/sitemap-index.xml
+Host: https://gocharbon.com/
+Sitemap: https://gocharbon.com/sitemap-index.xml

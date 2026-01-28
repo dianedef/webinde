@@ -1,7 +1,7 @@
 ---
 title: "uTest La Plateforme Idéale Pour Gagner de l'Argent En Testant des Applications"
 pubDate: 11/09/2022
-author: "Diane Web'Indé"
+author: "Diane"
 tags:
   - Freelancing
   - Business en Ligne

@@ -29,8 +29,8 @@ export async function GET(context) {
   const posts = await getCollection('posts');
   
   return rss({
-    title: 'Web\'Indé',
-    description: 'Web\'Indé est un blog qui parle de la création de sites web',
+    title: 'Charbon',
+    description: 'Charbon — le guide de survie digital pour entrepreneurs francophones. On va au charbon.',
     stylesheet: false, // No XSLT styling
     site: context.site, // Base URL from astro.config
     items: posts.map((post) => ({
@@ -40,6 +40,6 @@ export async function GET(context) {
       link: `/${post.id}/`, // Relative URL to post
     })),
     customData: '<language>fr-fr</language>', // French language indicator
-    canonicalUrl: 'https://webinde.fr', // Canonical domain
+    canonicalUrl: 'https://gocharbon.com', // Canonical domain
   });
 }

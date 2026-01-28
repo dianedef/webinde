@@ -1,4 +1,4 @@
-# 🎨 Web'Indé - Brand Guidelines
+# 🎨 CHARBON - Brand Guidelines
 
 ## 📋 Table des Matières
 1. [Mission & Positionnement](#mission--positionnement)
@@ -26,7 +26,7 @@ Aider les francophones à créer, lancer et développer leur business en ligne, 
   - Sponsoring d'outils tech
 
 ### Proposition de Valeur Unique
-**"Le guide de survie digital pour les entrepreneurs francophones qui refusent d'enrichir la Silicon Valley"**
+**"Le guide de survie digital pour entrepreneurs francophones. On va au charbon."**
 
 Nous sommes les seuls à combiner :
 1. ✅ Pédagogie ultra-accessible (expliqué comme si tu avais 12 ans)
@@ -310,7 +310,7 @@ Grid gap            : 6-8 (24-32px)
 ### Navigation
 
 #### Header
-- Logo "Web'Indé" (Righteous, cliquable → home)
+- Logo "CHARBON" (Righteous, cliquable → home)
 - Breadcrumbs (pour pages internes)
 - Liens navigation (Apps uniquement)
 - Icônes socials (YouTube, X, Instagram, LinkedIn, Facebook, RSS)
@@ -583,7 +583,7 @@ Avant de publier un contenu, vérifier :
 - Programme d'affiliation pour membres
 
 ### Brand Extensions Possibles
-- Podcast "Web'Indé Show"
+- Podcast "CHARBON Show"
 - YouTube channel (tutos outils)
 - Newsletter premium (deals SaaS)
 - Événements IRL (meetups entrepreneurs)
@@ -621,9 +621,9 @@ Avant de publier un contenu, vérifier :
 
 ---
 
-**Dernière mise à jour :** 14 janvier 2026  
-**Version :** 1.0  
-**Auteur :** Équipe Web'Indé
+**Dernière mise à jour :** 28 janvier 2026
+**Version :** 2.0
+**Auteur :** Équipe Charbon
 
 ---
 

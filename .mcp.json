@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mcp-domain-availability": {
+      "type": "stdio",
+      "command": "/root/.local/bin/uvx",
+      "args": [
+        "--python=3.10",
+        "--from",
+        "git+https://github.com/imprvhub/mcp-domain-availability",
+        "mcp-domain-availability"
+      ],
+      "env": {}
+    }
+  }
+}

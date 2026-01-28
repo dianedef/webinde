@@ -1,7 +1,7 @@
 ---
 title: "C'est Quoi La Longue Traîne ?"
 pubDate: 02-21-2023
-author: Diane Web'Indé
+author: "Diane"
 tags:
   - SEO
 description: "Qu'est-ce que la longue-traîne ? Comment l'utiliser pour se positionner sur Google facilement ? Pourquoi elle vaut plus que les mots-clés génériques ?"

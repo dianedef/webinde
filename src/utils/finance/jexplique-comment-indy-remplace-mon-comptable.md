@@ -1,7 +1,7 @@
 ---
-title: "Est-ce Que Indy Ca Vaut Le Coup ? | Web'Indé"
+title: "Est-ce Que Indy Ca Vaut Le Coup ? | CHARBON"
 pubDate: 02-21-2023
-author: Diane Web'Indé
+author: "Diane"
 tags:
     - Comptabilité
 description: "Mon avis sur Indy, une solution qui automatise votre comptabilité et vous libère des contraintes fiscales."
