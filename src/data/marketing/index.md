@@ -1,15 +1,13 @@
 ---
 title: "Marketing Digital : Guide Complet"
-description: "Maîtrise le marketing digital avec nos stratégies éprouvées pour développer ton entreprise en ligne"
-pubDate: "17/01/2026"
-category: "Marketing"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Marketing
-  - Business
-  - Stratégie
-layout: "@/layouts/BlogPost.astro"
+  - 'Marketing'
+  - 'Business'
+  - 'Stratégie'
+description: Maîtrise le marketing digital avec nos stratégies éprouvées pour développer ton entreprise en ligne
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Marketing Digital : Guide Complet pour 2026

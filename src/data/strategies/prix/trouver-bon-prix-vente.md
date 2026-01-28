@@ -1,15 +1,14 @@
 ---
 title: "Comment Trouver le Bon Prix de Vente : Guide Complet"
-description: "Guide complet sur la stratégie de pricing et la définition du bon prix de vente"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Prix
-  - Stratégie
-  - Business
-  - Marketing
+  - 'Prix'
+  - 'Stratégie'
+  - 'Business'
+  - 'Marketing'
+description: Guide complet sur la stratégie de pricing et la définition du bon prix de vente
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Comment Trouver le Bon Prix de Vente ?

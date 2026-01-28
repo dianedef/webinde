@@ -1,12 +1,10 @@
 ---
-title: "Recrutement"
-description: "Guide complet sur recrutement"
+title: Recrutement
+author: Diane
+tags: ['Recrutement']
+description: Guide complet sur recrutement
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Recrutement
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Recrutement Moderne : Stratégies et Meilleures Pratiques

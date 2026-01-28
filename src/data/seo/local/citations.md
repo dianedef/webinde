@@ -1,12 +1,10 @@
 ---
-title: "Citations"
-description: "Guide complet sur citations"
+title: Citations
+author: Diane
+tags: ['SEO']
+description: Guide complet sur citations
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

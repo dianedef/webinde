@@ -1,15 +1,14 @@
 ---
 title: "ESPANSO : L'OUTIL DE TEXT EXPANSION QUI VA CHANGER TA PRODUCTIVITÉ"
+author: Diane
+tags:
+  - 'Productivité'
+  - 'Outils'
+  - 'Automatisation'
+  - 'Open Source'
 description: "Guide complet pour utiliser Espanso, l'outil open-source qui automatise ta saisie de texte et booste ta productivité"
 pubDate: "2024-03-26"
-category: "Productivité"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Productivité
-  - Outils
-  - Automatisation
-  - Open Source
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # ESPANSO : Automatise ta Saisie de Texte et Gagne des Heures

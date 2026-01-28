@@ -1,15 +1,13 @@
 ---
 title: "Community Management : Construire une Communauté Engagée"
-description: "Guide complet pour créer et animer une communauté sur les réseaux sociaux"
-pubDate: "17/01/2026"
-category: "Marketing"
-author: "Diane Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Community
-  - Réseaux Sociaux
-  - Marketing
-layout: "@/layouts/BlogPost.astro"
+  - 'Community'
+  - 'Réseaux Sociaux'
+  - 'Marketing'
+description: Guide complet pour créer et animer une communauté sur les réseaux sociaux
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Community Management : Construire une Tribu, Pas juste des Followers

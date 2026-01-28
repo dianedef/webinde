@@ -1,13 +1,12 @@
 ---
-title: "Suite Marketing Complète"
-description: "Guide complet des outils essentiels pour le marketing digital"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Suite Marketing Complète
+author: Diane
 tags:
-  - Marketing
-  - Apps
+  - 'Marketing'
+  - 'Apps'
+description: Guide complet des outils essentiels pour le marketing digital
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

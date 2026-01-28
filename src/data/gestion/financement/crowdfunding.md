@@ -1,13 +1,12 @@
 ---
-title: "Crowdfunding"
-description: "Guide complet sur crowdfunding"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Crowdfunding
+author: Diane
 tags:
-  - Crowdfunding
-  - Financement
+  - 'Crowdfunding'
+  - 'Financement'
+description: Guide complet sur crowdfunding
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

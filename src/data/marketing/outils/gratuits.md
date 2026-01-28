@@ -1,13 +1,12 @@
 ---
-title: "Outils Marketing Gratuits"
-description: "Guide complet des meilleurs outils marketing gratuits"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Outils Marketing Gratuits
+author: Diane
 tags:
-  - Marketing
-  - Apps
+  - 'Marketing'
+  - 'Apps'
+description: Guide complet des meilleurs outils marketing gratuits
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,16 +1,14 @@
 ---
 title: "Joomla : Guide Complet"
-description: "Le CMS alternatif à WordPress : avantages, limites et cas d'usage en 2026"
-pubDate: "17/01/2026"
-category: "CMS"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Joomla
-  - CMS
-  - Web
-  - Développement
-layout: "@/layouts/BlogPost.astro"
+  - 'Joomla'
+  - 'CMS'
+  - 'Web'
+  - 'Développement'
+description: "Le CMS alternatif à WordPress : avantages, limites et cas d'usage en 2026"
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Joomla : Le CMS Complex mais Puissant

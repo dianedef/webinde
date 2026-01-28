@@ -1,13 +1,12 @@
 ---
-title: "Reseaux Sociaux"
-description: "Guide complet sur reseaux sociaux"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Reseaux Sociaux
+author: Diane
 tags:
-  - Réseaux Sociaux
-  - Marketing
+  - 'Réseaux Sociaux'
+  - 'Marketing'
+description: Guide complet sur reseaux sociaux
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 ---

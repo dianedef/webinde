@@ -1,13 +1,12 @@
 ---
 title: "Agents De Code : Les Assistants Du Développement"
-description: "Comment les agents IA révolutionnent le développement logiciel et augmentent la productivité des développeurs"
-pubDate: "2024-03-26"
-category: "Tech"
-author: "Web'Indé"
-imgUrl: "../../../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - IA
-  - Agents
-  - Code
-  - Développement
+  - 'IA'
+  - 'Agents'
+  - 'Code'
+  - 'Développement'
+description: Comment les agents IA révolutionnent le développement logiciel et augmentent la productivité des développeurs
+pubDate: "2024-03-26"
+imgUrl: ../../../../../assets/astro.jpeg
 --- 

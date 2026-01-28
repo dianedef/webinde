@@ -1,16 +1,14 @@
 ---
 title: "Stratégies Business : Guide Complet"
-description: "Les stratégies business qui marchent en 2026, pas de bullshit"
-pubDate: "17/01/2026"
-category: "Stratégie"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Stratégie
-  - Business
-  - Management
-  - Innovation
-layout: "@/layouts/BlogPost.astro"
+  - 'Stratégie'
+  - 'Business'
+  - 'Management'
+  - 'Innovation'
+description: Les stratégies business qui marchent en 2026, pas de bullshit
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies Business : Ce Qui Marche en 2026

@@ -1,13 +1,12 @@
 ---
 title: "Agents De Données : L'analyse Intelligente"
+author: Diane
+tags:
+  - 'IA'
+  - 'Agents'
+  - 'Data'
+  - 'Analyse'
 description: "Les agents spécialisés dans l'analyse et le traitement des données : capacités, applications et cas d'usage"
 pubDate: "2024-03-26"
-category: "Tech"
-author: "Web'Indé"
-imgUrl: "../../../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Agents
-  - Data
-  - Analyse
+imgUrl: ../../../../../assets/astro.jpeg
 --- 

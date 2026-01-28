@@ -1,16 +1,14 @@
 ---
 title: "Enregistreur d'Écran Pas Cher : Guide Complet"
-description: "Les meilleurs outils d'enregistrement d'écran à petit prix pour créateurs de contenu"
-pubDate: "17/01/2026"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - Enregistrement
-  - Screen recorder
-  - Tech
-  - Budget
-layout: "@/layouts/BlogPost.astro"
+  - 'Enregistrement'
+  - 'Screen recorder'
+  - 'Tech'
+  - 'Budget'
+description: "Les meilleurs outils d'enregistrement d'écran à petit prix pour créateurs de contenu"
+pubDate: "2026-01-17"
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Enregistreur d'Écran Pas Cher : Guide Complet

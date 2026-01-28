@@ -1,18 +1,10 @@
 ---
-id: "affiliation"
 title: "Marketing d'Affiliation"
-icon: "🤝"
-category: "marketing"
-difficulty: "débutant"
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 2000
-minTime: 10
-maxTime: 30
-timeUnit: "heures/semaine"
-canBePassive: true
-minEnglish: "A2"
-recommendedEnglish: "B2"
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

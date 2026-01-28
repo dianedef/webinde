@@ -1,18 +1,10 @@
 ---
-id: "formation"
-title: "Formation en Ligne"
-icon: "🎓"
-category: "enseignement"
-difficulty: "intermédiaire"
-minBudget: 100
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 15
-maxTime: 40
-timeUnit: "heures/semaine"
-canBePassive: true
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Formation en Ligne
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

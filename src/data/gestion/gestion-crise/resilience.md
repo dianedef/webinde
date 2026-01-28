@@ -1,12 +1,10 @@
 ---
-title: "Resilience"
-description: "Guide complet sur resilience"
+title: Resilience
+author: Diane
+tags: ['Gestion de Crise']
+description: Guide complet sur resilience
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Gestion de Crise
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

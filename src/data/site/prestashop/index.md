@@ -1,16 +1,14 @@
 ---
 title: "PrestaShop : Guide Complet"
-description: "L'e-commerce open-source pour les boutiques européennes"
-pubDate: "17/01/2026"
-category: "E-commerce"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - PrestaShop
-  - E-commerce
-  - Web
-  - Digital
-layout: "@/layouts/BlogPost.astro"
+  - 'PrestaShop'
+  - 'E-commerce'
+  - 'Web'
+  - 'Digital'
+description: "L'e-commerce open-source pour les boutiques européennes"
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # PrestaShop : L'E-commerce Open-Source

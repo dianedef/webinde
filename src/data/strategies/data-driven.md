@@ -1,15 +1,14 @@
 ---
 title: "Marketing Piloté par la Data : Guide Complet"
+author: Diane
+tags:
+  - 'Data'
+  - 'Marketing'
+  - 'Analytics'
+  - 'Stratégie'
 description: "Guide complet sur le marketing data-driven et l'optimisation basée sur les données"
 pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Data
-  - Marketing
-  - Analytics
-  - Stratégie
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Marketing Piloté par la Data

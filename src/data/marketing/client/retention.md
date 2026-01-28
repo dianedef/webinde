@@ -1,13 +1,12 @@
 ---
-title: "Retention"
-description: "Guide complet sur retention"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Retention
+author: Diane
 tags:
-  - Retention
-  - Relation Client
+  - 'Retention'
+  - 'Relation Client'
+description: Guide complet sur retention
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # L'Art de la Fidélisation Client

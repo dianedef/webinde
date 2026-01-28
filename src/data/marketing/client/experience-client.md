@@ -1,12 +1,10 @@
 ---
-title: "Experience Client"
-description: "Guide complet sur experience client"
+title: Experience Client
+author: Diane
+tags: ['Relation Client']
+description: Guide complet sur experience client
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Relation Client
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

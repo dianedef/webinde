@@ -1,15 +1,13 @@
 ---
 title: "Histoire des LLM : De BERT à Claude 3.5"
+author: Diane
+tags:
+  - 'IA'
+  - 'LLM'
+  - 'Histoire'
 description: "L'évolution des modèles de langage de 2017 à 2024, des Transformers à l'AGI"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - LLM
-  - Histoire
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Histoire des LLM : La Révolution en 8 Années

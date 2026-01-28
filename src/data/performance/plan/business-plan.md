@@ -1,12 +1,10 @@
 ---
-title: "Business Plan"
-description: "Guide complet sur business plan"
+title: Business Plan
+author: Diane
+tags: ['Stratégie']
+description: Guide complet sur business plan
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Stratégie
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,13 +1,10 @@
 ---
-title: "Maîtriser ta productivité"
+title: Maîtriser ta productivité
+author: Diane
+tags: ['Productivité']
 description: "Découvre comment accomplir plus, avec moins de stress et plus d'impact dans ton business en ligne"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Productivité
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

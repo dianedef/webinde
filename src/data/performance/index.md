@@ -1,16 +1,14 @@
 ---
 title: "Performance Web et Business : Guide Complet"
-description: "Optimiser les performances de ton site et ton business sans bullshit"
-pubDate: "17/01/2026"
-category: "Performance"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Performance
-  - Tech
-  - Web
-  - Business
-layout: "@/layouts/BlogPost.astro"
+  - 'Performance'
+  - 'Tech'
+  - 'Web'
+  - 'Business'
+description: Optimiser les performances de ton site et ton business sans bullshit
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Performance Web et Business : Guide Complet

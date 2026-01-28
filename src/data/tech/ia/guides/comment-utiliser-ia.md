@@ -1,14 +1,10 @@
 ---
 title: "Guide Technique : Implémenter l'IA Dans Son Business"
+author: Tech Expert
+tags: ['IA']
 description: "Guide pratique et technique pour déployer des solutions d'IA dans votre entreprise : APIs, services cloud, outils open source et intégrations"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-5.jpg"
-category: "Tech"
-author: "Tech Expert"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # 🚀 Guide Technique : Implémenter l'IA Dans Son Business

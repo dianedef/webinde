@@ -1,13 +1,12 @@
 ---
-title: "Strategies"
-description: "Guide complet sur strategies"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Strategies
+author: Diane
 tags:
-  - Strategie
-  - Gestion de Crise
+  - 'Strategie'
+  - 'Gestion de Crise'
+description: Guide complet sur strategies
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

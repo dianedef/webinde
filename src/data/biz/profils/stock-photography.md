@@ -1,18 +1,10 @@
 ---
-id: stock-photography
 title: Stock Photography / Photographie et Vidéos Stock
-icon: 📷
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 5
-maxTime: 20
-timeUnit: heures/semaine
-canBePassive: true
-minEnglish: 2
-recommendedEnglish: 3
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Stock Photography / Photographie et Vidéos Stock

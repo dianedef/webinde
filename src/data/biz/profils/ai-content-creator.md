@@ -1,18 +1,10 @@
 ---
-id: ai-content-creator
 title: AI Content Creator
-icon: 🎨
-category: contenu
-difficulty: facile
-minBudget: 100
-recommendedBudget: 500
-optimalBudget: 1500
-minTime: 20
-maxTime: 40
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # AI Content Creator

@@ -1,15 +1,14 @@
 ---
 title: "Technologies E-commerce : Guide Complet"
+author: Diane
+tags:
+  - 'E-commerce'
+  - 'Tech'
+  - 'Digital'
+  - 'Solutions'
 description: "Guide complet sur les technologies et solutions pour l'e-commerce moderne"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - E-commerce
-  - Tech
-  - Digital
-  - Solutions
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Les Technologies du Commerce Électronique

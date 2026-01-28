@@ -1,13 +1,17 @@
 ---
-title: Content Guidelines Web'Indé
+title: "Content Guidelines CHARBON"
+author: Diane
+tags: ['Tutoriels']
 description: Guide de rédaction pour les articles de blog compatibles Astro
+pubDate: 2024-01-01
+imgUrl: ../assets/astro.jpeg
 ---
 
-# Content Guidelines - Web'Indé
+# Content Guidelines - CHARBON
 
-## Concept Web'Indé
+## Concept Charbon
 
-Web'Indé est une plateforme francophone dédiée aux entrepreneurs, freelances et créateurs de contenu qui cherchent à optimiser leur boîte à outils numériques. Nous nous spécialisons dans:
+Charbon est une plateforme francophone dédiée aux entrepreneurs, freelances et créateurs de contenu qui cherchent à optimiser leur boîte à outils numériques. Nous nous spécialisons dans:
 
 - **Lifetime Deals**: Offres à vie sur les logiciels SaaS
 - **Alternatives aux marketplaces**: AppSumo, PitchGround, DealMirror, etc.
@@ -71,7 +75,7 @@ Résumé avec appel à l'action subtil
 ---
 title: "Titre accrocheur et optimisé SEO (60-70 caractères)"
 pubDate: JJ/MM/AAAA
-author: "Diane Web'Indé"
+author: "Diane"
 tags:
   - Tag principal
   - Tag secondaire
@@ -86,7 +90,7 @@ layout: "../../layouts/BlogPost.astro"
 
 - **title**: Titre optimisé SEO, incluant le mot-clé principal. Style accrocheur mais professionnel.
 - **pubDate**: Format français JJ/MM/AAAA
-- **author**: Toujours "Diane Web'Indé"
+- **author**: Toujours "Diane"
 - **tags**: 2-5 tags pertinents, en PascalCase ou minuscules. Tags communs: `Lifetime Deals`, `SaaS`, `Alternatives`, `Marketing`, `Productivité`
 - **imgUrl**: Chemin relatif depuis src/content/blog, préférence .webp pour la performance
 - **description**: Meta description optimisée SEO, 150-160 caractères, incluant le mot-clé
@@ -111,7 +115,7 @@ Les images doivent être placées dans `src/content/blog/assets/` ou `public/ass
 
 ## Tone et Style
 
-### Le Ton Web'Indé : Direct et No Bullshit
+### Le Ton Charbon : Direct et No Bullshit
 
 C'est ce qui nous différencie des autres. Comme sur notre page d'accueil, on va droit au but sans bullshit :
 
@@ -121,7 +125,7 @@ C'est ce qui nous différencie des autres. Comme sur notre page d'accueil, on va
 - **Parlé comme un ami** : Pas le ton "prof" ou "guru". On t'explique comme si tu avais 12 ans, sans te prendre la tête.
 - **Anti-promesses impossibles** : Pas de "tu vas gagner 10k€ en 30 jours". On reste réaliste.
 
-**Exemples de phrases dans le ton Web'Indé :**
+**Exemples de phrases dans le ton Charbon :**
 
 - "Si ça marche en 2026, tu le sauras. Si c'est de la merde, on te le dira aussi."
 - "Arrête de te compliquer la vie."
@@ -225,7 +229,7 @@ C'est ce qui nous différencie des autres. Comme sur notre page d'accueil, on va
 Format markdown standard:
 
 ```markdown
-[mon avis global sur cette marketplace est très positif](https://webinde.fr/cest-quoi-appsumo/)
+[mon avis global sur cette marketplace est très positif](https://gocharbon.com/cest-quoi-appsumo/)
 ```
 
 - Ancres descriptives (pas "cliquez ici")
@@ -234,10 +238,10 @@ Format markdown standard:
 ### Liens externes
 
 ```markdown
-[Vie De Dingue s'inspire d'AppSumo pour vendre des offres à vie](https://webinde.fr/viededingue)
+[Vie De Dingue s'inspire d'AppSumo pour vendre des offres à vie](https://gocharbon.com/viededingue)
 ```
 
-- Ouvrir dans un nouvel onglet si hors de Web'Indé
+- Ouvrir dans un nouvel onglet si hors de Charbon
 - Vérifier la pertinence et la qualité du lien
 
 ## Checklist avant publication

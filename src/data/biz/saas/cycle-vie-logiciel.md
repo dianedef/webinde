@@ -1,14 +1,13 @@
 ---
 title: "Cycle de Vie d'un Logiciel : Les 5 Étapes à Ne Pas Rater"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - SaaS
-  - Logiciel
-  - Business
-imgUrl: "../../../assets/cycle-vie-logiciel.webp"
+  - 'SaaS'
+  - 'Logiciel'
+  - 'Business'
 description: "Guide complet du cycle de vie d'un logiciel : de l'idée au lancement, jusqu'à la maintenance et la croissance."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu as eu une super idée de logiciel, tu as codé pendant des mois, et... personne ne l'utilise ? C'est le scénario classique que je vois chez les développeurs qui se lancent sans plan.

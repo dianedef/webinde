@@ -1,13 +1,12 @@
 ---
 title: "Content Marketing pour l'Affiliation"
+author: Diane
+tags:
+  - 'Content Marketing'
+  - 'Affiliation'
 description: "Maîtrise l'art de créer du contenu qui convertit naturellement pour ton business d'affiliation"
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Content Marketing
-  - Affiliation
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

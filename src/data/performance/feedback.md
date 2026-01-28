@@ -1,12 +1,10 @@
 ---
-title: "Feedback"
-description: "Guide complet sur feedback"
+title: Feedback
+author: Diane
+tags: ['Relation Client']
+description: Guide complet sur feedback
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Relation Client
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Feedback et Amélioration Continue : Moteurs de Performance

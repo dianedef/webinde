@@ -1,15 +1,14 @@
 ---
 title: "Vision Entrepreneuriale : Guide Complet"
-description: "Guide complet pour développer une vision entrepreneuriale claire et efficace"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Vision
-  - Stratégie
-  - Entrepreneuriat
-  - Business
+  - 'Vision'
+  - 'Stratégie'
+  - 'Entrepreneuriat'
+  - 'Business'
+description: Guide complet pour développer une vision entrepreneuriale claire et efficace
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # La Vision : Le Super-Pouvoir de l'Entrepreneur

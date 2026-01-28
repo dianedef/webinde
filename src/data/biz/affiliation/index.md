@@ -1,14 +1,13 @@
 ---
 title: "Guide Complet de l'Affiliation"
+author: Diane
+tags:
+  - 'Affiliation'
+  - 'Marketing'
+  - 'Business'
 description: "Guide complet sur le marketing d'affiliation et ses stratégies"
 pubDate: "2024-03-25"
-category: "Business"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Affiliation
-  - Marketing
-  - Business
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

@@ -1,18 +1,10 @@
 ---
-id: "pet-sitter"
 title: "Pet Sitter (Garde d'animaux)"
-icon: "🐾"
-category: "services"
-difficulty: "débutant"
-minBudget: 0
-recommendedBudget: 50
-optimalBudget: 200
-minTime: 5
-maxTime: 30
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A1"
-recommendedEnglish: "A2"
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

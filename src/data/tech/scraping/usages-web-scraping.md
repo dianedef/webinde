@@ -1,14 +1,13 @@
 ---
 title: "Web Scraping : 10 Cas d'Usage Qui Vont Booster Ton Business"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Scraping
-  - Automatisation
-  - Business
-imgUrl: "../../../assets/web-scraping-use-cases.webp"
+  - 'Scraping'
+  - 'Automatisation'
+  - 'Business'
 description: "Découvre comment le web scraping peut transformer ton business avec 10 cas d'usage concrets et des outils adaptés."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Le web scraping n'est pas réservé aux développeurs. Avec les outils no-code actuels, n'importe qui peut automatiser la collecte de données pour prendre des décisions plus intelligentes. Je l'utilise quotidiennement pour ma veille concurrentielle, et ça m'a fait économiser des milliers d'euros en optimisant mes stratégies.

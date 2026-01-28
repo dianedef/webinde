@@ -1,15 +1,14 @@
 ---
 title: "Rédaction Web SEO : Guide Complet"
-description: "Guide complet sur les techniques de rédaction web optimisée pour le SEO"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Rédaction
-  - Contenu
-  - Web
+  - 'SEO'
+  - 'Rédaction'
+  - 'Contenu'
+  - 'Web'
+description: Guide complet sur les techniques de rédaction web optimisée pour le SEO
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Rédaction Web Optimisée SEO

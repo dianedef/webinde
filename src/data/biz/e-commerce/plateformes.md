@@ -1,15 +1,14 @@
 ---
-title: "Guide Complet des Plateformes en Ligne"
-description: "Guide complet sur les plateformes digitales et leur utilisation"
-pubDate: "2024-03-25"
-category: "Digital"
-author: "Web'Indé"
-imgUrl: '../assets/astro.jpeg'
+title: Guide Complet des Plateformes en Ligne
+author: Diane
 tags:
-  - Plateformes
-  - Digital
-  - Business
-  - Web
+  - 'Plateformes'
+  - 'Digital'
+  - 'Business'
+  - 'Web'
+description: Guide complet sur les plateformes digitales et leur utilisation
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 # Plateformes de Vente : Optimiser sa Distribution
 

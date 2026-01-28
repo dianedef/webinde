@@ -1,18 +1,10 @@
 ---
-id: lead-generation
 title: Lead Generation Specialist / Spécialiste en Génération de Leads
-icon: 🎯
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 800
-minTime: 20
-maxTime: 40
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 3
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Lead Generation Specialist / Spécialiste en Génération de Leads

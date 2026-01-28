@@ -1,12 +1,10 @@
 ---
-title: "Expérimentation Growth"
+title: Expérimentation Growth
+author: Diane
+tags: ['Growth Marketing']
 description: "Guide complet sur l'expérimentation en growth marketing"
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Growth Marketing
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

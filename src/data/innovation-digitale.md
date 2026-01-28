@@ -1,21 +1,20 @@
 ---
 title: "Innovation Technologique 2024 : La Méthode pour Propulser ton Business vers une Croissance Explosive"
+author: Diane
+tags:
+  - 'Innovation'
+  - 'Digital'
+  - 'Technologie'
+  - 'Business'
+  - 'Transformation'
+  - 'Croissance'
+  - 'Performance'
+  - 'Stratégie'
+  - 'Leadership'
+  - 'Automatisation'
 description: "Découvre les stratégies d'innovation qui ont permis à plus de 2500 entreprises de multiplier par 3 leur croissance et de devenir leaders sur leur marché en 2024"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Innovation
-  - Digital
-  - Technologie
-  - Business
-  - Transformation
-  - Croissance
-  - Performance
-  - Stratégie
-  - Leadership
-  - Automatisation
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Innovation et Business Digital : Les Stratégies Secrètes des Entreprises qui Cartonnent en 2024

@@ -1,11 +1,10 @@
 ---
-title: C'est quoi AppSumo et est-ce que ça vaut le coup ?
-description: AppSumo propose des bons plans de réductions sur des outils digitaux pour réussir son webmarketing à prix d'or, des conseils, et des même offres gratuites
-pubDate: 02-21-2023
-author: Diane Web'Indé
-tags:
-  - Lifetime Deals
-imgUrl: './../assets/astro.jpeg'
+title: "C'est quoi AppSumo et est-ce que ça vaut le coup ?"
+author: "Diane"
+tags: ['Lifetime Deals']
+description: "AppSumo propose des bons plans de réductions sur des outils digitaux pour réussir son webmarketing à prix d'or, des conseils, et des même offres gratuites"
+pubDate: "2023-02-21"
+imgUrl: ../assets/astro.jpeg
 ---
 
 ## Une Marketplace de Produits Pour Développer Ton Entreprise
@@ -159,7 +158,7 @@ J'ai tendance à m'informer beaucoup sur l'entreprise, discuter avec le support,
 
 Envie d'économiser encore plus quand tu fais ton shopping ? Prêt pour un achat de plusieurs centaines d'euros et tu dirais pas non à une petite réduction ?
 
-AppSumo envoie parfois des codes de - 10% à qui a de la chance (si tu te balades longtemps sans jamais payer ton panier, peut-être que tu recevras ce mail sympa :P), sinon il y a l'[abonnement AppSumo Plus pour -10% sur tout AppSumo](https://webinde.fr/abonnement-appsumo-plus/)
+AppSumo envoie parfois des codes de - 10% à qui a de la chance (si tu te balades longtemps sans jamais payer ton panier, peut-être que tu recevras ce mail sympa :P), sinon il y a l'[abonnement AppSumo Plus pour -10% sur tout AppSumo](https://gocharbon.com/abonnement-appsumo-plus/)
 
 
 Utiliser AppSumo Plus, pour 99 $/an c'est accéder à :

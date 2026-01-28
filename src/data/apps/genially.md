@@ -1,10 +1,13 @@
 ---
 title: "Genially : Créez des contenus interactifs sans savoir coder"
-author: "Diane"
-tags: ["apps", "design", "marketing"]
+author: Diane
+tags:
+  - 'apps'
+  - 'design'
+  - 'marketing'
 description: "Découvrez Genially, l'outil indispensable pour transformer vos présentations et visuels en expériences interactives captivantes."
 pubDate: "2026-01-20"
-imgUrl: "../../assets/blog-placeholder.jpg"
+imgUrl: ../../assets/astro.jpeg
 draft: false
 ---
 

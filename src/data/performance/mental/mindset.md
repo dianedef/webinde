@@ -1,13 +1,10 @@
 ---
 title: "Développer un état d'esprit gagnant"
+author: Diane
+tags: ['Mindset']
 description: "Cultive le mindset qui te permettra d'atteindre tes objectifs et de réussir dans le business en ligne"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Mindset
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

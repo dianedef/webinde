@@ -1,18 +1,10 @@
 ---
-id: "consulting"
-title: "Consulting / Conseil Stratégique"
-icon: "🎯"
-category: "services"
-difficulty: "avancé"
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 3000
-minTime: 20
-maxTime: 50
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "B1"
-recommendedEnglish: "C1"
+title: Consulting / Conseil Stratégique
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

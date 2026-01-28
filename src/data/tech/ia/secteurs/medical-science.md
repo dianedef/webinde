@@ -1,16 +1,13 @@
 ---
 title: "IA en Médecine et Sciences : Révolution de la Recherche et des Soins"
+author: Diane
+tags:
+  - 'IA'
+  - 'Médecine'
+  - 'Sciences'
 description: "Comment l'IA transforme la pratique médicale, la recherche scientifique et accélère les découvertes"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-8.jpg"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Médecine
-  - Sciences
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # IA en Médecine et Sciences : Une Révolution en Marche

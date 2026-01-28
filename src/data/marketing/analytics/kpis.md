@@ -1,13 +1,12 @@
 ---
-title: "KPIs Marketing"
-description: "Les indicateurs clés de performance essentiels en marketing digital"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: KPIs Marketing
+author: Diane
 tags:
-  - Analytics
-  - KPIs
+  - 'Analytics'
+  - 'KPIs'
+description: Les indicateurs clés de performance essentiels en marketing digital
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,12 +1,10 @@
 ---
-title: "Indicateurs"
-description: "Guide complet sur indicateurs"
+title: Indicateurs
+author: Diane
+tags: ['Indicateurs']
+description: Guide complet sur indicateurs
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Indicateurs
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Indicateurs de Performance : Pilotage et Optimisation

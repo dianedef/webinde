@@ -1,13 +1,12 @@
 ---
-title: "Google Ads - Guide Complet"
-description: "Maîtrise Google Ads pour générer du trafic qualifié et des conversions"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Google Ads - Guide Complet
+author: Diane
 tags:
-  - Google Ads
-  - Publicité
+  - 'Google Ads'
+  - 'Publicité'
+description: Maîtrise Google Ads pour générer du trafic qualifié et des conversions
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

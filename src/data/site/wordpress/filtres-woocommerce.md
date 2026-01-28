@@ -1,15 +1,14 @@
 ---
-title: "Guide Complet des Filtres WooCommerce"
+title: Guide Complet des Filtres WooCommerce
+author: Diane
+tags:
+  - 'WooCommerce'
+  - 'WordPress'
+  - 'E-commerce'
+  - 'Filtres'
 description: "Guide complet sur l'implémentation et l'optimisation des filtres WooCommerce"
 pubDate: "2024-03-25"
-category: "WordPress"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - WooCommerce
-  - WordPress
-  - E-commerce
-  - Filtres
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Les Filtres WooCommerce : Guide Complet

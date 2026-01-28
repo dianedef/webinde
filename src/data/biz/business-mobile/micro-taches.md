@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Micro-tâches"
-description: "Profil business complet des apps de micro-tâches mobiles"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Micro-tâches
-  - Business Mobile
-  - Revenu
-  - Pocket Money
-layout: "@/layouts/BlogPost.astro"
+  - 'Micro-tâches'
+  - 'Business Mobile'
+  - 'Revenu'
+  - 'Pocket Money'
+description: Profil business complet des apps de micro-tâches mobiles
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Micro-tâches Mobile

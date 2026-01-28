@@ -1,15 +1,13 @@
 ---
 title: "Stratégie Réseaux Sociaux : Guide Complet"
-description: "Développe ta présence sociale avec une stratégie efficace qui génère des résultats"
-pubDate: "17/01/2026"
-category: "Marketing"
-author: "Diane Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Réseaux Sociaux
-  - Marketing
-  - Stratégie
-layout: "@/layouts/BlogPost.astro"
+  - 'Réseaux Sociaux'
+  - 'Marketing'
+  - 'Stratégie'
+description: Développe ta présence sociale avec une stratégie efficace qui génère des résultats
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Stratégie Réseaux Sociaux : Ce qui Marche en 2026

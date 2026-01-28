@@ -1,18 +1,10 @@
 ---
-id: "youtube"
-title: "YouTubeur"
-icon: "🎬"
-category: "contenu"
-difficulty: "intermédiaire"
-minBudget: 200
-recommendedBudget: 1000
-optimalBudget: 5000
-minTime: 15
-maxTime: 50
-timeUnit: "heures/semaine"
-canBePassive: true
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: YouTubeur
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

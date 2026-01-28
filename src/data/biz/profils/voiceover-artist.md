@@ -1,18 +1,10 @@
 ---
-id: voiceover-artist
 title: Voiceover Artist / Comédien de Doublage
-icon: 🎤
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 1000
-minTime: 15
-maxTime: 35
-timeUnit: heures/semaine
-canBePassive: true
-minEnglish: 3
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Voiceover Artist / Comédien de Doublage

@@ -1,14 +1,13 @@
 ---
 title: "Black Hat SEO & Automatisation : Le Guide No Bullshit"
-description: "Découvre comment automatiser ta génération de contenu et utiliser les techniques de Black Hat SEO pour ranker vite."
-pubDate: 22/01/2026
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Black Hat
-  - Automatisation
-  - SEO
-imgUrl: "../../assets/black-hat-automation.webp"
-layout: "../../layouts/BlogPost.astro"
+  - 'Black Hat'
+  - 'Automatisation'
+  - 'SEO'
+description: Découvre comment automatiser ta génération de contenu et utiliser les techniques de Black Hat SEO pour ranker vite.
+pubDate: "2026-01-22"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Black Hat SEO & Automatisation
@@ -21,7 +20,7 @@ Le secret de la réussite en Black Hat, c'est la **scalabilité**. Plus tu crée
 
 L'idée est simple : utiliser des domaines expirés à fort potentiel et y injecter du contenu généré massivement. Si un site saute, c'est pas grave, tu en as dix autres derrière. C'est une stratégie quantitative où la diversification fait toute la différence.
 
-![|300](black-hat-strategy.webp)
+<!-- TODO: Image manquante - ![|300](black-hat-strategy.webp) -->
 
 ## Content Generation : Les Étapes pour Automatiser
 

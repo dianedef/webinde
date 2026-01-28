@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Freelancing"
-description: "Profil business complet des apps de freelancing mobiles"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Freelancing
-  - Business Mobile
-  - Revenu
-  - Travail à distance
-layout: "@/layouts/BlogPost.astro"
+  - 'Freelancing'
+  - 'Business Mobile'
+  - 'Revenu'
+  - 'Travail à distance'
+description: Profil business complet des apps de freelancing mobiles
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Freelancing Mobile

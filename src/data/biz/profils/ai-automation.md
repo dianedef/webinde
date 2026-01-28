@@ -1,18 +1,10 @@
 ---
-id: ai-automation
 title: AI Automation Agency
-icon: 🔄
-category: tech
-difficulty: moyen
-minBudget: 500
-recommendedBudget: 2000
-optimalBudget: 5000
-minTime: 30
-maxTime: 50
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 3
-recommendedEnglish: 5
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # AI Automation Agency (AAA)

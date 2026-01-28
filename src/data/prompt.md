@@ -1,16 +1,14 @@
 ---
 title: "Prompt Engineering : Guide Complet"
-description: "Comment communiquer efficacement avec l'IA pour obtenir de meilleurs résultats"
-pubDate: "17/01/2026"
-category: "IA"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - Prompt Engineering
-  - IA
-  - ChatGPT
-  - Claude
-layout: "@/layouts/BlogPost.astro"
+  - 'Prompt Engineering'
+  - 'IA'
+  - 'ChatGPT'
+  - 'Claude'
+description: "Comment communiquer efficacement avec l'IA pour obtenir de meilleurs résultats"
+pubDate: "2026-01-17"
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Prompt Engineering : Guide Complet

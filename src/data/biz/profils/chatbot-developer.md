@@ -1,18 +1,10 @@
 ---
-id: chatbot-developer
 title: Chatbot Developer (No-Code)
-icon: 💬
-category: tech
-difficulty: moyen
-minBudget: 200
-recommendedBudget: 1000
-optimalBudget: 3000
-minTime: 25
-maxTime: 45
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 3
-recommendedEnglish: 5
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Chatbot Developer (No-Code)

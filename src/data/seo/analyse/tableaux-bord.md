@@ -1,12 +1,10 @@
 ---
-title: "Tableaux de Bord SEO"
-description: "Guide complet pour créer et exploiter des tableaux de bord SEO efficaces"
+title: Tableaux de Bord SEO
+author: Diane
+tags: ['SEO']
+description: Guide complet pour créer et exploiter des tableaux de bord SEO efficaces
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

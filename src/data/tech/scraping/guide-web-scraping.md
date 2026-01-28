@@ -1,14 +1,13 @@
 ---
 title: "Web Scraping : Le Guide Complet pour Debuter en 1 Heure"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Scraping
-  - Tech
-  - Automatisation
-imgUrl: "../../../assets/web-scraping-guide.webp"
+  - 'Scraping'
+  - 'Tech'
+  - 'Automatisation'
 description: "Guide complet du web scraping : outils no-code, techniques de base, cas d'usage et aspects légaux à respecter."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu as besoin de données qui existent sur le web, mais tu ne sais pas comment les extraire ? Le web scraping peut te faire gagner des heures, voire des jours de travail manuel.

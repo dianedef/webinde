@@ -1,16 +1,14 @@
 ---
 title: "Création de Site Web : Guide Complet"
-description: "Comment choisir et utiliser la bonne technologie pour ton site en 2026"
-pubDate: "17/01/2026"
-category: "Web"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Web
-  - Développement
-  - Digital
-  - Tech
-layout: "@/layouts/BlogPost.astro"
+  - 'Web'
+  - 'Développement'
+  - 'Digital'
+  - 'Tech'
+description: Comment choisir et utiliser la bonne technologie pour ton site en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Création de Site Web : Choisir la Bonne Technologie

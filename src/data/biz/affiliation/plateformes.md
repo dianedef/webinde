@@ -1,13 +1,12 @@
 ---
 title: "Les meilleures plateformes d'affiliation"
+author: Diane
+tags:
+  - 'Affiliation'
+  - 'Apps'
 description: "Guide complet des plateformes d'affiliation les plus performantes pour développer tes revenus passifs"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Affiliation
-  - Apps
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

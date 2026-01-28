@@ -1,15 +1,13 @@
 ---
 title: "Comment Choisir le Bon LLM : Guide Pratique"
-description: "Compare GPT-4, Claude, Gemini et autres LLM pour trouver celui qui correspond à tes besoins"
-pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - IA
-  - LLM
-  - Comparaison
-layout: "@/layouts/BlogPost.astro"
+  - 'IA'
+  - 'LLM'
+  - 'Comparaison'
+description: Compare GPT-4, Claude, Gemini et autres LLM pour trouver celui qui correspond à tes besoins
+pubDate: "2024-03-25"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Choisir le Bon LLM : Le Guide Pratique

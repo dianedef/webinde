@@ -1,12 +1,10 @@
 ---
-title: "Ecommerce"
-description: "Guide complet sur ecommerce"
+title: Ecommerce
+author: Diane
+tags: ['SEO']
+description: Guide complet sur ecommerce
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

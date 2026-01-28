@@ -1,18 +1,10 @@
 ---
-id: "coaching"
-title: "Coaching en Ligne"
-icon: "🎯"
-category: "services"
-difficulty: "intermédiaire"
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 15
-maxTime: 40
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Coaching en Ligne
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

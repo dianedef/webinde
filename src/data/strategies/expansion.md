@@ -1,15 +1,14 @@
 ---
 title: "Stratégies d'Expansion : Guide Complet"
+author: Diane
+tags:
+  - 'Expansion'
+  - 'Croissance'
+  - 'Stratégie'
+  - 'Business'
 description: "Guide complet sur les stratégies d'expansion et de croissance d'entreprise"
 pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Expansion
-  - Croissance
-  - Stratégie
-  - Business
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies d'Expansion pour Entreprises

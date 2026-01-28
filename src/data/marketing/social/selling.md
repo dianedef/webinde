@@ -1,15 +1,13 @@
 ---
 title: "Social Selling : Vendre sur les Réseaux Sociaux"
-description: "Guide complet pour vendre sur LinkedIn, Instagram et autres réseaux sans être un vendeur agressif"
-pubDate: "17/01/2026"
-category: "Marketing"
-author: "Diane Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Social Selling
-  - Vente
-  - Réseaux Sociaux
-layout: "@/layouts/BlogPost.astro"
+  - 'Social Selling'
+  - 'Vente'
+  - 'Réseaux Sociaux'
+description: Guide complet pour vendre sur LinkedIn, Instagram et autres réseaux sans être un vendeur agressif
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Social Selling : Vendre sur les Réseaux Sans Être un Vendeur

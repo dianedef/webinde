@@ -1,17 +1,15 @@
 ---
 title: "Business Mobile : Guide Complet des Apps pour Gagner de l'Argent"
-description: "Toutes les apps Android et iOS pour gagner de l'argent, classées par type avec profils business détaillés"
-pubDate: "17/01/2026"
-category: "Business"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - Business Mobile
-  - Apps
-  - Revenu
-  - Android
-  - iOS
-layout: "@/layouts/BlogPost.astro"
+  - 'Business Mobile'
+  - 'Apps'
+  - 'Revenu'
+  - 'Android'
+  - 'iOS'
+description: "Toutes les apps Android et iOS pour gagner de l'argent, classées par type avec profils business détaillés"
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Business Mobile : Guide Complet des Apps pour Gagner de l'Argent

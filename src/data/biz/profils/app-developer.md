@@ -1,18 +1,10 @@
 ---
-id: app-developer
-title: App Developer / Développeur d'applications mobiles
-icon: 📱
-category: services
-difficulty: élevé
-minBudget: 500
-recommendedBudget: 2000
-optimalBudget: 5000
-minTime: 25
-maxTime: 50
-timeUnit: heures/semaine
-canBePassive: true
-minEnglish: 3
-recommendedEnglish: 4
+title: "App Developer / Développeur d'applications mobiles"
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # App Developer / Développeur d'applications mobiles

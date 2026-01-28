@@ -1,18 +1,10 @@
 ---
-id: online-tutor
 title: Online Tutor / Enseignant en Ligne
-icon: 📚
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 800
-minTime: 10
-maxTime: 30
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 3
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Online Tutor / Enseignant en Ligne

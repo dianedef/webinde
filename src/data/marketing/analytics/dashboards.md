@@ -1,13 +1,12 @@
 ---
-title: "Tableaux de Bord Marketing"
-description: "Créez des dashboards marketing efficaces pour piloter votre performance"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Tableaux de Bord Marketing
+author: Diane
 tags:
-  - Marketing
-  - Analytics
+  - 'Marketing'
+  - 'Analytics'
+description: Créez des dashboards marketing efficaces pour piloter votre performance
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

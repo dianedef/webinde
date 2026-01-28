@@ -1,12 +1,10 @@
 ---
-title: "Finances"
-description: "Guide complet sur finances"
+title: Finances
+author: Diane
+tags: ['Finance']
+description: Guide complet sur finances
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Finance
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

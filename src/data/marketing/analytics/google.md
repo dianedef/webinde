@@ -1,12 +1,10 @@
 ---
-title: "Google Analytics"
-description: "Guide complet pour maîtriser Google Analytics et optimiser vos performances"
+title: Google Analytics
+author: Diane
+tags: ['Google Analytics']
+description: Guide complet pour maîtriser Google Analytics et optimiser vos performances
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Google Analytics
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,18 +1,10 @@
 ---
-id: virtual-assistant
 title: Virtual Assistant / Assistant Virtuel Spécialisé
-icon: 💻
-category: services
-difficulty: facile
-minBudget: 0
-recommendedBudget: 100
-optimalBudget: 500
-minTime: 15
-maxTime: 30
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 3
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Virtual Assistant / Assistant Virtuel Spécialisé

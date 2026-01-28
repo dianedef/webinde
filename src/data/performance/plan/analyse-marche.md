@@ -1,13 +1,12 @@
 ---
-title: "Analyse Marche"
-description: "Guide complet sur analyse marche"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Analyse Marche
+author: Diane
 tags:
-  - Analyse
-  - Stratégie
+  - 'Analyse'
+  - 'Stratégie'
+description: Guide complet sur analyse marche
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Analyse de Marché : Méthodologie et Outils

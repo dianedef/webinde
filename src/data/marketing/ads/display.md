@@ -1,12 +1,10 @@
 ---
-title: "Display Advertising"
-description: "Maîtrisez la publicité display pour augmenter votre visibilité"
+title: Display Advertising
+author: Diane
+tags: ['Publicité']
+description: Maîtrisez la publicité display pour augmenter votre visibilité
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Publicité
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,16 +1,14 @@
 ---
 title: "IDE IA : Comparatif et Guide d'Achat"
+author: Diane
+tags:
+  - 'IA'
+  - 'Développement'
+  - 'Productivité'
+  - 'IDE'
 description: "Cursor, Windsurf, VS Code + Copilot, JetBrains : quel IDE IA choisir pour booster ta productivité en 2024 ?"
 pubDate: "2024-02-20"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Développement
-  - Productivité
-  - IDE
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # IDE IA : Lequel Choisir en 2024 ?

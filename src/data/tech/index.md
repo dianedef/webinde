@@ -1,17 +1,16 @@
 ---
 title: "Technologies Web 2024 : Le Guide Ultime pour Propulser ton Business dans le Futur"
-description: "Découvre les technologies web qui permettent aux entreprises de multiplier leur croissance par 5 et de dominer leur marché en 2024"
-pubDate: "2024-03-25"
-category: "Tech"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Tech
-  - Innovation
-  - Performance
-  - Sécurité
-  - Cloud
-  - IA
+  - 'Tech'
+  - 'Innovation'
+  - 'Performance'
+  - 'Sécurité'
+  - 'Cloud'
+  - 'IA'
+description: Découvre les technologies web qui permettent aux entreprises de multiplier leur croissance par 5 et de dominer leur marché en 2024
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Technologies Web : Les Secrets des Leaders qui Dominent le Digital en 2024

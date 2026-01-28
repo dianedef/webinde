@@ -1,12 +1,10 @@
 ---
-title: "Fonctionnement Moteurs"
-description: "Guide complet sur fonctionnement moteurs"
+title: Fonctionnement Moteurs
+author: Diane
+tags: ['SEO']
+description: Guide complet sur fonctionnement moteurs
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,13 +1,10 @@
 ---
-title: "Définir et atteindre tes objectifs"
+title: Définir et atteindre tes objectifs
+author: Diane
+tags: ['Objectifs']
 description: "Découvre l'art de fixer des objectifs ambitieux et de les transformer en réalité concrète"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Objectifs
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

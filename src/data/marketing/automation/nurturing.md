@@ -1,13 +1,12 @@
 ---
-title: "Lead Nurturing"
-description: "Guide complet sur le nurturing des prospects et clients"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Lead Nurturing
+author: Diane
 tags:
-  - Marketing
-  - Relation Client
+  - 'Marketing'
+  - 'Relation Client'
+description: Guide complet sur le nurturing des prospects et clients
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

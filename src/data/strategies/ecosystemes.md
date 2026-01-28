@@ -1,15 +1,14 @@
 ---
 title: "Construire un Écosystème Business : Guide Complet"
+author: Diane
+tags:
+  - 'Écosystème'
+  - 'Business'
+  - 'Stratégie'
+  - 'Partenariats'
 description: "Guide complet sur la création et le développement d'un écosystème business performant"
 pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Écosystème
-  - Business
-  - Stratégie
-  - Partenariats
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # L'Art de Construire un Écosystème Business

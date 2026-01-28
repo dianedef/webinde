@@ -1,12 +1,10 @@
 ---
-title: "Le Plus Grand Mythe de la Connaissance"
-description: "Découvrez pourquoi la connaissance seule ne suffit pas et comment transformer le savoir en action concrète"
+title: Le Plus Grand Mythe de la Connaissance
+author: Diane
+tags: ['Performance']
+description: Découvrez pourquoi la connaissance seule ne suffit pas et comment transformer le savoir en action concrète
 pubDate: "2024-03-25"
-category: "Performance"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Performance
+imgUrl: ../../assets/astro.jpeg
 ---
 
 

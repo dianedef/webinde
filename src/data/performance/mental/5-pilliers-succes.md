@@ -1,15 +1,14 @@
 ---
 title: "Les Clés du Succès Entrepreneurial : Guide Complet"
-description: "Guide complet sur les clés du succès en entrepreneuriat"
-pubDate: "2024-03-25"
-category: "Succès"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Succès
-  - Entrepreneuriat
-  - Business
-  - Développement
+  - 'Succès'
+  - 'Entrepreneuriat'
+  - 'Business'
+  - 'Développement'
+description: Guide complet sur les clés du succès en entrepreneuriat
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Le Succès Entrepreneurial : Un Voyage Passionnant

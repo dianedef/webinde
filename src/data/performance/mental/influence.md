@@ -1,13 +1,10 @@
 ---
-title: "Développer ton influence naturelle"
-description: "Découvre comment créer un impact positif et développer une influence authentique dans ton domaine"
+title: Développer ton influence naturelle
+author: Diane
+tags: ['Influence']
+description: Découvre comment créer un impact positif et développer une influence authentique dans ton domaine
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Influence
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

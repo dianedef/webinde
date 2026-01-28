@@ -1,15 +1,13 @@
 ---
 title: "Agents IA : Comprendre les Fondamentaux"
+author: Diane
+tags:
+  - 'IA'
+  - 'Agents'
+  - 'Automatisation'
 description: "Guide complet sur les agents IA : définition, fonctionnement, types et applications concrètes"
 pubDate: "2024-03-26"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Agents
-  - Automatisation
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Agents IA : Les Assistants Autonomes du Futur

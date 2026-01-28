@@ -1,13 +1,10 @@
 ---
 title: "L'Économie des Idées : Guide pour Prospérer dans l'Ère Numérique"
+author: "Tech Expert"
+tags: ['Stratégie']
 description: "Découvrez comment développer votre valeur professionnelle et personnelle dans l'économie moderne des idées, inspiré par James Altucher"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-9.jpg"
-category: "Développement Personnel"
-author: "Tech Expert"   
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Stratégie
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Dans son ouvrage "The Rich Employee", James Altucher expose une vision révolutionnaire du monde professionnel moderne. Nous ne sommes plus dans une économie traditionnelle, mais dans ce qu'il appelle "l'économie des idées", où la créativité et l'innovation deviennent les véritables moteurs de la réussite.

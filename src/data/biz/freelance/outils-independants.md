@@ -1,15 +1,14 @@
 ---
-title: "10 outils français à ne pas rater pour être 3x plus efficace en tant qu’indépendant sur le web"
-description: "Découvrez les meilleurs outils français pour booster votre productivité et gérer votre activité de freelance efficacement."
-pubDate: "2024-03-25"
-category: "Freelance"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: 10 outils français à ne pas rater pour être 3x plus efficace en tant qu’indépendant sur le web
+author: Diane
 tags:
-  - Freelancing
-  - Outils
-  - Productivité
-  - France
+  - 'Freelancing'
+  - 'Outils'
+  - 'Productivité'
+  - 'France'
+description: Découvrez les meilleurs outils français pour booster votre productivité et gérer votre activité de freelance efficacement.
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # 10 outils français à ne pas rater pour être 3x plus efficace en tant qu’indépendant sur le web

@@ -1,18 +1,10 @@
 ---
-id: "newsletter"
-title: "Newsletter / Email Business"
-icon: "📧"
-category: "contenu"
-difficulty: "intermédiaire"
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 1000
-minTime: 5
-maxTime: 20
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Newsletter / Email Business
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

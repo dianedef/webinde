@@ -1,15 +1,14 @@
 ---
 title: "Stratégies d'Internationalisation : Guide Complet"
+author: Diane
+tags:
+  - 'International'
+  - 'Stratégie'
+  - 'Business'
+  - 'Expansion'
 description: "Guide complet sur les stratégies d'internationalisation des entreprises"
 pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - International
-  - Stratégie
-  - Business
-  - Expansion
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies d'Expansion et Internationalisation

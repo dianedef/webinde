@@ -1,18 +1,10 @@
 ---
-id: "dropshipping"
-title: "Dropshipping"
-icon: "📦"
-category: "vente"
-difficulty: "débutant"
-minBudget: 100
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 10
-maxTime: 25
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Dropshipping
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

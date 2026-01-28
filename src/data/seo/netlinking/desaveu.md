@@ -1,15 +1,14 @@
 ---
 title: "Désaveu de Liens : Guide Complet"
-description: "Guide complet sur le désaveu de liens toxiques pour le SEO"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Désaveu
-  - Netlinking
-  - Backlinks
+  - 'SEO'
+  - 'Désaveu'
+  - 'Netlinking'
+  - 'Backlinks'
+description: Guide complet sur le désaveu de liens toxiques pour le SEO
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Désaveu de Liens

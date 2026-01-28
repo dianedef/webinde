@@ -1,12 +1,10 @@
 ---
-title: "Analyse Concurrentielle SEO"
-description: "Guide complet pour analyser et surpasser vos concurrents en SEO"
+title: Analyse Concurrentielle SEO
+author: Diane
+tags: ['SEO']
+description: Guide complet pour analyser et surpasser vos concurrents en SEO
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

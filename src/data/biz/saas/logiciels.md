@@ -1,14 +1,13 @@
 ---
 title: "Logiciels de Gestion : Les Outils Essentiels pour ton Business"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Logiciel
-  - Outils
-  - Productivité
-imgUrl: "../../../assets/logiciels-gestion.webp"
+  - 'Logiciel'
+  - 'Outils'
+  - 'Productivité'
 description: "Guide complet des logiciels de gestion : CRM, ERP, finance et RH pour optimiser ton entreprise."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu gères ton business dans 15 fichiers Excel différents ? Tu perds des heures chaque semaine à chercher des infos qui devraient être accessibles en 1 clic ? C'est normal au début, mais c'est aussi le signe que tu as besoin de meilleurs outils.

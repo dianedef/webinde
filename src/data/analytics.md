@@ -1,14 +1,12 @@
 ---
 title: "Outils d'Analyse : Guide Complet"
+author: Expert Analytics
+tags:
+  - 'Analytics'
+  - 'Performance'
 description: "Guide approfondi sur les outils d'analyse pour optimiser la performance business"
 pubDate: "2024-03-25"
-category: "Outils"
-author: "Expert Analytics"
-imgUrl: "../assets/astro.jpeg"
-tags:
-  - Analytics
-  - Performance
-  
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Outils d'Analyse : Optimisation et Performance

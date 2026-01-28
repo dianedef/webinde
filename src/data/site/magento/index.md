@@ -1,16 +1,14 @@
 ---
 title: "Magento : Guide Complet"
-description: "La plateforme e-commerce enterprise : quand l'équipe est prête à investir"
-pubDate: "17/01/2026"
-category: "E-commerce"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Magento
-  - E-commerce
-  - Web
-  - Digital
-layout: "@/layouts/BlogPost.astro"
+  - 'Magento'
+  - 'E-commerce'
+  - 'Web'
+  - 'Digital'
+description: "La plateforme e-commerce enterprise : quand l'équipe est prête à investir"
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Magento : L'E-commerce pour les Entreprises

@@ -1,18 +1,10 @@
 ---
-id: "freelance"
-title: "Freelance / Services en Ligne"
-icon: "💼"
-category: "services"
-difficulty: "débutant"
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 1000
-minTime: 20
-maxTime: 50
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Freelance / Services en Ligne
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

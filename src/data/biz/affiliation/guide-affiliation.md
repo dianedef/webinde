@@ -1,15 +1,14 @@
 ---
 title: "Affiliation Marketing : Le Guide Complet pour Générer des Revenus Passifs"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Affiliation
-  - Business
-  - Revenus
-  - Marketing
-imgUrl: "../../../assets/affiliation-guide.webp"
+  - 'Affiliation'
+  - 'Business'
+  - 'Revenus'
+  - 'Marketing'
 description: "Guide complet de l'affiliation marketing : choisir les bons programmes, créer du contenu qui convertit et scaler tes revenus."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu rêves de générer des revenus récurrents pendant ton sommeil ? L'affiliation n'est pas de la magie - c'est l'art subtil de connecter les bonnes personnes aux bons produits, au bon moment. Bienvenue dans le guide qui va transformer ta façon de voir l'affiliation.

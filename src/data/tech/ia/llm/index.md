@@ -1,15 +1,13 @@
 ---
 title: "LLM : Guide Complet des Modèles de Langage"
-description: "Tout comprendre sur les Large Language Models, de leur fonctionnement à leur utilisation pratique"
-pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - IA
-  - LLM
-  - Machine Learning
-layout: "@/layouts/BlogPost.astro"
+  - 'IA'
+  - 'LLM'
+  - 'Machine Learning'
+description: Tout comprendre sur les Large Language Models, de leur fonctionnement à leur utilisation pratique
+pubDate: "2024-03-25"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # LLM : Les Fondamentaux des Modèles de Langage

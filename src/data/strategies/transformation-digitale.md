@@ -1,15 +1,14 @@
 ---
 title: "Transformation Digitale : Guide Complet"
-description: "Guide complet sur la transformation digitale des entreprises"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Digital
-  - Transformation
-  - Innovation
-  - Technologie
+  - 'Digital'
+  - 'Transformation'
+  - 'Innovation'
+  - 'Technologie'
+description: Guide complet sur la transformation digitale des entreprises
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Transformation Digitale : Au-delà du Buzzword

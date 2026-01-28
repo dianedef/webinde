@@ -1,12 +1,10 @@
 ---
-title: "Levee De Fonds"
-description: "Guide complet sur levee de fonds"
+title: Levee De Fonds
+author: Diane
+tags: ['Financement']
+description: Guide complet sur levee de fonds
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Financement
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

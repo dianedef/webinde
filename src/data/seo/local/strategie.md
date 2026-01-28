@@ -1,15 +1,14 @@
 ---
 title: "Stratégie SEO Local : Guide Complet"
-description: "Guide complet sur la stratégie de référencement local"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Local
-  - Stratégie
-  - Marketing Local
+  - 'SEO'
+  - 'Local'
+  - 'Stratégie'
+  - 'Marketing Local'
+description: Guide complet sur la stratégie de référencement local
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Stratégie SEO Local

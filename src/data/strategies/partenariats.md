@@ -1,15 +1,14 @@
 ---
 title: "Partenariats Stratégiques : Guide Complet"
-description: "Guide complet sur la création et la gestion de partenariats stratégiques"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Partenariats
-  - Stratégie
-  - Business
-  - Collaboration
+  - 'Partenariats'
+  - 'Stratégie'
+  - 'Business'
+  - 'Collaboration'
+description: Guide complet sur la création et la gestion de partenariats stratégiques
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Partenariats Stratégiques : Créer des Alliances Gagnantes

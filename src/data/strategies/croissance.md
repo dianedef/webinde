@@ -1,15 +1,14 @@
 ---
-title: "Stratégies de Croissance pour Entreprises Digitales"
-description: "Guide complet sur les stratégies de croissance pour les entreprises digitales"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Stratégies de Croissance pour Entreprises Digitales
+author: Diane
 tags:
-  - Croissance
-  - Digital
-  - Stratégie
-  - Business
+  - 'Croissance'
+  - 'Digital'
+  - 'Stratégie'
+  - 'Business'
+description: Guide complet sur les stratégies de croissance pour les entreprises digitales
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies de Croissance pour Entreprises Digitales

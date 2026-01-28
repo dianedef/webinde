@@ -1,18 +1,10 @@
 ---
-id: "print-on-demand"
-title: "Print-on-Demand (POD)"
-icon: "👕"
-category: "créatif"
-difficulty: "débutant"
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 1500
-minTime: 10
-maxTime: 30
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Print-on-Demand (POD)
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

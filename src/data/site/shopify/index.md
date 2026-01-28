@@ -1,16 +1,14 @@
 ---
 title: "Shopify : Guide Complet"
-description: "La plateforme e-commerce la plus populaire en 2026"
-pubDate: "17/01/2026"
-category: "E-commerce"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Shopify
-  - E-commerce
-  - Web
-  - Digital
-layout: "@/layouts/BlogPost.astro"
+  - 'Shopify'
+  - 'E-commerce'
+  - 'Web'
+  - 'Digital'
+description: La plateforme e-commerce la plus populaire en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Shopify : La Plateforme E-commerce Standard

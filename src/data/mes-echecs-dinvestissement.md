@@ -1,17 +1,15 @@
 ---
 title: "Mes Échecs d'Investissement : La Vérité Brute"
-description: "J'ai dépensé des milliers d'euros en formations et logiciels. Voici mes erreurs et les vendeurs de rêves à éviter."
-pubDate: "17/01/2026"
-category: "Business"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - Investissement
-  - Formations
-  - AppSumo
-  - Honnêteté
-  - Échecs
-layout: "@/layouts/BlogPost.astro"
+  - 'Investissement'
+  - 'Formations'
+  - 'AppSumo'
+  - 'Honnêteté'
+  - 'Échecs'
+description: "J'ai dépensé des milliers d'euros en formations et logiciels. Voici mes erreurs et les vendeurs de rêves à éviter."
+pubDate: "2026-01-17"
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Mes Échecs d'Investissement : La Vérité Brute

@@ -1,15 +1,10 @@
 ---
 title: "Les Données : Le Nouveau Pétrole de l'Économie Numérique"
+author: Tech Expert
+tags: ['Data']
 description: "Comprendre l'importance cruciale des données dans le business en ligne moderne et leur impact sur l'économie numérique"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-5.jpg"
-category: "Data"
-author: "Tech Expert"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Data
-  
-
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

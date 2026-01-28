@@ -1,15 +1,13 @@
 ---
 title: "Outils IA : L'Écosystème"
-description: "Les meilleurs outils IA pour développeurs, créateurs de contenu et entrepreneurs"
-pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - IA
-  - Outils
-  - Productivité
-layout: "@/layouts/BlogPost.astro"
+  - 'IA'
+  - 'Outils'
+  - 'Productivité'
+description: Les meilleurs outils IA pour développeurs, créateurs de contenu et entrepreneurs
+pubDate: "2024-03-25"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Outils IA : Ce qui existe vraiment

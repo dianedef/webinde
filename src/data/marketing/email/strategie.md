@@ -1,12 +1,10 @@
 ---
-title: "Stratégie Email Marketing"
-description: "Guide complet pour développer une stratégie email marketing performante"
+title: Stratégie Email Marketing
+author: Diane
+tags: ['Email Marketing']
+description: Guide complet pour développer une stratégie email marketing performante
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Email Marketing
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

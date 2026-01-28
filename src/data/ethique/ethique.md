@@ -1,12 +1,10 @@
 ---
-title: "Ethique"
-description: "Guide complet sur ethique"
+title: Ethique
+author: Diane
+tags: ['Éthique']
+description: Guide complet sur ethique
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Éthique
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Éthique des Affaires : Principes et Applications

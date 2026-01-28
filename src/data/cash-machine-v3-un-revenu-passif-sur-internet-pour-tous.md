@@ -1,16 +1,14 @@
 ---
 title: "Cash Machine V3 : Mon Expérience Honnête"
-description: "J'ai acheté la Cash Machine de David Pontoizeau. Je ne l'ai jamais mise en place. Voici mon expérience."
-pubDate: "17/01/2026"
-category: "Business"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - Revenu Passif
-  - Business
-  - Honnêteté
-  - Expérience
-layout: "@/layouts/BlogPost.astro"
+  - 'Revenu Passif'
+  - 'Business'
+  - 'Honnêteté'
+  - 'Expérience'
+description: "J'ai acheté la Cash Machine de David Pontoizeau. Je ne l'ai jamais mise en place. Voici mon expérience."
+pubDate: "2026-01-17"
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Cash Machine V3 : Pourquoi Je Ne L'ai Jamais Mise en Place

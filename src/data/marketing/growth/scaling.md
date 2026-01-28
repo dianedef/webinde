@@ -1,12 +1,10 @@
 ---
-title: "Scaling Growth"
+title: Scaling Growth
+author: Diane
+tags: ['Growth Marketing']
 description: "Guide complet sur le passage à l'échelle des stratégies growth"
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Growth Marketing
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

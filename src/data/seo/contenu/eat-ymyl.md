@@ -1,15 +1,14 @@
 ---
 title: "E-A-T et YMYL en SEO : Guide Complet"
-description: "Guide complet sur les concepts E-A-T et YMYL pour le référencement naturel"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - E-A-T
-  - YMYL
-  - Qualité
+  - 'SEO'
+  - 'E-A-T'
+  - 'YMYL'
+  - 'Qualité'
+description: Guide complet sur les concepts E-A-T et YMYL pour le référencement naturel
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # E-A-T et YMYL en SEO

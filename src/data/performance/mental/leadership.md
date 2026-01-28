@@ -1,12 +1,10 @@
 ---
-title: "Leadership"
-description: "Guide complet sur leadership"
+title: Leadership
+author: Diane
+tags: ['Leadership']
+description: Guide complet sur leadership
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Leadership
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Leadership et Gestion d'Équipe : L'Art de Diriger

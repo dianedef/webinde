@@ -1,16 +1,15 @@
 ---
-title: "Mes Services Freelance"
+title: Mes Services Freelance
+author: Diane
+tags:
+  - 'Freelance'
+  - 'Développement Web'
+  - 'SEO'
+  - 'IA'
+  - 'Stratégie Digitale'
 description: "Accompagnement sur mesure pour entreprises et entrepreneurs : Développement Web, SEO, Stratégie de Contenu et Intégration IA."
 pubDate: "2026-01-21"
-category: "Services"
-author: "Web'Indé"
-imgUrl: "../assets/astro.jpeg"
-tags:
-  - Freelance
-  - Développement Web
-  - SEO
-  - IA
-  - Stratégie Digitale
+imgUrl: ../assets/astro.jpeg
 ---
 
 ## Propulsez votre activité avec un expert digital 🚀

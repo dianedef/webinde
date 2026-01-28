@@ -1,14 +1,13 @@
 ---
 title: "Cycle de Vie de l'Automatisation : 5 Étapes pour Réussir"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Automatisation
-  - Productivité
-  - Process
-imgUrl: "../../../assets/automatisation-cycle-vie.webp"
+  - 'Automatisation'
+  - 'Productivité'
+  - 'Process'
 description: "Guide complet du cycle de vie de l'automatisation : de l'identification à l'optimisation pour maximiser ton ROI."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu as automatisé des processus, mais ils te prennent plus de temps à maintenir qu'à exécuter ? C'est le problème numéro 1 que je vois chez les entrepreneurs qui se lancent dans l'automatisation.

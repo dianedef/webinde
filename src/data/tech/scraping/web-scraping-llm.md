@@ -1,15 +1,14 @@
 ---
 title: "Web Scraping pour LLM : Créer ta Base de Connaissances en 1 Heure"
-pubDate: 26/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - IA
-  - Web Scraping
-  - LLM
-  - Automatisation
-imgUrl: "../../../assets/scraping-llm-guide.webp"
+  - 'IA'
+  - 'Web Scraping'
+  - 'LLM'
+  - 'Automatisation'
 description: "Transforme n'importe quel site web en données exploitables par les LLMs avec ce guide pratique et des outils no-code."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-26"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu as un ChatGPT personnalisé ou un assistant IA, mais il manque de contexte pertinent ? Le web scraping pour LLM est la solution. J'ai transformé des sites web entiers en bases de connaissances en quelques heures, et ça a totalement changé l'utilité de mes assistants IA.
@@ -226,7 +225,7 @@ client = OpenAI(api_key="ta_cle")
 
 # Création d'un assistant avec tes données
 assistant = client.beta.assistants.create(
-    name="Assistant Web'Indé",
+    name="Assistant Charbon",
     instructions="Tu réponds aux questions en utilisant les documents fournis.",
     model="gpt-4-turbo-preview",
     tools=[{"type": "file_search"}]

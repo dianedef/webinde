@@ -1,18 +1,10 @@
 ---
-id: "design-graphique"
-title: "Designer Graphique Freelance"
-icon: "🎨"
-category: "services"
-difficulty: "débutant"
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 1500
-minTime: 20
-maxTime: 50
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "A2"
-recommendedEnglish: "B2"
+title: Designer Graphique Freelance
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

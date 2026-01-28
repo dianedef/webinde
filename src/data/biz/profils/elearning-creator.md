@@ -1,18 +1,10 @@
 ---
-id: elearning-creator
 title: E-learning Creator / Créateur de Formations en Ligne
-icon: 🎓
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 15
-maxTime: 30
-timeUnit: heures/semaine
-canBePassive: true
-minEnglish: 2
-recommendedEnglish: 3
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # E-learning Creator / Créateur de Formations en Ligne

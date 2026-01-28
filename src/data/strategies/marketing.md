@@ -1,15 +1,14 @@
 ---
 title: "Stratégies de Marketing Digital : Guide Complet"
-description: "Guide complet sur les stratégies de marketing digital modernes"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Marketing
-  - Digital
-  - Stratégie
-  - Business
+  - 'Marketing'
+  - 'Digital'
+  - 'Stratégie'
+  - 'Business'
+description: Guide complet sur les stratégies de marketing digital modernes
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies de Marketing Digital

@@ -1,15 +1,13 @@
 ---
 title: "Cursor : L'IDE IA du Futur"
+author: Diane
+tags:
+  - 'IA'
+  - 'Développement'
+  - 'Cursor'
 description: "Guide complet sur Cursor, l'IDE IA qui révolutionne le développement"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Développement
-  - Cursor
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../../assets/astro.jpeg
 ---
 
 # Cursor : L'IDE IA qui Remplace VS Code

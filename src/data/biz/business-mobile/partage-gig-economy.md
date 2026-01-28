@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Partage et Gig Economy"
-description: "Profil business complet des apps de partage et gig economy mobiles"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Partage
-  - Gig Economy
-  - Business Mobile
-  - Revenu
-layout: "@/layouts/BlogPost.astro"
+  - 'Partage'
+  - 'Gig Economy'
+  - 'Business Mobile'
+  - 'Revenu'
+description: Profil business complet des apps de partage et gig economy mobiles
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Partage et Gig Economy Mobile

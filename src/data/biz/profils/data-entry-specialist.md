@@ -1,18 +1,10 @@
 ---
-id: data-entry-specialist
 title: Data Entry Specialist / Spécialiste Saisie de Données
-icon: 📊
-category: services
-difficulty: facile
-minBudget: 0
-recommendedBudget: 50
-optimalBudget: 200
-minTime: 10
-maxTime: 30
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 1
-recommendedEnglish: 2
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Data Entry Specialist / Spécialiste Saisie de Données

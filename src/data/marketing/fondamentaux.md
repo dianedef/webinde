@@ -1,15 +1,13 @@
 ---
-title: "Fondamentaux du Marketing Digital"
-description: "Les bases essentielles pour réussir en marketing digital en 2026"
-pubDate: "17/01/2026"
-category: "Marketing"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Fondamentaux du Marketing Digital
+author: Diane
 tags:
-  - Marketing
-  - Fondamentaux
-  - Stratégie
-layout: "@/layouts/BlogPost.astro"
+  - 'Marketing'
+  - 'Fondamentaux'
+  - 'Stratégie'
+description: Les bases essentielles pour réussir en marketing digital en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Fondamentaux du Marketing Digital : Ce qui Marche en 2026

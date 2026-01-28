@@ -1,16 +1,14 @@
 ---
 title: "Next.js : Guide Complet"
-description: "Le framework React pour applications web en production en 2026"
-pubDate: "17/01/2026"
-category: "Framework"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Next.js
-  - Framework
-  - React
-  - Développement
-layout: "@/layouts/BlogPost.astro"
+  - 'Next.js'
+  - 'Framework'
+  - 'React'
+  - 'Développement'
+description: Le framework React pour applications web en production en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Next.js : Le Framework React Production-Ready

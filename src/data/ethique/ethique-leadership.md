@@ -1,13 +1,12 @@
 ---
 title: "Éthique et Leadership : Entre Pouvoir et Responsabilité"
+author: Diane
+tags:
+  - 'Éthique'
+  - 'Leadership'
 description: "Analyse des dynamiques de pouvoir en entreprise et réflexion sur l'éthique du leadership moderne"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Éthique
-  - Leadership
+imgUrl: ../../assets/astro.jpeg
 ---
 
 

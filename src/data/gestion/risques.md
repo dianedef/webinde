@@ -1,14 +1,13 @@
 ---
 title: "Gestion des Risques : Guide Complet"
-description: "Guide complet sur la gestion et la mitigation des risques en entreprise"
-pubDate: "2024-03-25"
-category: "Gestion"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Risques
-  - Gestion
-  - Stratégie
+  - 'Risques'
+  - 'Gestion'
+  - 'Stratégie'
+description: Guide complet sur la gestion et la mitigation des risques en entreprise
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 ---

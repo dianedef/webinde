@@ -1,12 +1,10 @@
 ---
-title: "Entrepreneuriat Social"
-description: "Guide complet sur entrepreneuriat social"
+title: Entrepreneuriat Social
+author: Diane
+tags: ['Ethique']
+description: Guide complet sur entrepreneuriat social
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Ethique
+imgUrl: ../../assets/astro.jpeg
 ---
 
 

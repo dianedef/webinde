@@ -1,18 +1,10 @@
 ---
-id: email-marketer
 title: Email Marketer / Spécialiste Marketing par Email
-icon: ✉️
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 1200
-minTime: 15
-maxTime: 35
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Email Marketer / Spécialiste Marketing par Email

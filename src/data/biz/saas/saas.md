@@ -1,14 +1,13 @@
 ---
 title: "SaaS : Le Guide Complet pour Créer un Logiciel en Abonnement"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - SaaS
-  - Business
-  - Tech
-imgUrl: "../../../assets/saas-guide.webp"
+  - 'SaaS'
+  - 'Business'
+  - 'Tech'
 description: "Guide complet du business SaaS : modèle, revenus récurrents, marketing et scaling pour créer ton logiciel en abonnement."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu veux créer un logiciel qui génère des revenus récurrents pendant tu dors ? Le SaaS (Software as a Service) est le business model le plus sexy du moment. Attention : c'est aussi le plus dur à réussir.

@@ -1,13 +1,12 @@
 ---
-title: "Subventions"
-description: "Guide complet sur subventions"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Subventions
+author: Diane
 tags:
-  - Subventions
-  - Financement
+  - 'Subventions'
+  - 'Financement'
+description: Guide complet sur subventions
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ---

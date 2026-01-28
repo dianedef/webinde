@@ -1,16 +1,14 @@
 ---
 title: "IA par Secteur : Médecine, Sciences et Plus"
+author: Diane
+tags:
+  - 'IA'
+  - 'Médecine'
+  - 'Sciences'
+  - 'Industrie'
 description: "Comment l'IA transforme les différents secteurs : médecine, sciences, industrie, etc."
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Médecine
-  - Sciences
-  - Industrie
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # IA par Secteur : Transformations Réelles

@@ -1,15 +1,13 @@
 ---
 title: "Mental et Performance : Guide Complet"
-description: "Développe ton mental et ta performance pour réussir dans le business en ligne"
-pubDate: "17/01/2026"
-category: "Mental"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Mental
-  - Performance
-  - Mindset
-layout: "@/layouts/BlogPost.astro"
+  - 'Mental'
+  - 'Performance'
+  - 'Mindset'
+description: Développe ton mental et ta performance pour réussir dans le business en ligne
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Mental et Performance : Le Guide Pratique

@@ -1,14 +1,12 @@
 ---
 title: "Business en Ligne : Guide Complet"
-description: "Tout pour lancer et développer ton business en ligne en 2026 sans bullshit"
-pubDate: "17/01/2026"
-category: "Business"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Business
-  - Stratégie
-layout: "@/layouts/BlogPost.astro"
+  - 'Business'
+  - 'Stratégie'
+description: Tout pour lancer et développer ton business en ligne en 2026 sans bullshit
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Business en Ligne : Guide Complet

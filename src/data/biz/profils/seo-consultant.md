@@ -1,18 +1,10 @@
 ---
-id: seo-consultant
 title: SEO Consultant / Consultant en Référencement Naturel
-icon: 🔍
-category: services
-difficulty: moyen
-minBudget: 200
-recommendedBudget: 800
-optimalBudget: 2000
-minTime: 20
-maxTime: 35
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 3
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # SEO Consultant / Consultant en Référencement Naturel

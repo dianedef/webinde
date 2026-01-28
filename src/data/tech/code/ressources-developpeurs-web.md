@@ -1,16 +1,14 @@
 ---
-title: "Les Ressources Indispensables pour Développeurs Web"
-description: "Guide complet des ressources et outils pour développeurs web"
-pubDate: "2024-03-25"
-category: "Développement"
-author: "Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+title: Les Ressources Indispensables pour Développeurs Web
+author: Diane
 tags:
-  - Développement
-  - Web
-  - Productivité
-  - Tech
-  
+  - 'Développement'
+  - 'Web'
+  - 'Productivité'
+  - 'Tech'
+description: Guide complet des ressources et outils pour développeurs web
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Les Ressources Indispensables pour Développeurs Web

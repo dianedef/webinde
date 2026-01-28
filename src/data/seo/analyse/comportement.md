@@ -1,12 +1,10 @@
 ---
-title: "Analyse Comportementale SEO"
-description: "Guide complet pour comprendre et optimiser le comportement des utilisateurs sur votre site"
+title: Analyse Comportementale SEO
+author: Diane
+tags: ['SEO']
+description: Guide complet pour comprendre et optimiser le comportement des utilisateurs sur votre site
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

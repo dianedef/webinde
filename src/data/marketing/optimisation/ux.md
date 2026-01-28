@@ -1,12 +1,10 @@
 ---
-title: "UX Design"
+title: UX Design
+author: Diane
+tags: ['UX Design']
 description: "Guide complet sur l'optimisation de l'expérience utilisateur"
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - UX Design
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

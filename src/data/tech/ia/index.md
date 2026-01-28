@@ -1,15 +1,13 @@
 ---
 title: "L'Intelligence Artificielle : Guide Complet 2024"
+author: Diane
+tags:
+  - 'IA'
+  - 'Innovation'
+  - 'Technologie'
 description: "Comprendre l'IA, LLM, agents, et comment l'utiliser efficacement dans ton business"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Innovation
-  - Technologie
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # L'Intelligence Artificielle en 2024 : Ce qui Marche Vraiment

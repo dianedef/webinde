@@ -4,6 +4,7 @@ import Layout from "./Default.astro";
 import Content from "@components/components/PostContent.astro";
 import SideBar from "@components/components/PostSideBar.astro";
 import RecentPosts from "@components/components/RecentPosts.astro";
+import GamificationBar from "@components/vue/GamificationBar.vue";
 import { Image } from "astro:assets";
 import type { ImageMetadata } from "astro";
 
@@ -15,11 +16,14 @@ interface Props {
 	title: string;
 	id: string;
 	imgUrl: ImageMetadata;
+	tags?: string[];
 }
 
-const { author, pubDate, headings, description, title, id, imgUrl } =
+const { author, pubDate, headings, description, title, id, imgUrl, tags } =
 	Astro.props;
 const ogImage = new URL(`/v1/generate/og/${Astro.params.slug}.png`, Astro.url);
+const slug = Astro.params.slug as string;
+const category = tags?.[0]?.toLowerCase();
 ---
 
 <Layout title={title} description={description} ogImage={ogImage}>
@@ -54,6 +58,7 @@ const ogImage = new URL(`/v1/generate/og/${Astro.params.slug}.png`, Astro.url);
 			<RecentPosts count={6} />
 		</section>
 	</div>
+	<GamificationBar client:load slug={slug} category={category} />
 </Layout>
 
 <style>

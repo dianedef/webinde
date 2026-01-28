@@ -1,16 +1,14 @@
 ---
 title: "SEO : Guide Complet"
-description: "Le référencement naturel sans bullshit. Ce qui marche vraiment en 2026."
-pubDate: "17/01/2026"
-category: "SEO"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Marketing
-  - Digital
-  - Référencement
-layout: "@/layouts/BlogPost.astro"
+  - 'SEO'
+  - 'Marketing'
+  - 'Digital'
+  - 'Référencement'
+description: Le référencement naturel sans bullshit. Ce qui marche vraiment en 2026.
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # SEO : Guide Complet
@@ -48,7 +46,7 @@ Le contenu doit répondre à l'intention de recherche, pas au volume de mots.
 | -------------- | --------------------------- | ---------------------- |
 | Informationnel | "Comment optimiser son SEO" | Guide complet          |
 | Transactionnel | "Avoir le meilleur CRM      | Comparaison + avis     |
-| Navigationnel  | "Web'Indé                   | Page d'accueil directe |
+| Navigationnel  | "Charbon"                   | Page d'accueil directe |
 | Investigation  | "CRM vs Notion              | Tableau comparatif     |
 
 **Ce qui marche en 2026 :**

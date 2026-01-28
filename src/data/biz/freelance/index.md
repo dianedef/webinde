@@ -1,13 +1,12 @@
 ---
-title: "Services En Ligne"
-description: "Guide complet sur services en ligne"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Services En Ligne
+author: Diane
 tags:
-  - Freelancing
-  - Business
+  - 'Freelancing'
+  - 'Business'
+description: Guide complet sur services en ligne
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Services en Ligne

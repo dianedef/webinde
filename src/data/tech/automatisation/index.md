@@ -1,15 +1,14 @@
 ---
 title: "Automatisation Business : Le Guide Complet pour Libérer Ton Temps"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Automatisation
-  - Tech
-  - Productivité
-  - Process
-imgUrl: "../../../assets/automatisation-business-guide.webp"
+  - 'Automatisation'
+  - 'Tech'
+  - 'Productivité'
+  - 'Process'
 description: "Guide complet de l'automatisation business : outils, stratégies et workflows pour scal ton entreprise et gagner du temps."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu rêves de voir ton business avancer pendant tu dors ? L'automatisation n'est pas de la magie - c'est l'art de créer des systèmes qui travaillent pour toi 24h/24. Bienvenue dans le guide qui va transformer ta façon de gérer ton entreprise.

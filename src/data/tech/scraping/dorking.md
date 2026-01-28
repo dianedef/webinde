@@ -1,19 +1,18 @@
 ---
 title: "Google Dorking : Les Techniques de Recherche Avancées qui Changent Tout"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Scraping
-  - Recherche
-  - Sécurité
-imgUrl: "../../../assets/google-dorking-guide.webp"
-description: "Maîtrise Google Dorking pour dénicher des infos cachées et optimiser tes recherches en 10 minutes."
-layout: "../../../layouts/BlogPost.astro"
+  - 'Scraping'
+  - 'Recherche'
+  - 'Sécurité'
+description: Maîtrise Google Dorking pour dénicher des infos cachées et optimiser tes recherches en 10 minutes.
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Tu as déjà eu l'impression que Google te cachait quelque chose ? C'est souvent le cas. Le Google Dorking, c'est comme avoir les clés du back-office de Google : tu accèdes à des informations que 99% des gens ne trouvent jamais.
 
-![|200](google-dorking-concept.webp)
+<!-- TODO: Image manquante - ![|200](google-dorking-concept.webp) -->
 
 Je l'utilise quotidiennement pour ma veille concurrentielle, mes recherches techniques et même pour dénicher des ressources qui ne s'affichent pas dans les résultats classiques. Ça m'a fait économiser des heures de recherche et m'a permis de découvrir des pépites que mes concurrents avaient manquées.
 
@@ -110,7 +109,7 @@ Attention, ces informations doivent être utilisées de manière éthique et res
 
 Manuellement, c'est puissant. Avec GooFuzz, c'est décuplé. Ce script Bash automatise les Google Dorks de manière efficace.
 
-![|150](goofuzz-tool.webp)
+<!-- TODO: Image manquante - ![|150](goofuzz-tool.webp) -->
 
 ### Installation Rapide
 

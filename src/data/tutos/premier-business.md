@@ -1,10 +1,13 @@
 ---
-title: "Comment lancer son premier business en ligne"
-author: "Diane"
-tags: ["tutoriels", "business", "débutant"]
-description: "Un guide étape par étape pour lancer votre premier projet sur internet en partant de zéro."
+title: Comment lancer son premier business en ligne
+author: Diane
+tags:
+  - 'tutoriels'
+  - 'business'
+  - 'débutant'
+description: Un guide étape par étape pour lancer votre premier projet sur internet en partant de zéro.
 pubDate: "2026-01-20"
-imgUrl: "../../assets/blog-placeholder.jpg"
+imgUrl: ../../assets/astro.jpeg
 draft: false
 ---
 

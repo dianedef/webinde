@@ -1,12 +1,10 @@
 ---
-title: "Competences"
-description: "Guide complet sur competences"
+title: Competences
+author: Diane
+tags: ['Performance']
+description: Guide complet sur competences
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Performance
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Compétences Entrepreneuriales : Les Clés du Succès

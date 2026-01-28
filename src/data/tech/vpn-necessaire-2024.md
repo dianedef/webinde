@@ -1,15 +1,13 @@
 ---
 title: "VPN : Est-ce Vraiment Indispensable en 2026 ?"
-description: "Guide honnête sur quand utiliser un VPN et quand c'est inutile"
-pubDate: "17/01/2026"
-category: "Cybersécurité"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+author: Diane
 tags:
-  - VPN
-  - Cybersécurité
-  - Tech
-layout: "@/layouts/BlogPost.astro"
+  - 'VPN'
+  - 'Cybersécurité'
+  - 'Tech'
+description: "Guide honnête sur quand utiliser un VPN et quand c'est inutile"
+pubDate: "2026-01-17"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # VPN : Est-ce Vraiment Indispensable en 2026 ?

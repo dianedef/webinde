@@ -1,18 +1,10 @@
 ---
-id: translation-services
 title: Translation Services / Services de Traduction
-icon: 🌐
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 800
-minTime: 15
-maxTime: 35
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 3
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Translation Services / Services de Traduction

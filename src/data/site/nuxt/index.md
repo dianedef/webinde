@@ -1,16 +1,14 @@
 ---
 title: "Nuxt.js : Guide Complet"
-description: "Le framework Vue.js pour applications web en production en 2026"
-pubDate: "17/01/2026"
-category: "Framework"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Nuxt.js
-  - Framework
-  - Vue
-  - Développement
-layout: "@/layouts/BlogPost.astro"
+  - 'Nuxt.js'
+  - 'Framework'
+  - 'Vue'
+  - 'Développement'
+description: Le framework Vue.js pour applications web en production en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Nuxt.js : Le Framework Vue.js Production-Ready

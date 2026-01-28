@@ -1,14 +1,10 @@
 ---
 title: "Data Brokers : Types, Dangers et Solutions de Protection"
-description: "Découvrez les différents types de courtiers en données, leurs méthodes de collecte et comment protéger vos informations personnelles"
+author: Tech Expert
+tags: ['Data']
+description: Découvrez les différents types de courtiers en données, leurs méthodes de collecte et comment protéger vos informations personnelles
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-4.jpg"
-category: "Protection des Données"
-author: "Tech Expert"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Data
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Data Brokers : Types, Dangers et Solutions de Protection

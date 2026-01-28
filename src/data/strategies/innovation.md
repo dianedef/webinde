@@ -1,15 +1,14 @@
 ---
 title: "Les Fondamentaux de l'Innovation : Guide Complet"
+author: Diane
+tags:
+  - 'Innovation'
+  - 'Stratégie'
+  - 'Business'
+  - 'Technologie'
 description: "Guide complet sur les fondamentaux et stratégies d'innovation en entreprise"
 pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Innovation
-  - Stratégie
-  - Business
-  - Technologie
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Les Fondamentaux de l'Innovation

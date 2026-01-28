@@ -1,15 +1,13 @@
 ---
-title: "Comment Accélérer YouTube en 2026"
-description: "Guide pratique pour optimiser la vitesse de YouTube sur tous tes appareils"
-pubDate: "17/01/2026"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../assets/astro.jpeg"
+title: Comment Accélérer YouTube en 2026
+author: Diane
 tags:
-  - YouTube
-  - Performance
-  - Tech
-layout: "@/layouts/BlogPost.astro"
+  - 'YouTube'
+  - 'Performance'
+  - 'Tech'
+description: Guide pratique pour optimiser la vitesse de YouTube sur tous tes appareils
+pubDate: "2026-01-17"
+imgUrl: ../assets/astro.jpeg
 ---
 
 # Comment Accélérer YouTube en 2026

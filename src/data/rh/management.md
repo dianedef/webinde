@@ -1,13 +1,12 @@
 ---
-title: "Management"
-description: "Guide complet sur management"
-pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Management
+author: Diane
 tags:
-  - Management
-  - Ressources Humaines
+  - 'Management'
+  - 'Ressources Humaines'
+description: Guide complet sur management
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Management Moderne : Pratiques et Enjeux

@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Affiliation Mobile"
-description: "Profil business complet des apps d'affiliation mobiles"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Affiliation
-  - Business Mobile
-  - Revenu
-  - Marketing
-layout: "@/layouts/BlogPost.astro"
+  - 'Affiliation'
+  - 'Business Mobile'
+  - 'Revenu'
+  - 'Marketing'
+description: "Profil business complet des apps d'affiliation mobiles"
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Affiliation Mobile

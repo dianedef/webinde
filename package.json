@@ -28,7 +28,8 @@
     "gsap": "^3.14.2",
     "lucide-astro": "^0.556.0",
     "satori": "^0.19.1",
-    "satori-html": "^0.3.2"
+    "satori-html": "^0.3.2",
+    "@nomade/gamification": "link:/root/gamification"
   },
   "devDependencies": {
     "@astrojs/vue": "5.1.4",

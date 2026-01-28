@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Gaming et Rewards"
-description: "Profil business complet des apps de gaming et rewards mobiles"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Gaming
-  - Rewards
-  - Business Mobile
-  - Pocket Money
-layout: "@/layouts/BlogPost.astro"
+  - 'Gaming'
+  - 'Rewards'
+  - 'Business Mobile'
+  - 'Pocket Money'
+description: Profil business complet des apps de gaming et rewards mobiles
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Gaming et Rewards Mobile

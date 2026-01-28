@@ -1,14 +1,13 @@
 ---
-title: "Guide Complet des Marketplaces"
-description: "Guide complet sur la création et la gestion de marketplaces en ligne"
-pubDate: "2024-03-25"
-category: "Business"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Guide Complet des Marketplaces
+author: Diane
 tags:
-  - Marketplace
-  - E-commerce
-  - Business
+  - 'Marketplace'
+  - 'E-commerce'
+  - 'Business'
+description: Guide complet sur la création et la gestion de marketplaces en ligne
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Vendre sur les Marketplaces

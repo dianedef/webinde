@@ -1,15 +1,14 @@
 ---
 title: "Comment Dépasser la Concurrence : Guide Stratégique"
-description: "Guide complet sur les stratégies pour se démarquer et dépasser la concurrence"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Concurrence
-  - Stratégie
-  - Business
-  - Innovation
+  - 'Concurrence'
+  - 'Stratégie'
+  - 'Business'
+  - 'Innovation'
+description: Guide complet sur les stratégies pour se démarquer et dépasser la concurrence
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Comment Dépasser la Concurrence : Guide Stratégique

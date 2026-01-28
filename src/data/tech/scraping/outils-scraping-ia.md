@@ -1,14 +1,13 @@
 ---
 title: "Scraping IA : Les Outils qui Révolutionnent l'Extraction de Données"
-pubDate: 25/03/2024
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - Scraping
-  - IA
-  - Automatisation
-imgUrl: "../../../assets/scraping-ia-tools.webp"
+  - 'Scraping'
+  - 'IA'
+  - 'Automatisation'
 description: "Découvre comment l'IA transforme le web scraping et les meilleurs outils pour automatiser tes extractions de données."
-layout: "../../../layouts/BlogPost.astro"
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 Diffbot extrait plus de 100 millions de pages par jour avec une précision de 99,8%. Ce n'est pas de la magie, c'est la révolution du web scraping par l'IA. J'ai testé ces outils pendant des mois, et je peux te dire que ça change radicalement la donne pour la veille concurrentielle et l'extraction de données.

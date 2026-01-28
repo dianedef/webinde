@@ -1,16 +1,14 @@
 ---
 title: "Ghost : Guide Complet"
-description: "Le CMS moderne pour les blogs et créateurs de contenu en 2026"
-pubDate: "17/01/2026"
-category: "CMS"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Ghost
-  - CMS
-  - Web
-  - Blog
-layout: "@/layouts/BlogPost.astro"
+  - 'Ghost'
+  - 'CMS'
+  - 'Web'
+  - 'Blog'
+description: Le CMS moderne pour les blogs et créateurs de contenu en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Ghost : Le CMS Moderne pour Blogueurs

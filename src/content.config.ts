@@ -12,7 +12,7 @@ const postCollection = defineCollection({
       pubDate: z.string().transform((str) => new Date(str)),
       imgUrl: image(),
       draft: z.boolean().optional().default(false),
-    }),
+    }).passthrough(),
 });
 
 export const collections = {

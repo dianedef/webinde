@@ -1,13 +1,10 @@
 ---
 title: "La Connaissance : Le Véritable Pouvoir de l'Entrepreneur"
+author: Diane
+tags: ['Connaissance']
 description: "Découvrez comment la maîtrise des connaissances devient un avantage compétitif décisif dans l'entrepreneuriat moderne"
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Connaissance
-  
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

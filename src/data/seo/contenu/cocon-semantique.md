@@ -1,14 +1,13 @@
 ---
 title: "Cocon Sémantique : Guide Complet"
+author: Diane
+tags:
+  - 'SEO'
+  - 'Cocon Sémantique'
+  - 'Contenu'
 description: "Guide complet sur la création et l'optimisation d'un cocon sémantique pour le SEO"
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
-  - Cocon Sémantique
-  - Contenu
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Cocon Sémantique Avancé

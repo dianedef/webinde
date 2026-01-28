@@ -1,20 +1,27 @@
-# Checklist Amélioration Contenu afr/
+---
+title: TODO
+author: Diane
+tags: ['Tutoriels']
+description: Article en cours de rédaction.
+pubDate: 2024-01-01
+imgUrl: ../assets/astro.jpeg
+---# Checklist Amélioration Contenu afr/
 
 ## Priorité HAUTE - Fichiers vides/courts à compléter ✅
 
 - [x] `/mental/index.md` - Complété (250+ lignes)
-- [x] `/marketing/social/community.md` - Réécrit avec ton Web'Indé
-- [x] `/marketing/social/selling.md` - Réécrit avec ton Web'Indé
-- [x] `/marketing/social/strategie.md` - Réécrit avec ton Web'Indé
+- [x] `/marketing/social/community.md` - Réécrit avec ton Charbon
+- [x] `/marketing/social/selling.md` - Réécrit avec ton Charbon
+- [x] `/marketing/social/strategie.md` - Réécrit avec ton Charbon
 
 ## Priorité MOYENNE - Fichiers fondamentaux (core content) ✅ TOUS TERMINÉS
 
-- [x] `/marketing/index.md` - Déjà au ton Web'Indé (221 lignes)
-- [x] `/marketing/fondamentaux.md` - Déjà au ton Web'Indé (136 lignes)
-- [x] `/seo/index.md` - Réécrit avec ton Web'Indé
-- [x] `/seo/fondamentaux/bases-seo.md` - Réécrit avec ton Web'Indé
+- [x] `/marketing/index.md` - Déjà au ton Charbon (221 lignes)
+- [x] `/marketing/fondamentaux.md` - Déjà au ton Charbon (136 lignes)
+- [x] `/seo/index.md` - Réécrit avec ton Charbon
+- [x] `/seo/fondamentaux/bases-seo.md` - Réécrit avec ton Charbon
 - [x] `/business/index.md` - Complété (250+ lignes)
-- [x] `/strategies/index.md` - Réécrit avec ton Web'Indé
+- [x] `/strategies/index.md` - Réécrit avec ton Charbon
 - [x] `/performance/index.md` - Complété (200+ lignes)
 - [x] `/financement/index.md` - Complété (200+ lignes)
 - [x] `/financement/bootstrapping.md` - Créé (333 lignes)
@@ -35,11 +42,11 @@
 
 ## Priorité BASSE - Fichiers avec problèmes mineurs ✅ TOUS TERMINÉS
 
-- [x] `/ajouter-une-favicone-a-un-site-internet.md` - Réécrit avec ton Web'Indé
-- [x] `/enregistreur-pas-cher.md` - Réécrit avec ton Web'Indé
-- [x] `/accelerer-youtube-2024.md` - Complété avec ton Web'Indé
-- [x] `/vpn-necessaire-2024.md` - Réécrit avec ton Web'Indé
-- [x] `/prompt.md` - Réécrit avec ton Web'Indé (prompt engineering)
+- [x] `/ajouter-une-favicone-a-un-site-internet.md` - Réécrit avec ton Charbon
+- [x] `/enregistreur-pas-cher.md` - Réécrit avec ton Charbon
+- [x] `/accelerer-youtube-2024.md` - Complété avec ton Charbon
+- [x] `/vpn-necessaire-2024.md` - Réécrit avec ton Charbon
+- [x] `/prompt.md` - Réécrit avec ton Charbon (prompt engineering)
 - [x] `/cash-machine-v3-un-revenu-passif-sur-internet-pour-tous.md` - Récupéré + réécrit honnêtement (jamais mis en place)
 - [x] `/mes-echecs-dinvestissement.md` - Nouvel article : liste honnête de tous les échecs d'investissement (~16K€ perdus)
       | - [x] `/business-mobile/` - NOUVEAU : Guide complet avec 8 profils business mobiles
@@ -67,7 +74,7 @@ title: "60-70 caractères"
 description: "150-160 caractères"
 pubDate: "DD/MM/AAAA"
 category: "Category"
-author: "Diane Web'Indé"
+author: "Diane"
 imgUrl: "../../assets/astro.jpeg"
 tags:
   - Tag1

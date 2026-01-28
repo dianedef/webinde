@@ -1,13 +1,12 @@
 ---
-title: "Core Web Vitals"
-description: "Guide complet sur core web vitals"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Core Web Vitals
+author: Diane
 tags:
-  - SEO
-  - Technique
+  - 'SEO'
+  - 'Technique'
+description: Guide complet sur core web vitals
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

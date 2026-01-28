@@ -1,18 +1,10 @@
 ---
-id: "saas"
-title: "SaaS (Logiciel en Service)"
-icon: "💻"
-category: "tech"
-difficulty: "avancé"
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 5000
-minTime: 20
-maxTime: 60
-timeUnit: "heures/semaine"
-canBePassive: true
-minEnglish: "B1"
-recommendedEnglish: "C1"
+title: SaaS (Logiciel en Service)
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

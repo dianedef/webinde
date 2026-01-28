@@ -1,15 +1,14 @@
 ---
 title: "Stratégie de Contenu SEO : Guide Complet"
-description: "Arrête de jeter des bouteilles à la mer. Crée une stratégie de contenu SEO qui rank vraiment avec ce guide pratique et sans blabla."
-pubDate: 22/01/2026
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - SEO
-  - Contenu
-  - Stratégie
-  - Marketing
-imgUrl: "../../assets/strategie-contenu.webp"
-layout: "../../layouts/BlogPost.astro"
+  - 'SEO'
+  - 'Contenu'
+  - 'Stratégie'
+  - 'Marketing'
+description: Arrête de jeter des bouteilles à la mer. Crée une stratégie de contenu SEO qui rank vraiment avec ce guide pratique et sans blabla.
+pubDate: "2026-01-22"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Stratégie de Contenu SEO
@@ -36,7 +35,7 @@ Pas besoin de sortir la carte bleue pour commencer. Voici comment faire une mini
 
 Pour une approche plus pro, tu peux consulter le [guide de la recherche de mots-clés par Ahrefs](https://ahrefs.com/blog/keyword-research/).
 
-![|300](keyword-research-tips.webp)
+<!-- TODO: Image manquante - ![|300](keyword-research-tips.webp) -->
 
 ## Planning Éditorial
 - Calendrier de publication

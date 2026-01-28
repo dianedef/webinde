@@ -1,15 +1,14 @@
 ---
 title: "Mythes et Réalités SEO : Le Guide No Bullshit"
-pubDate: 22/01/2026
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - SEO
-  - Mythes
-  - Google
-  - Stratégie
-imgUrl: "../../assets/mythes-seo.webp"
-description: "Découvre la vérité sur les théories du complot Google et les mythes SEO. On démonte le bullshit pour se concentrer sur ce qui booste vraiment ton trafic."
-layout: "../../layouts/BlogPost.astro"
+  - 'SEO'
+  - 'Mythes'
+  - 'Google'
+  - 'Stratégie'
+description: Découvre la vérité sur les théories du complot Google et les mythes SEO. On démonte le bullshit pour se concentrer sur ce qui booste vraiment ton trafic.
+pubDate: "2026-01-22"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Mythes et Réalités SEO : Arrête de croire n'importe quoi

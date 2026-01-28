@@ -1,15 +1,14 @@
 ---
 title: "Structure des Articles SEO : Guide Complet"
-description: "Guide complet sur la structuration optimale des articles pour le SEO"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Contenu
-  - Rédaction
-  - Structure
+  - 'SEO'
+  - 'Contenu'
+  - 'Rédaction'
+  - 'Structure'
+description: Guide complet sur la structuration optimale des articles pour le SEO
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Structure des Articles SEO

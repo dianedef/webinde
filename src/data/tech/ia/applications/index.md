@@ -1,15 +1,13 @@
 ---
 title: "Applications IA : Cas d'Usage Réels"
+author: Diane
+tags:
+  - 'IA'
+  - 'Applications'
+  - 'Business'
 description: "Plus de 300 cas d'usage d'IA documentés, de la médecine à l'e-commerce"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Applications
-  - Business
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Applications IA : Ce qui marche en 2024

@@ -1,14 +1,13 @@
 ---
-title: "Guide Complet des Ressources Humaines"
-description: "Guide complet sur la gestion des ressources humaines"
-pubDate: "2024-03-25"
-category: "RH"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+title: Guide Complet des Ressources Humaines
+author: Diane
 tags:
-  - Ressources Humaines
-  - Management
-  - Stratégie
+  - 'Ressources Humaines'
+  - 'Management'
+  - 'Stratégie'
+description: Guide complet sur la gestion des ressources humaines
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Ressources Humaines : Le Guide du Manager Moderne

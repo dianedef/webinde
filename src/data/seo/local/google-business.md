@@ -1,15 +1,14 @@
 ---
 title: "Google Business Profile : Guide Complet"
+author: Diane
+tags:
+  - 'SEO'
+  - 'Local'
+  - 'Google Business'
+  - 'Marketing Local'
 description: "Guide complet sur l'optimisation de votre profil Google Business"
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
-  - Local
-  - Google Business
-  - Marketing Local
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Google Business Profile

@@ -1,14 +1,13 @@
 ---
 title: "ROI du SEO : Rentabiliser ton Trafic"
-description: "Le SEO n'est pas une dépense, c'est un investissement. Apprends à calculer ton ROI et à transformer tes clics en cash sans bullshit."
-pubDate: 22/01/2026
-author: "Diane Web'Indé"
+author: Diane
 tags:
-  - SEO
-  - ROI
-  - Monétisation
-imgUrl: "../../assets/roi-seo.webp"
-layout: "../../layouts/BlogPost.astro"
+  - 'SEO'
+  - 'ROI'
+  - 'Monétisation'
+description: "Le SEO n'est pas une dépense, c'est un investissement. Apprends à calculer ton ROI et à transformer tes clics en cash sans bullshit."
+pubDate: "2026-01-22"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # ROI du SEO
@@ -49,7 +48,7 @@ Pour monétiser ton contenu, tu dois t'appuyer sur des réseaux solides :
 - **Produits Numériques** : ClickBank, 1TPE.
 - **Recherche de niches** : Utilise des outils comme [OfferVault](https://www.offervault.com) ou oDigger pour dénicher les programmes les plus rentables, surtout sur le marché anglophone.
 
-![|300](monetization-platforms.webp)
+<!-- TODO: Image manquante - ![|300](monetization-platforms.webp) -->
 
 ## Métriques d'Analyse
 

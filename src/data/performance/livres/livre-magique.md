@@ -1,13 +1,12 @@
 ---
-title: "Le SEUL Livre à Lire Pour Devenir RICHE en 2024"
-description: "Découvrez pourquoi la recherche du livre magique est une illusion et ce qui compte vraiment pour réussir"
-pubDate: "2024-03-25"
-category: "Performance"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Le SEUL Livre à Lire Pour Devenir RICHE en 2024
+author: Diane
 tags:
-  - Performance
-  - Livre
+  - 'Performance'
+  - 'Livre'
+description: Découvrez pourquoi la recherche du livre magique est une illusion et ce qui compte vraiment pour réussir
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

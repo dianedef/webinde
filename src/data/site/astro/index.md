@@ -1,15 +1,13 @@
 ---
 title: "Astro : Guide Complet"
-description: "Le framework web ultra-rapide pour les sites de contenu en 2026"
-pubDate: "17/01/2026"
-category: "Framework"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Framework
-  - Web
-  - Développement
-layout: "@/layouts/BlogPost.astro"
+  - 'Framework'
+  - 'Web'
+  - 'Développement'
+description: Le framework web ultra-rapide pour les sites de contenu en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Astro : Le Framework Web Ultra-Rapide

@@ -1,12 +1,10 @@
 ---
-title: "Techniques de Growth Hacking"
+title: Techniques de Growth Hacking
+author: Diane
+tags: ['Growth Marketing']
 description: "Guide complet des techniques de growth hacking et d'acquisition rapide"
 pubDate: "2024-03-25"
-category: "Marketing"   
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Growth Marketing
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

@@ -1,16 +1,14 @@
 ---
 title: "Business Mobile : Cashback"
-description: "Profil business complet des apps de cashback mobiles avec les 8 apps françaises"
-pubDate: "17/01/2026"
-category: "Business Mobile"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Cashback
-  - Business Mobile
-  - Revenu
-  - Économies
-layout: "@/layouts/BlogPost.astro"
+  - 'Cashback'
+  - 'Business Mobile'
+  - 'Revenu'
+  - 'Économies'
+description: Profil business complet des apps de cashback mobiles avec les 8 apps françaises
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Profil Business : Cashback

@@ -1,13 +1,12 @@
 ---
-title: "Personnalisation Marketing"
-description: "Guide complet sur la personnalisation marketing automatisée"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Personnalisation Marketing
+author: Diane
 tags:
-  - Personnalisation
-  - Marketing
+  - 'Personnalisation'
+  - 'Marketing'
+description: Guide complet sur la personnalisation marketing automatisée
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

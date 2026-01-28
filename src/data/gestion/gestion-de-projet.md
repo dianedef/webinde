@@ -1,12 +1,10 @@
 ---
-title: "Gestion De Projet"
-description: "Guide complet sur gestion de projet"
+title: Gestion De Projet
+author: Diane
+tags: ['Gestion de projet']
+description: Guide complet sur gestion de projet
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Gestion de projet
+imgUrl: ../../assets/astro.jpeg
 ---
 
 ---

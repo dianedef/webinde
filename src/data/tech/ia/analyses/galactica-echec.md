@@ -1,15 +1,13 @@
 ---
 title: "Galactica : L'Échec qui a Changé l'IA"
+author: Diane
+tags:
+  - 'IA'
+  - 'Études de cas'
+  - 'Marketing'
 description: "Analyse de l'échec de Galactica par Meta et les leçons pour les lancements IA"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Études de cas
-  - Marketing
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Galactica : Autopsie d'un Échec IA

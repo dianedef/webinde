@@ -1,15 +1,13 @@
 ---
 title: "Analyses IA : Études de Cas et Réflexions"
+author: Diane
+tags:
+  - 'IA'
+  - 'Analyses'
+  - 'Études de cas'
 description: "Analyses approfondies, études de cas et réflexions sur l'IA"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Analyses
-  - Études de cas
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Analyses IA : Au-delà du Hype

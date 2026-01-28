@@ -1,18 +1,10 @@
 ---
-id: "amazon-fba"
-title: "Amazon FBA"
-icon: "📦"
-category: "vente"
-difficulty: "avancé"
-minBudget: 3000
-recommendedBudget: 10000
-optimalBudget: 30000
-minTime: 20
-maxTime: 50
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "B1"
-recommendedEnglish: "C1"
+title: Amazon FBA
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

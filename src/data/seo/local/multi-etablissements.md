@@ -1,14 +1,13 @@
 ---
 title: "SEO Local Multi-Établissements : Guide Complet"
-description: "Guide complet sur le référencement local pour les entreprises multi-établissements"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Local
-  - Stratégie
+  - 'SEO'
+  - 'Local'
+  - 'Stratégie'
+description: Guide complet sur le référencement local pour les entreprises multi-établissements
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # SEO Multi-établissements

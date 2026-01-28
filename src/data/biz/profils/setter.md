@@ -1,18 +1,10 @@
 ---
-id: setter
 title: Setter / Appointment Setter
-icon: 📅
-category: services
-difficulty: facile
-minBudget: 0
-recommendedBudget: 200
-optimalBudget: 500
-minTime: 15
-maxTime: 30
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Setter / Appointment Setter

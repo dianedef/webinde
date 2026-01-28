@@ -1,15 +1,14 @@
 ---
 title: "Stratégie de Netlinking : Guide Complet"
-description: "Guide complet sur la stratégie de création de liens externes"
-pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Netlinking
-  - Backlinks
-  - Stratégie
+  - 'SEO'
+  - 'Netlinking'
+  - 'Backlinks'
+  - 'Stratégie'
+description: Guide complet sur la stratégie de création de liens externes
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Stratégie de Netlinking

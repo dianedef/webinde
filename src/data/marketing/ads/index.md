@@ -1,14 +1,13 @@
 ---
 title: "Publicité en Ligne (Ads) : Le Guide Complet"
-description: "Maîtrisez les différents canaux publicitaires pour booster votre croissance"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Ads
-  - Marketing
-  - Acquisition
+  - 'Ads'
+  - 'Marketing'
+  - 'Acquisition'
+description: Maîtrisez les différents canaux publicitaires pour booster votre croissance
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Publicité en Ligne (Ads)

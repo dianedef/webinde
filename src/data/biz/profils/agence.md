@@ -1,18 +1,10 @@
 ---
-id: "agence"
-title: "Agence Digitale"
-icon: "🏢"
-category: "services"
-difficulty: "avancé"
-minBudget: 1000
-recommendedBudget: 5000
-optimalBudget: 20000
-minTime: 40
-maxTime: 70
-timeUnit: "heures/semaine"
-canBePassive: false
-minEnglish: "B1"
-recommendedEnglish: "C1"
+title: Agence Digitale
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 ## Description

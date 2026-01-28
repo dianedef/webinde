@@ -1,18 +1,10 @@
 ---
-id: closer
 title: Closer / Sales Closer
-icon: 📞
-category: services
-difficulty: moyen
-minBudget: 0
-recommendedBudget: 300
-optimalBudget: 1000
-minTime: 20
-maxTime: 40
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 2
-recommendedEnglish: 4
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Closer / Sales Closer

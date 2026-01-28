@@ -1,14 +1,12 @@
 ---
 title: "Bases du SEO : Guide Complet"
-description: "Les fondamentaux du référencement naturel sans bullshit en 2026"
-pubDate: "17/01/2026"
-category: "SEO"
-author: "Diane Web'Indé"
-imgUrl: "../../../../assets/astro.jpeg"
+author: Diane
 tags:
-  - SEO
-  - Référencement
-layout: "@/layouts/BlogPost.astro"
+  - 'SEO'
+  - 'Référencement'
+description: Les fondamentaux du référencement naturel sans bullshit en 2026
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Bases du SEO : Ce Qui Marche en 2026
@@ -58,7 +56,7 @@ Le contenu doit répondre à l'intention de recherche.
 | -------------- | -------------------------- | ------------------ |
 | Informationnel | "Comment optimiser le SEO" | Guide complet      |
 | Transactionnel | "Avoir le meilleur CRM"    | Comparaison        |
-| Navigationnel  | "Web'Indé"                 | Page d'accueil     |
+| Navigationnel  | "Charbon"                  | Page d'accueil     |
 | Investigation  | "CRM vs Notion"            | Tableau comparatif |
 
 **Règles d'or :**

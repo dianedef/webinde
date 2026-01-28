@@ -1,15 +1,13 @@
 ---
 title: "L'Avenir de l'IA : Ce qui Vient Vraiment"
+author: Diane
+tags:
+  - 'IA'
+  - 'Futur'
+  - 'Tendances'
 description: "Tendances et perspectives de l'IA pour les 5-10 prochaines années, sans scifi"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Futur
-  - Tendances
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # L'Avenir de l'IA : Ce qui Vient Vraiment

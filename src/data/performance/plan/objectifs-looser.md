@@ -1,13 +1,12 @@
 ---
-title: "Goals are for Losers, Systems are for Winners"
-description: "Découvrez pourquoi les systèmes sont plus efficaces que les objectifs pour atteindre le succès"
-pubDate: "2024-03-25"
-category: "Performance"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Goals are for Losers, Systems are for Winners
+author: Diane
 tags:
-  - Performance
-  - Stratégie
+  - 'Performance'
+  - 'Stratégie'
+description: Découvrez pourquoi les systèmes sont plus efficaces que les objectifs pour atteindre le succès
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

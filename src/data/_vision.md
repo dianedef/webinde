@@ -1,4 +1,11 @@
-
+---
+title: Vision
+author: Web Indé
+tags: ['Tutoriels']
+description: Article en cours de rédaction.
+pubDate: 2024-01-01
+imgUrl: ../assets/astro.jpeg
+---
 us sommes une société 100 % virtuelle qui se consacre à enseigner à des entrepreneurs comment démarrer et développer des sociétés rentables.
 
 

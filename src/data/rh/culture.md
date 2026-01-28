@@ -1,12 +1,10 @@
 ---
-title: "Culture"
-description: "Guide complet sur culture"
+title: Culture
+author: Diane
+tags: ['Culture']
+description: Guide complet sur culture
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Culture
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Culture d'Entreprise : Fondamentaux et Impact

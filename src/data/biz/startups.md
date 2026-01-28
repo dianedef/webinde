@@ -1,15 +1,14 @@
 ---
 title: "Startups : Le Guide Complet pour Entreprendre et Innover"
+author: Diane
+tags:
+  - 'Startup'
+  - 'Business'
+  - 'Innovation'
+  - 'Entrepreneuriat'
 description: "Comprendre l'écosystème startup : de l'idéation à la levée de fonds, en passant par le MVP et le scaling."
 pubDate: "2024-03-25"
-category: "Général"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
-tags:
-  - Startup
-  - Business
-  - Innovation
-  - Entrepreneuriat
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Créer et Développer une Startup : Le Guide Complet

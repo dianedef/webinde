@@ -1,12 +1,10 @@
 ---
-title: "Le Mythe des Lève-Tôt et des Couche-Tard"
-description: "Découvrez la science des chronotypes et comment optimiser votre productivité en fonction de votre rythme naturel"
+title: Le Mythe des Lève-Tôt et des Couche-Tard
+author: Diane
+tags: ['Performance']
+description: Découvrez la science des chronotypes et comment optimiser votre productivité en fonction de votre rythme naturel
 pubDate: "2024-03-25"
-category: "Performance"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - Performance
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

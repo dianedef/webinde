@@ -1,15 +1,13 @@
 ---
 title: "Guides IA : Comment l'Utiliser Efficacement"
+author: Diane
+tags:
+  - 'IA'
+  - 'Guides'
+  - 'Implémentation'
 description: "Guides pratiques pour implémenter l'IA dans ton business : outils, plateformes, bonnes pratiques"
 pubDate: "2024-03-25"
-category: "Tech"
-author: "Diane Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  - Guides
-  - Implémentation
-layout: "@/layouts/BlogPost.astro"
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 # Guides IA : De la Théorie à la Pratique

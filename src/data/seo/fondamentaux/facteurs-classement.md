@@ -1,12 +1,10 @@
 ---
-title: "Facteurs Classement"
-description: "Guide complet sur facteurs classement"
+title: Facteurs Classement
+author: Diane
+tags: ['SEO']
+description: Guide complet sur facteurs classement
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

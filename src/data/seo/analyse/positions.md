@@ -1,12 +1,10 @@
 ---
-title: "Suivi des Positions SEO"
-description: "Guide complet pour suivre et analyser vos positions dans les résultats de recherche"
+title: Suivi des Positions SEO
+author: Diane
+tags: ['SEO']
+description: Guide complet pour suivre et analyser vos positions dans les résultats de recherche
 pubDate: "2024-03-25"
-category: "SEO"   
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

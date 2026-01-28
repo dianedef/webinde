@@ -1,12 +1,10 @@
 ---
-title: "Mobile First"
-description: "Guide complet sur mobile first"
+title: Mobile First
+author: Diane
+tags: ['SEO']
+description: Guide complet sur mobile first
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

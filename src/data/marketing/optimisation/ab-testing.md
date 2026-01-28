@@ -1,12 +1,10 @@
 ---
-title: "A/B Testing"
+title: A/B Testing
+author: Diane
+tags: ['A/B Testing']
 description: "Guide complet sur l'A/B testing pour optimiser vos performances marketing"
 pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - A/B Testing
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 

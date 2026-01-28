@@ -1,18 +1,10 @@
 ---
-id: prompt-engineer
 title: Prompt Engineer / Consultant IA
-icon: 🤖
-category: tech
-difficulty: facile
-minBudget: 0
-recommendedBudget: 500
-optimalBudget: 2000
-minTime: 20
-maxTime: 40
-timeUnit: heures/semaine
-canBePassive: false
-minEnglish: 3
-recommendedEnglish: 5
+author: Web Indé
+tags: ['Business']
+description: Article en cours de rédaction.
+pubDate: "2024-01-01"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Prompt Engineer / Consultant IA

@@ -1,15 +1,14 @@
 ---
 title: "Champ Sémantique SEO : Guide Complet"
+author: Diane
+tags:
+  - 'SEO'
+  - 'Sémantique'
+  - 'Contenu'
+  - 'Rédaction'
 description: "Guide complet sur l'utilisation des champs sémantiques pour le SEO"
 pubDate: "2024-03-25"
-category: "SEO"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - SEO
-  - Sémantique
-  - Contenu
-  - Rédaction
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Champ Sémantique SEO

@@ -1,14 +1,13 @@
 ---
-title: "Facebook & Instagram Ads"
-description: "Guide complet pour maîtriser la publicité sur les réseaux sociaux Meta"
-pubDate: "2024-03-25"
-category: "Marketing"
-author: "Web'Indé"
-imgUrl: "../../../assets/astro.jpeg"
+title: Facebook & Instagram Ads
+author: Diane
 tags:
-  - Facebook Ads
-  - Instagram Ads
-  - Publicité
+  - 'Facebook Ads'
+  - 'Instagram Ads'
+  - 'Publicité'
+description: Guide complet pour maîtriser la publicité sur les réseaux sociaux Meta
+pubDate: "2024-03-25"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Facebook & Instagram Ads

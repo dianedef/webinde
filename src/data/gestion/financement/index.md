@@ -1,16 +1,14 @@
 ---
 title: "Financement d'Entreprise : Guide Complet"
-description: "Comment financer ton business en 2026 sans vendre ton âme aux investisseurs"
-pubDate: "17/01/2026"
-category: "Financement"
-author: "Diane Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Financement
-  - Investissement
-  - Stratégie
-  - Business
-layout: "@/layouts/BlogPost.astro"
+  - 'Financement'
+  - 'Investissement'
+  - 'Stratégie'
+  - 'Business'
+description: Comment financer ton business en 2026 sans vendre ton âme aux investisseurs
+pubDate: "2026-01-17"
+imgUrl: ../../../assets/astro.jpeg
 ---
 
 # Financement d'Entreprise : Guide Complet

@@ -1,15 +1,10 @@
 ---
 title: "Comment Transformer un Site Web en Données pour l'IA"
+author: "Diane"
+tags: ['IA']
 description: "Guide complet pour extraire, structurer et préparer les données d'un site web pour l'utilisation avec des modèles d'IA"
 pubDate: "2024-03-25"
-heroImage: "/blog-placeholder-12.jpg"
-category: "Tech"
-author: "Web'Indé" 
-imgUrl: "../../../assets/astro.jpeg"
-tags:
-  - IA
-  
-
+imgUrl: ../../../../assets/astro.jpeg
 ---
 
 

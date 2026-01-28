@@ -1,15 +1,14 @@
 ---
 title: "Stratégies de Content Marketing : Guide Complet"
-description: "Guide complet sur les stratégies de content marketing et leur mise en œuvre"
-pubDate: "2024-03-25"
-category: "Stratégie"
-author: "Web'Indé"
-imgUrl: "../../assets/astro.jpeg"
+author: Diane
 tags:
-  - Content Marketing
-  - Marketing
-  - Contenu
-  - Stratégie
+  - 'Content Marketing'
+  - 'Marketing'
+  - 'Contenu'
+  - 'Stratégie'
+description: Guide complet sur les stratégies de content marketing et leur mise en œuvre
+pubDate: "2024-03-25"
+imgUrl: ../../assets/astro.jpeg
 ---
 
 # Stratégies de Content Marketing
