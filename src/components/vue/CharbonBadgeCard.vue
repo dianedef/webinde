@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Badge } from '@dianedef/gamification'
+import type { Badge } from '@diane-winflowz/gamification'
 
 defineProps<{
   badge: Badge

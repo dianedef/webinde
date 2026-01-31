@@ -4,8 +4,8 @@ import {
   useGamification,
   AchievementToast,
   fireBadgeConfetti,
-} from '@dianedef/gamification'
-import type { Badge } from '@dianedef/gamification'
+} from '@diane-winflowz/gamification'
+import type { Badge } from '@diane-winflowz/gamification'
 import { createCharbonConfig } from '../../gamification/config'
 
 const props = defineProps<{

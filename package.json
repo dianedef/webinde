@@ -20,9 +20,8 @@
   "dependencies": {
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
-    "@dianedef/gamification": "^0.1.0",
+    "@diane-winflowz/gamification": "github:dianedef/gamification",
     "@eliancodes/brutal-ui": "^0.2.6",
-    "@nomade/gamification": "link:/root/gamification",
     "@vitejs/plugin-vue": "^6.0.3",
     "astro": "^5.16.12",
     "astro-breadcrumbs": "^3.3.3",
